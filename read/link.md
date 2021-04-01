@@ -15,39 +15,10 @@ has_children: true
 * [https://wiki.manjaro.org/](https://wiki.manjaro.org/)
 
 
-## sakura
+## 安裝範例
 
-https://discover.manjaro.org/applications/sakura
+* [sakura](https://samwhelp.github.io/note-about-manjaro/read/adjustment/tool/sakura.html)
 
-
-### Install
-
-run
-
-``` sh
-pamac install sakura
-```
-
-or run
-
-```
-pacman -S sakura
-```
-
-
-### Remove
-
-run
-
-``` sh
-pamac remove sakura
-```
-
-or run
-
-```
-pacman -R sakura
-```
 
 ## Just the Docs
 
