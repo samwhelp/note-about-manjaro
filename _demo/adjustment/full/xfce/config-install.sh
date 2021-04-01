@@ -2,6 +2,7 @@
 
 set -e
 
+
 ################################################################################
 ### Head: xfce4
 ##
@@ -136,7 +137,7 @@ rofi_config_install () {
 
 	echo "mkdir -p $HOME/.config/rofi"
 	mkdir -p "$HOME/.config/rofi"
-	
+
 
 	echo "cp ./config/rofi/config $HOME/.config/rofi/config"
 	cp "./config/rofi/config" "$HOME/.config/rofi/config"
