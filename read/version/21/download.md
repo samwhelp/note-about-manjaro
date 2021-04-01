@@ -26,3 +26,8 @@ wget -c 'https://sourceforge.net/projects/manjarolinux/files/xfce/21.0/manjaro-x
 ``` sh
 wget -c 'https://sourceforge.net/projects/manjarolinux/files/xfce/21.0/minimal/manjaro-xfce-21.0-minimal-210318-linux510.iso/download' -O 'manjaro-xfce-21.0-minimal-210318-linux510.iso'
 ```
+
+
+## Notice
+
+> cfdisk gpt bios_grub flag  (BIOS Boot Partition)
