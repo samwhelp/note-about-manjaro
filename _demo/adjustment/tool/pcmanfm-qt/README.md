@@ -1,5 +1,5 @@
 
-# sakura
+# pcmanfm-qt
 
 ## Link
 
