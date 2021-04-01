@@ -2,7 +2,7 @@
 title: mousepad 微調
 nav_order: 6001
 has_children: false
-parent: 微調
+parent: 工具微調
 ---
 
 

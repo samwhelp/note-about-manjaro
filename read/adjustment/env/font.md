@@ -2,7 +2,7 @@
 title: 字型的安裝與設定
 nav_order: 5003
 has_children: false
-parent: 微調
+parent: 環境微調
 ---
 
 

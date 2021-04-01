@@ -2,7 +2,7 @@
 title: gtk 微調
 nav_order: 5080
 has_children: false
-parent: 微調
+parent: 環境微調
 ---
 
 # gtk 微調

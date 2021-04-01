@@ -2,7 +2,7 @@
 title: locale 切換
 nav_order: 5002
 has_children: false
-parent: 微調
+parent: 環境微調
 ---
 
 

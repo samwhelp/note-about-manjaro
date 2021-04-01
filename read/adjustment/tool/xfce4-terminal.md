@@ -2,7 +2,7 @@
 title: xfce4-terminal 微調
 nav_order: 6002
 has_children: false
-parent: 微調
+parent: 工具微調
 ---
 
 
