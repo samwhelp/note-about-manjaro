@@ -3,7 +3,7 @@ title: 修改預設 editor
 nav_order: 5001
 has_children: false
 parent: 環境微調
-grand_parent: 
+grand_parent: 微調
 ---
 
 
