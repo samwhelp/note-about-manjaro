@@ -3,7 +3,7 @@
 
 * [note-about-manjaro](https://samwhelp.github.io/note-about-manjaro/) ([GitHub](https://github.com/samwhelp/note-about-manjaro))
 
-> 筆記根據版本「[Majaro 21.0 / Xfce](read/version/21/download)」撰寫。
+> 筆記根據版本「[Majaro 21.0 / Xfce](https://samwhelp.github.io/note-about-manjaro/read/version/21/download.html)」撰寫。
 
 ## 相關專案
 
