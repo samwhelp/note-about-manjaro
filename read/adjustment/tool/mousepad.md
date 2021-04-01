@@ -1,5 +1,5 @@
 ---
-title: mousepad 微調
+title: mousepad
 nav_order: 6010
 has_children: false
 parent: 工具微調

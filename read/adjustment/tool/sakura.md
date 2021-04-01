@@ -1,5 +1,5 @@
 ---
-title: sakura 微調
+title: sakura
 nav_order: 6001
 has_children: false
 parent: 工具微調
