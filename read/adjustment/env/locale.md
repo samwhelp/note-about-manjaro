@@ -11,3 +11,9 @@ grand_parent: 微調
 
 
 * [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/locale)
+
+
+## 設定檔路徑
+
+* /etc/default/locale
+* /etc/locale.conf
