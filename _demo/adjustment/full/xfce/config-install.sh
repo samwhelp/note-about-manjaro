@@ -206,23 +206,29 @@ sakura_put_my_desktop_entry () {
 fcitx_config_install () {
 
 	echo
-	echo "mkdir -p $HOME/.config/fcitx"
-	mkdir -p $HOME/.config/fcitx
+	echo "mkdir -p $HOME/.config/fcitx/conf"
+	mkdir -p $HOME/.config/fcitx/conf
 
 
-	echo "cp ./config/fcitx/profile $HOME/.config/fcitx/profile"
-	cp ./config/fcitx/profile $HOME/.config/fcitx/profile
-	echo
+	echo "install -m 644 ./config/fcitx/profile $HOME/.config/fcitx/profile"
+	install -m 644 ./config/fcitx/profile $HOME/.config/fcitx/profile
+
+
+	echo "install -m 644 ./config/fcitx/conf/fcitx-classic-ui.config $HOME/.config/fcitx/conf/fcitx-classic-ui.config"
+	install -m 644 ./config/fcitx/conf/fcitx-classic-ui.config $HOME/.config/fcitx/conf/fcitx-classic-ui.config
+
 
 	fcitx_config_install_im_config
 
+
+	echo
 }
 
 fcitx_config_install_im_config () {
-	echo
-	echo "cp ./config/fcitx/.pam_environment $HOME/.pam_environment"
-	cp ./config/fcitx/.pam_environment $HOME/.pam_environment
-	echo
+
+	echo "install -m 644 ./config/fcitx/.pam_environment $HOME/.pam_environment"
+	install -m 644 ./config/fcitx/.pam_environment $HOME/.pam_environment
+
 }
 ##
 ### Tail: fcitx
