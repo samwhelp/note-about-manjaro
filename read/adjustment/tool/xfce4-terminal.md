@@ -11,3 +11,8 @@ grand_parent: 微調
 
 
 * [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/xfce4-terminal)
+
+
+## Link
+
+* [https://discover.manjaro.org/packages/xfce4-terminal](https://discover.manjaro.org/packages/xfce4-terminal)
