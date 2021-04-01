@@ -10,7 +10,7 @@ grand_parent: 微調
 # atom 微調
 
 
-* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/mousepad)
+* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/atom)
 
 
 ## Link
