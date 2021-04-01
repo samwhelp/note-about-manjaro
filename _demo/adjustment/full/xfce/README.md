@@ -44,6 +44,13 @@
 
 ## Howto
 
+### Notice
+
+Before Install
+
+``` sh
+killall -9 xfconfd
+```
 
 ### install
 
