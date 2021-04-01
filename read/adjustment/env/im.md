@@ -10,4 +10,4 @@ grand_parent: 微調
 # 中文輸入法
 
 
-* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing)
+* [fcitx-chwing 安裝微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing)
