@@ -11,8 +11,8 @@ grand_parent: 版本
 
 ## Link
 
-* https://manjaro.org/download/
-* https://manjaro.org/downloads/official/xfce/
+* [https://manjaro.org/download/](https://manjaro.org/download/)
+* [https://manjaro.org/downloads/official/xfce/](https://manjaro.org/downloads/official/xfce/)
 
 
 ## Download
