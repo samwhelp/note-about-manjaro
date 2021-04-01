@@ -3,6 +3,7 @@ title: lightdm 微調
 nav_order: 5090
 has_children: false
 parent: 環境微調
+grand_parent: 微調
 ---
 
 

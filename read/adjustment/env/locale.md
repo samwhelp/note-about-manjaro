@@ -3,6 +3,7 @@ title: locale 切換
 nav_order: 5002
 has_children: false
 parent: 環境微調
+grand_parent: 微調
 ---
 
 
