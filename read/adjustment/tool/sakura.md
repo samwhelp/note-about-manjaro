@@ -16,30 +16,36 @@ grand_parent: 微調
 
 * [https://discover.manjaro.org/packages/sakura](https://discover.manjaro.org/packages/sakura)
 
-### Install
 
-run
+## 設定檔路徑
+
+* [~/.config/sakura/sakura.conf](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/sakura/config/sakura/sakura.conf)
+
+
+## 安裝
+
+執行
 
 ``` sh
 pamac install sakura
 ```
 
-or run
+或是執行
 
 ```
 pacman -S sakura
 ```
 
 
-### Remove
+## 移除
 
-run
+執行
 
 ``` sh
 pamac remove sakura
 ```
 
-or run
+或是執行
 
 ```
 pacman -R sakura
