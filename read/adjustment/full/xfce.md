@@ -9,7 +9,7 @@ grand_parent: 微調
 
 ## 腳本
 
-* [xfce微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/funll/xfce)
+* [xfce微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/full/xfce)
 
 
 ## 設定檔路徑
