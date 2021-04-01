@@ -1,6 +1,6 @@
 ---
 title: lightdm 微調
-nav_order: 5002
+nav_order: 5090
 has_children: false
 parent: 微調
 ---
