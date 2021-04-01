@@ -2,11 +2,12 @@
 # profile
 
 
-##
+## Reference
 
 * Arch Wiki / [Environment variables](https://wiki.archlinux.org/index.php/environment_variables)
 * Arch Wiki / Systemd / User / [Environment_variables](https://wiki.archlinux.org/index.php/Systemd/User#Environment_variables)
 * Arch Wiki / Bash / [Configuration files](https://wiki.archlinux.org/index.php/Bash#Configuration_files)
+
 
 ## Config File Path
 
