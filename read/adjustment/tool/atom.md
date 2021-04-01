@@ -1,14 +1,13 @@
 ---
 title: atom
-nav_order: 6010
+nav_order: 6022
 has_children: false
 parent: 工具微調
 grand_parent: 微調
 ---
 
 
-# atom 微調
-
+# atom
 
 * [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/atom)
 

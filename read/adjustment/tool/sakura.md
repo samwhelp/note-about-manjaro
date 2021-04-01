@@ -7,7 +7,7 @@ grand_parent: 微調
 ---
 
 
-# sakura 微調
+# sakura
 
 * [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/sakura)
 
