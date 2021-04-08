@@ -305,7 +305,7 @@ gtk2_config_install () {
 main_config_install () {
 	xfce4_config_install
 
-	theme_config_install
+	#theme_config_install
 
 	pcmanfm_qt_config_install
 
