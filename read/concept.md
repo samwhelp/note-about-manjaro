@@ -1,7 +1,7 @@
 ---
-title: 入門
+title: 概念
 nav_order: 1
 has_children: true
 ---
 
-# 入門
+# 概念
