@@ -9,7 +9,8 @@
 
 ## Config File Path / Manjaro Default
 
-* [/etc/skel/.config/qt5ct/qt5ct.conf](file:///etc/skel/.config/qt5ct/qt5ct.conf)
+* [/etc/skel/.config/qt5ct/qt5ct.conf](https://gitlab.manjaro.org/profiles-and-settings/manjaro-theme-settings/-/blob/master/skel/.config/qt5ct/qt5ct.conf)
+
 
 ## Test / Case
 

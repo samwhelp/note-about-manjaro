@@ -15,7 +15,7 @@ grand_parent: 微調
 * [https://wiki.archlinux.org/index.php/Qt](https://wiki.archlinux.org/index.php/Qt)
 * [https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html)
 
-## 腳本
+## 微調腳本
 
 * [qt5ct](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/part/qt5ct)
 
@@ -27,7 +27,7 @@ grand_parent: 微調
 
 ## Config File Path / Manjaro Default
 
-* [/etc/skel/.config/qt5ct/qt5ct.conf](file:///etc/skel/.config/qt5ct/qt5ct.conf)
+* [/etc/skel/.config/qt5ct/qt5ct.conf](https://gitlab.manjaro.org/profiles-and-settings/manjaro-theme-settings/-/blob/master/skel/.config/qt5ct/qt5ct.conf)
 
 
 ## Explore
@@ -35,3 +35,7 @@ grand_parent: 微調
 ``` sh
 pacman -Ql qt5ct
 ```
+
+## 圖形介面工具
+
+* qt5ct (Qt5 Settings) (Qt5 Configuration Tool) (/usr/share/applications/qt5ct.desktop)
