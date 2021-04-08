@@ -4,12 +4,12 @@
 
 ## Config File Path
 
-* [~/.config/gtk-3.0/settings.ini](config/qt5ct/settings.ini)
+* [~/.config/qt5ct/qt5ct.conf](config/qt5ct/qt5ct.conf)
 
 
 ## Config File Path / Manjaro Default
 
-* [/etc/skel/.config/qt5ct/qt5ct.conf](https://gitlab.manjaro.org/profiles-and-settings/manjaro-theme-settings/-/blob/master/skel/.config/qt5ct/qt5ct.conf)
+* [/etc/skel/.config/qt5ct/qt5ct.conf](config/qt5ct-manjaro/qt5ct.conf)
 
 
 ## Test / Case

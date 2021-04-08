@@ -27,7 +27,7 @@ grand_parent: 微調
 
 ## Config File Path / Manjaro Default
 
-* [/etc/skel/.config/qt5ct/qt5ct.conf](https://gitlab.manjaro.org/profiles-and-settings/manjaro-theme-settings/-/blob/master/skel/.config/qt5ct/qt5ct.conf)
+* [/etc/skel/.config/qt5ct/qt5ct.conf](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/part/qt5ct/config/qt5ct-manjaro/qt5ct.conf)
 
 
 ## Explore
