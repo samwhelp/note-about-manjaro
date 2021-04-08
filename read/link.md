@@ -15,6 +15,12 @@ has_children: true
 * [https://wiki.manjaro.org/](https://wiki.manjaro.org/)
 
 
+## Tools
+
+* Arch Wiki / [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
+* Manjaro Wiki / [List of Qt Applications](https://wiki.manjaro.org/index.php/List_of_Qt_Applications)
+
+
 ## 安裝範例
 
 * [sakura](https://samwhelp.github.io/note-about-manjaro/read/adjustment/tool/sakura.html)
