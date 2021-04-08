@@ -11,8 +11,8 @@ gtk2_config_install () {
 	echo "## Config: gtk2"
 	echo
 
-	echo "cp ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0"
-	cp ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0
+	echo "install -m 644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0"
+	install -m 644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0
 
 	echo
 }

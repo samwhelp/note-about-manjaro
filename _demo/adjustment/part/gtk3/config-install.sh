@@ -15,8 +15,8 @@ gtk3_config_install () {
 	mkdir -p $HOME/.config/gtk-3.0
 
 
-	echo "cp ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini"
-	cp ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini
+	echo "install -m 644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini"
+	install -m 644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini
 
 	echo
 

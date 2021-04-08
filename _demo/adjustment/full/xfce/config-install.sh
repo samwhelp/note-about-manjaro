@@ -236,14 +236,45 @@ fcitx_config_install_im_config () {
 
 
 ################################################################################
+### Head: qt5ct
+##
+qt5ct_config_install () {
+
+	echo "## Config: qt5ct"
+	echo
+
+	echo "mkdir -p $HOME/.config/qt5ct"
+	mkdir -p $HOME/.config/qt5ct
+
+
+	echo "install -m 644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf"
+	install -m 644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf
+
+	echo
+
+}
+##
+### Tail: qt5ct
+################################################################################
+
+
+################################################################################
 ### Head: gtk3
 ##
 gtk3_config_install () {
-	mkdir -p $HOME/.config/gtk-3.0
-	echo "mkdir -p $HOME/.config/gtk-3.0"
 
-	cp ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini
-	echo "cp ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini"
+	echo "## Config: gtk3"
+	echo
+
+	echo "mkdir -p $HOME/.config/gtk-3.0"
+	mkdir -p $HOME/.config/gtk-3.0
+
+
+	echo "install -m 644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini"
+	install -m 644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini
+
+	echo
+
 }
 ##
 ### Tail: gtk3
@@ -255,9 +286,13 @@ gtk3_config_install () {
 ##
 gtk2_config_install () {
 
-	cp ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0
-	echo "cp ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0"
+	echo "## Config: gtk2"
+	echo
 
+	echo "install -m 644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0"
+	install -m 644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0
+
+	echo
 }
 ##
 ### Tail: gtk2
@@ -279,6 +314,8 @@ main_config_install () {
 	sakura_config_install
 
 	fcitx_config_install
+
+	qt5ct_config_install
 
 	gtk3_config_install
 
