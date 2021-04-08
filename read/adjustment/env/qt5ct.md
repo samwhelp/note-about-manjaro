@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings](https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings)
+* Marjaro Wiki / [Set all Qt app's to use GTK+ font & theme settings](https://wiki.manjaro.org/index.php/Set_all_Qt_app%27s_to_use_GTK%2B_font_%26_theme_settings)
 * [https://wiki.archlinux.org/index.php/Qt](https://wiki.archlinux.org/index.php/Qt)
 * [https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html)
 
@@ -28,3 +28,10 @@ grand_parent: 微調
 ## Config File Path / Manjaro Default
 
 * [/etc/skel/.config/qt5ct/qt5ct.conf](file:///etc/skel/.config/qt5ct/qt5ct.conf)
+
+
+## Explore
+
+``` sh
+pacman -Ql qt5ct
+```
