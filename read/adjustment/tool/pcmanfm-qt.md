@@ -10,7 +10,7 @@ grand_parent: 微調
 
 # pcmanfm-qt
 
-* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/pcmanfm-qt)
+* [微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/pcmanfm-qt)
 
 
 ## Link
@@ -25,6 +25,6 @@ grand_parent: 微調
 * [~/.config/pcmanfm-qt/default/settings.conf](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/tool/pcmanfm-qt/config/pcmanfm-qt/default/settings.conf)
 
 
-## 相關設定
+## 相關微調
 
-* qt5ct
+* [qt5ct](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/qt5ct.html)
