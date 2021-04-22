@@ -1,0 +1,21 @@
+
+## File
+filezilla
+
+## Video
+vlc
+mpv
+smplayer
+
+
+## Image
+gpicview
+feh
+
+
+## Develop
+xorg-server-xephyr
+
+
+## Text
+
