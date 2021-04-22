@@ -6,7 +6,6 @@
 
 vimrc_profile_default () {
 	vimrc_profile_set 'default'
-
 }
 
 ##
