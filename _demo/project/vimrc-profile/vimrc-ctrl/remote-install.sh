@@ -4,9 +4,9 @@
 ### Head: Url
 ##
 
-# * https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/project/vim-profile/remote-install.sh
-# * https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/project/vim-profile/vimrc-ctrl
-# * https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/vim-profile/vimrc-ctrl
+# * https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/project/vimrc-profile/vimrc-ctrl/remote-install.sh
+# * https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/project/vimrc-profile/vimrc-ctrl/vimrc-ctrl
+# * https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/vimrc-profile/vimrc-ctrl/vimrc-ctrl
 
 ##
 ### Tail: Url
@@ -84,8 +84,8 @@ base_var_init () {
 
 
 	## Target
-	## https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/project/vim-profile/vimrc-ctrl
-	THE_TARGET_DOWNLOAD_URL='https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/vim-profile/vimrc-ctrl'
+	## https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/project/vimrc-profile/vimrc-ctrl/vimrc-ctrl
+	THE_TARGET_DOWNLOAD_URL='https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/vimrc-profile/vimrc-ctrl/vimrc-ctrl'
 
 
 	THE_TARGET_FILE_NAME="vimrc-ctrl"
