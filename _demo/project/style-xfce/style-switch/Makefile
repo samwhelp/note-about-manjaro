@@ -38,11 +38,11 @@ bash-completion-install:
 .PHONY: bash-completion-install
 
 #sudo mkdir -p /usr/local/share/bash-completion/completions
-install: app bash-completion-install
+install: app
 	install -Dm755 ./style-switch-xfce ~/.local/bin/style-switch-xfce
 .PHONY: install
 
 
-remote-install: bash-completion-install
+remote-install:
 	./remote-install.sh
 .PHONY: remote-install
