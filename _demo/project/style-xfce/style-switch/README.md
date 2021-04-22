@@ -6,23 +6,23 @@
 Run
 
 ``` sh
-mkdir -p "$HOME/bin"
+mkdir -p "$HOME/.local/bin"
 
-wget 'https://raw.githubusercontent.com/samwhelp/play-ubuntu-20.04-plan/master/project/style-xfce/style-switch/style-switch-xfce' -O "$HOME/bin/style-switch-xfce"
+wget 'https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/style-xfce/style-switch/style-switch-xfce' -O "$HOME/.local/bin/style-switch-xfce"
 
-chmod 755 "$HOME/bin/style-switch-xfce"
+chmod 755 "$HOME/.local/bin/style-switch-xfce"
 ```
 
 Or Run
 
 ``` sh
-curl -fsSL 'https://raw.githubusercontent.com/samwhelp/play-ubuntu-20.04-plan/master/project/style-xfce/style-switch/install.sh' | bash
+curl -fsSL 'https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/style-xfce/style-switch/remote-install.sh' | bash
 ```
 
 Or Run
 
 ``` sh
-wget 'https://raw.githubusercontent.com/samwhelp/play-ubuntu-20.04-plan/master/project/style-xfce/style-switch/install.sh' -q -O - | bash
+wget 'https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/style-xfce/style-switch/remote-install.sh' -q -O - | bash
 ```
 
 
