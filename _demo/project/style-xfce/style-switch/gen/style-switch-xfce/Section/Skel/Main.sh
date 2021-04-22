@@ -16,24 +16,24 @@ Example:
 
 	## help
 
-	$ $cmd_name
-	$ $cmd_name help
+		$ $cmd_name
+		$ $cmd_name help
 
 	## version
 
-	$ $cmd_name version
+		$ $cmd_name version
 
 	## self_update
 
-	$ $cmd_name self_update
+		$ $cmd_name self_update
 
 	## self_actions
 
-	$ $cmd_name self_actions
+		$ $cmd_name self_actions
 
 	## theme
 
-	$ $cmd_name default
+		$ $cmd_name default
 
 <?php include_once(dirname(__DIR__) . '/Model/Usage.sh'); ?>
 

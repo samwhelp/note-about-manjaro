@@ -506,47 +506,47 @@ sys_xfce_set_cursor_theme_default_for_light () {
 
 
 ################################################################################
-### Head: Model ss_honda_super_cub_wm_pastel_dark
+### Head: Model ui_honda_super_cub_wm_pastel_dark
 ##
 
-ss_honda_super_cub_wm_pastel_dark_config_wm_theme () {
+ui_honda_super_cub_wm_pastel_dark_config_wm_theme () {
 
 	sys_xfce_set_wm_theme 'Pastel_Dark'
 
 }
 
-ss_honda_super_cub_wm_pastel_dark_config_ui_theme () {
+ui_honda_super_cub_wm_pastel_dark_config_ui_theme () {
 
 	sys_xfce_set_ui_theme 'Honda-Super-Cub'
 
 }
 
-ss_honda_super_cub_wm_pastel_dark_config_icon_theme () {
+ui_honda_super_cub_wm_pastel_dark_config_icon_theme () {
 
 	sys_xfce_set_icon_theme 'Papirus-Dark'
 
 }
 
-ss_honda_super_cub_wm_pastel_dark_config_cursor_theme () {
+ui_honda_super_cub_wm_pastel_dark_config_cursor_theme () {
 
 	sys_xfce_set_cursor_theme_default
 
 }
 
-ss_honda_super_cub_wm_pastel_dark () {
-	#echo "ss_honda_super_cub_wm_pastel_dark"
+ui_honda_super_cub_wm_pastel_dark () {
+	#echo "ui_honda_super_cub_wm_pastel_dark"
 	#echo "$@"
 
 
-	ss_honda_super_cub_wm_pastel_dark_config_wm_theme
-	ss_honda_super_cub_wm_pastel_dark_config_ui_theme
-	ss_honda_super_cub_wm_pastel_dark_config_icon_theme
-	ss_honda_super_cub_wm_pastel_dark_config_cursor_theme
+	ui_honda_super_cub_wm_pastel_dark_config_wm_theme
+	ui_honda_super_cub_wm_pastel_dark_config_ui_theme
+	ui_honda_super_cub_wm_pastel_dark_config_icon_theme
+	ui_honda_super_cub_wm_pastel_dark_config_cursor_theme
 
 }
 
 ##
-### Tail: Model ss_honda_super_cub_wm_pastel_dark
+### Tail: Model ui_honda_super_cub_wm_pastel_dark
 ################################################################################
 
 
@@ -571,17 +571,16 @@ sub_run_self_actions () {
 }
 
 sub_run_default () {
-	#echo "sub_run_numix"
-	#ss_default "$@"
+	#echo "sub_run_default"
 	sys_xfce_set_all_default
 }
 
 
 
 
-sub_run_honda_super_cub_wm_pastel_dark () {
-	#echo "sub_run_honda_super_cub_wm_pastel_dark"
-	ss_honda_super_cub_wm_pastel_dark "$@"
+sub_run_ui_honda_super_cub_wm_pastel_dark () {
+	#echo "sub_run_ui_honda_super_cub_wm_pastel_dark"
+	ui_honda_super_cub_wm_pastel_dark "$@"
 }
 
 ##
@@ -605,27 +604,27 @@ Example:
 
 	## help
 
-	$ $cmd_name
-	$ $cmd_name help
+		$ $cmd_name
+		$ $cmd_name help
 
 	## version
 
-	$ $cmd_name version
+		$ $cmd_name version
 
 	## self_update
 
-	$ $cmd_name self_update
+		$ $cmd_name self_update
 
 	## self_actions
 
-	$ $cmd_name self_actions
+		$ $cmd_name self_actions
 
 	## theme
 
-	$ $cmd_name default
+		$ $cmd_name default
 
 
-	$ $cmd_name honda_super_cub_wm_pastel_dark
+		$ $cmd_name ui_honda_super_cub_wm_pastel_dark
 
 
 Debug:

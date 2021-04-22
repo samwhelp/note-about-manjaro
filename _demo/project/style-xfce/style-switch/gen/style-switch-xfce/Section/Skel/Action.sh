@@ -21,8 +21,7 @@ sub_run_self_actions () {
 }
 
 sub_run_default () {
-	#echo "sub_run_numix"
-	#ss_default "$@"
+	#echo "sub_run_default"
 	sys_xfce_set_all_default
 }
 
