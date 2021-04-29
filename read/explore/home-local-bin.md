@@ -1,12 +1,12 @@
 ---
-title: home-local-bin
+title: ~/.local/bin
 nav_order: 7001
 has_children: false
 parent: 探索
 ---
 
 
-# home-local-bin
+# ~/.local/bin
 
 
 ## 探索
