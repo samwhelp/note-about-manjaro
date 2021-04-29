@@ -17,10 +17,9 @@
 
 ## 主題
 
-| 分類 |
-| --- |
-| [入門](#入門) |
-| [概念](#概念) |
+
+* [入門](#入門)
+* [概念](#概念)
 
 
 ### 入門
@@ -35,3 +34,33 @@
 | 議題 |
 | --- |
 | [Meta_Package and Package_Group](https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
+
+
+### 桌面微調
+
+| 桌面 |
+| --- |
+| [xfce](https://samwhelp.github.io/note-about-manjaro/read/adjustment/full/xfce.html) |
+
+
+### 環境微調
+
+
+| 議題 |
+| --- |
+| [修改預設 editor](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html) |
+| [校時](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/time.html) |
+| [locale 切換](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/locale.html) |
+| [字型的安裝與設定](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/font.html) |
+| [中文輸入法](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/im.html) |
+| [gtk 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/gtk.html) |
+| [qt5ct 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/qt5ct.html) |
+| [lightdm 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/lightdm.html) |
+
+
+### 探索
+
+| 議題 |
+| --- |
+| [~/.local/bin](https://samwhelp.github.io/note-about-manjaro/read/explore/home-local-bin.html) |
+| [/etc/fonts/local.conf](https://samwhelp.github.io/note-about-manjaro/read/explore/etc-fonts-local-conf.html) |
