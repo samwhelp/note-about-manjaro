@@ -19,19 +19,19 @@
 
 | 分類 |
 | --- |
-| [入門] (#入門) |
-| [概念] (#概念) |
+| [入門](#入門) |
+| [概念](#概念) |
 
 
 ### 入門
 
 | 議題 |
 | --- |
-| [套件管理] (https://samwhelp.github.io/note-about-manjaro/read/start/package_management.html) |
+| [套件管理](https://samwhelp.github.io/note-about-manjaro/read/start/package_management.html) |
 
 
 ### 概念
 
 | 議題 |
 | --- |
-| [Meta_Package and Package_Group] (https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
+| [Meta_Package and Package_Group](https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
