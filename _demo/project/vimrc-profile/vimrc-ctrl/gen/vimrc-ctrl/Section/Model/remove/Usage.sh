@@ -1,2 +1,2 @@
 
-		$ $cmd_name remove
+		$ $cmd_name remove demo

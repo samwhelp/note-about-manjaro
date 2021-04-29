@@ -11,3 +11,55 @@ parent: 專案
 ## Link
 
 * [vimrc-profile](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/vimrc-profile)
+
+
+## Usage
+
+> vimrc-ctrl or nvimrc-ctrl
+
+### install
+
+``` sh
+vimrc-ctrl install demo https://github.com/samwhelp/tool-svim.git
+```
+
+### list
+
+run
+
+``` sh
+vimrc-ctrl list
+```
+
+show
+
+```
+demo
+```
+
+### set
+
+``` sh
+vimrc-ctrl set demo
+```
+
+
+### get
+
+run
+
+``` sh
+vimrc-ctrl get
+```
+
+show
+
+```
+demo
+```
+
+### remove
+
+``` sh
+vimrc-ctrl remove demo
+```

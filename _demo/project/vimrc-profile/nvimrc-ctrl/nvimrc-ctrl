@@ -531,6 +531,9 @@ vimrc_profile_install () {
 	local name="$1"
 	local repo_url="$2"
 
+	echo "mkdir -p $THE_VIMRC_PROFILE_DIR_PATH"
+	mkdir -p "$THE_VIMRC_PROFILE_DIR_PATH"
+
 	echo "cd $THE_VIMRC_PROFILE_DIR_PATH"
 	cd "$THE_VIMRC_PROFILE_DIR_PATH" ## cd ~/.vimrc-profile
 

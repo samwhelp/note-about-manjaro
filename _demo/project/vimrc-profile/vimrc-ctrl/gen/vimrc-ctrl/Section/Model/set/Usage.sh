@@ -1,2 +1,2 @@
 
-		$ $cmd_name set
+		$ $cmd_name set demo
