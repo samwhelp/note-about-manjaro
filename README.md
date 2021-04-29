@@ -64,3 +64,11 @@
 | --- |
 | [~/.local/bin](https://samwhelp.github.io/note-about-manjaro/read/explore/home-local-bin.html) |
 | [/etc/fonts/local.conf](https://samwhelp.github.io/note-about-manjaro/read/explore/etc-fonts-local-conf.html) |
+
+
+### 專案
+
+| 專案 |
+| --- |
+| [style-xfce](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce) |
+| [vimrc-profile](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/vimrc-profile) |
