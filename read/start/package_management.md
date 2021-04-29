@@ -1,5 +1,5 @@
 ---
-title: 套件包管理
+title: 套件管理
 nav_order: 10
 has_children: true
 parent: 入門
