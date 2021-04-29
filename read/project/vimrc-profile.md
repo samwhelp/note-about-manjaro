@@ -15,7 +15,7 @@ parent: 專案
 
 ## Usage
 
-> vimrc-ctrl or nvimrc-ctrl
+> for vimrc-ctrl or nvimrc-ctrl
 
 ### install
 
