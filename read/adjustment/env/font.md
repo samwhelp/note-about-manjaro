@@ -9,10 +9,18 @@ grand_parent: 微調
 
 # 字型的安裝與設定
 
-* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/font-setting/typeface-serif-sans-serif-monospace)
+* [設定腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/font-setting/typeface-serif-sans-serif-monospace)
 
 
-## 查詢
+| 字型 |
+| --- |
+| [noto](#noto) |
+| [liberation](#liberation) |
+
+
+## noto
+
+### 查詢
 
 執行
 
@@ -45,11 +53,60 @@ noto-fonts                                                                      
    Google Noto TTF fonts
 ```
 
-## 安裝
+### 安裝
 
 
 執行
 
 ``` sh
 pamac install noto-fonts-cjk
+```
+
+
+## liberation
+
+
+### 查詢
+
+執行
+
+``` sh
+$ pamac search liberation
+```
+
+顯示
+
+```
+ttf-liberation                                   [Installed] 2.1.3-1  community
+    Font family which aims at metric compatibility with
+    Arial, Times New Roman, and Courier New
+```
+
+### 安裝
+
+
+執行
+
+``` sh
+pamac install ttf-liberation
+```
+
+
+## nerd-fonts / liberation (Literation Mono Nerd Font)
+
+
+* https://github.com/ryanoasis/nerd-fonts
+* https://github.com/ryanoasis/nerd-fonts/releases
+* https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
+* https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/LiberationMono.zip
+
+
+``` sh
+wget -c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/LiberationMono.zip'
+mkdir -p LiberationMono
+unzip -d LiberationMono LiberationMono.zip
+
+cd LiberationMono
+mkdir -p ~/.local/share/fonts
+cp *.ttf ~/.local/share/fonts
 ```
