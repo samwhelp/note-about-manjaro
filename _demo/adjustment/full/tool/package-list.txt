@@ -1,6 +1,7 @@
 
 ## File
 filezilla
+tree
 
 ## Video
 vlc
