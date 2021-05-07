@@ -10,4 +10,11 @@ parent: 專案
 
 ## Link
 
-* [vimrc-profile](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile.html)
+* [vimrc-profile](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/)
+
+
+## Tool
+
+* [vimrc-get](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/vimrc-get)
+* [vimrc-ctrl](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/vimrc-ctrl)
+* [nvimrc-ctrl](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/nvimrc-ctrl)
