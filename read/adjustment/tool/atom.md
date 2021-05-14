@@ -33,7 +33,6 @@ apm install gruvbox
 
 * [https://atom.io/themes/gruvbox-dark-ui](https://atom.io/themes/gruvbox-dark-ui)
 
-
 ``` sh
 apm install gruvbox-dark-ui
 ```
@@ -41,7 +40,14 @@ apm install gruvbox-dark-ui
 
 * [https://atom.io/themes/monokai](https://atom.io/themes/monokai)
 
-
 ``` sh
 apm install monokai
 ```
+
+
+* [language-viml](https://atom.io/packages/language-viml)
+
+``` sh
+apm install language-viml
+```
+
