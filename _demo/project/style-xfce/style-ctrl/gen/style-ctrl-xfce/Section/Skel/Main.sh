@@ -36,7 +36,7 @@ Example:
 
 
 Debug:
-	$ export DEBUG_SS_CTRL=true
+	$ export DEBUG_SC_CTRL=true
 
 EOF
 

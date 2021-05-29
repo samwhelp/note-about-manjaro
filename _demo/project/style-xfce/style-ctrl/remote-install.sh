@@ -52,9 +52,9 @@ find_dir_path () {
 
 ##THIS_BASE_DIR_PATH=$(find_dir_path $0)
 
-## $ export DEBUG_SS_CTRL_INSTALL=true
+## $ export DEBUG_SC_CTRL_INSTALL=true
 is_debug () {
-	if [ "$DEBUG_SS_CTRL_INSTALL" = "true" ]; then
+	if [ "$DEBUG_SC_CTRL_INSTALL" = "true" ]; then
 		return 0
 	fi
 

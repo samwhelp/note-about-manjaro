@@ -45,7 +45,7 @@ $ style-ctrl-xfce help
 ### Debug
 
 ``` sh
-$ export DEBUG_SS_CTRL=true
+$ export DEBUG_SC_CTRL=true
 ```
 
 
