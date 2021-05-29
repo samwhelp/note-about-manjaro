@@ -1,6 +1,54 @@
 
 # style-ctrl-xfce
 
-## Link
+## Install
 
-* play-ubuntu-20.04-plan / project / style-xfce / [style-ctrl](https://github.com/samwhelp/play-ubuntu-20.04-plan/tree/master/project/style-xfce/style-ctrl)
+Run
+
+``` sh
+mkdir -p "$HOME/.local/bin"
+
+wget 'https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/style-xfce/style-ctrl/style-ctrl-xfce' -O "$HOME/.local/bin/style-ctrl-xfce"
+
+chmod 755 "$HOME/.local/bin/style-ctrl-xfce"
+```
+
+Or Run
+
+``` sh
+curl -fsSL 'https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/style-xfce/style-ctrl/remote-install.sh' | bash
+```
+
+Or Run
+
+``` sh
+wget 'https://raw.githubusercontent.com/samwhelp/note-about-manjaro/gh-pages/_demo/project/style-xfce/style-ctrl/remote-install.sh' -q -O - | bash
+```
+
+
+## Usage
+
+
+### Help
+
+``` sh
+$ style-ctrl-xfce
+```
+
+or
+
+``` sh
+$ style-ctrl-xfce help
+```
+
+
+### Debug
+
+``` sh
+$ export DEBUG_SS_CTRL=true
+```
+
+
+## Install Theme
+
+* [style-theme](../style-theme)
