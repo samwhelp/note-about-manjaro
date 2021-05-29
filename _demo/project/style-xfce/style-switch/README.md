@@ -52,3 +52,9 @@ $ export DEBUG_SS_CTRL=true
 ## Install Theme
 
 * [style-theme](../style-theme)
+
+
+## GUI Tool
+
+* xfce4-appearance-settings
+* xfwm4-settings
