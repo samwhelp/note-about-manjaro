@@ -367,7 +367,7 @@ sys_xfce_set_cursor_theme () {
 	## <property name="CursorThemeName" type="string" value="breeze_cursors"/>
 	## <property name="CursorThemeSize" type="int" value="24"/>
 
-	## <property name="CursorThemeName" type="string" value="Breeze_Snow"/>
+	## <property name="CursorThemeName" type="string" value="xcursor-breeze"/>
 	## <property name="CursorThemeSize" type="int" value="24"/>
 
 
@@ -479,7 +479,7 @@ sys_xfce_set_cursor_theme_default () {
 
 sys_xfce_get_cursor_theme_default_for_dark () {
 
-	echo 'Breeze_Snow' 24
+	echo 'xcursor-breeze' 24
 
 }
 
