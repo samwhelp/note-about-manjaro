@@ -1,7 +1,7 @@
 ---
 title: style-xfce
 nav_order: 8001
-has_children: false
+has_children: true
 parent: 專案
 ---
 
