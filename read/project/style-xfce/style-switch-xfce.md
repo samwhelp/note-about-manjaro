@@ -11,4 +11,4 @@ grand_parent: 專案
 
 ## Link
 
-* [vimrc-ctrl](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce/style-switch)
+* [style-switch-xfce](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce/style-switch)
