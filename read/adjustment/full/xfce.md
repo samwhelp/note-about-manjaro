@@ -28,3 +28,9 @@ grand_parent: 微調
 ## 預設的設定
 
 可到「[/etc/skel/.config/xfce4/](file:///etc/skel/.config/xfce4/)」找「manjaro xfce」預設的設定。
+
+
+## 工具
+
+* [style-ctrl-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-ctrl-xfce)
+* [style-switch-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-switch-xfce.html)
