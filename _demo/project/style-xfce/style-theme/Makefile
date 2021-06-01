@@ -21,9 +21,14 @@ help:
 .PHONY: help
 
 
-all: theme-numix-blue theme-honda-super-cub-wm-pastel-dark
+all: theme-numix theme-numix-blue theme-shades-of-gray theme-honda-super-cub-wm-pastel-dark
 
 .PHONY: all
+
+
+theme-numix:
+	make -C theme-numix install
+.PHONY: theme-numix
 
 
 theme-numix-blue:
@@ -31,8 +36,11 @@ theme-numix-blue:
 .PHONY: theme-numix-blue
 
 
+theme-shades-of-gray:
+	make -C theme-shades-of-gray install
+.PHONY: theme-shades-of-gray
+
+
 theme-honda-super-cub-wm-pastel-dark:
 	make -C theme-honda-super-cub-wm-pastel-dark install
 .PHONY: theme-honda-super-cub-wm-pastel-dark
-
-

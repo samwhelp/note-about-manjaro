@@ -92,11 +92,17 @@ theme_asset_install_icon_theme_numix_circle_to_local () {
 
 	cp -a 'numix-icon-theme-circle/usr/share/icons/Numix-Circle' "$HOME/.icons/Numix-Circle"
 	##cp -a 'numix-icon-theme-circle/usr/share/icons/Numix-Circle' "$HOME/.local/share/icons/Numix-Circle"
+
+
+	echo
+	echo "gtk-update-icon-cache $HOME/.icons/Numix-Circle"
+	gtk-update-icon-cache "$HOME/.icons/Numix-Circle"
+
 }
 
 
 theme_asset_install_icon_theme_numix_circle_light_to_local () {
-	if [ -a "$HOME/.icons/Numix-Circle-Ligh" ]; then ## file is exists
+	if [ -a "$HOME/.icons/Numix-Circle-Light" ]; then ## file is exists
 		echo "File Exists: $HOME/.icons/Numix-Circle-Light"
 		return 0
 	fi
@@ -105,6 +111,11 @@ theme_asset_install_icon_theme_numix_circle_light_to_local () {
 
 	cp -a 'numix-icon-theme-circle/usr/share/icons/Numix-Circle-Light' "$HOME/.icons/Numix-Circle-Light"
 	##cp -a 'numix-icon-theme-circle/usr/share/icons/Numix-Circle-Light' "$HOME/.local/share/icons/Numix-Circle-Light"
+
+	echo
+	echo "gtk-update-icon-cache $HOME/.icons/Numix-Circle-Light"
+	gtk-update-icon-cache "$HOME/.icons/Numix-Circle-Light"
+
 }
 
 

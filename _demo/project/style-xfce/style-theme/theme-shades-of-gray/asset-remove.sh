@@ -8,33 +8,33 @@ set -e
 ##
 theme_asset_remove () {
 
-	theme_asset_remove_gtk_theme_numix
-	theme_asset_remove_icon_theme_numix_circle
+	theme_asset_remove_theme_honda_super_cub
+	theme_asset_remove_theme_pastel_dark
 
 }
 
-theme_asset_remove_gtk_theme_numix () {
+theme_asset_remove_theme_honda_super_cub () {
 
-	echo "rm -rf $HOME/.themes/Numix"
-	rm -rf "$HOME/.themes/Numix"
+	echo "rm -rf $HOME/.themes/Honda-Super-Cub"
+	rm -rf "$HOME/.themes/Honda-Super-Cub"
 
 
 	echo
 
-	# file "$HOME/.themes/NumixBlue"
-	# ls -l "$HOME/.themes/NumixBlue"
+	# file "$HOME/.themes/Honda-Super-Cub"
+	# ls -l "$HOME/.themes/Honda-Super-Cub"
 
 }
 
-theme_asset_remove_icon_theme_numix_circle () {
+theme_asset_remove_theme_pastel_dark () {
 
-	echo "rm -rf $HOME/.icons/Numix-Circle"
-	rm -rf "$HOME/.icons/Numix-Circle"
-
-	echo "rm -rf $HOME/.icons/Numix-Circle-Light"
-	rm -rf "$HOME/.icons/Numix-Circle-Light"
+	echo "rm -rf $HOME/.themes/Pastel_Dark"
+	rm -rf "$HOME/.themes/Pastel_Dark"
 
 	echo
+
+	# file "$HOME/.themes/Pastel_Dark"
+	# ls -l "$HOME/.themes/Pastel_Dark"
 
 }
 

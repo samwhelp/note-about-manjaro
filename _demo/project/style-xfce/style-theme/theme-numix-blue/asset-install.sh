@@ -91,6 +91,11 @@ theme_asset_install_icon_theme_numix_to_local () {
 
 	cp -a 'numix-icon-theme/usr/share/icons/Numix' "$HOME/.icons/Numix"
 	##cp -a 'numix-icon-theme/usr/share/icons/Numix' "$HOME/.local/share/icons/Numix"
+
+	echo
+	echo "gtk-update-icon-cache $HOME/.icons/Numix"
+	gtk-update-icon-cache "$HOME/.icons/Numix"
+
 }
 
 
@@ -104,6 +109,12 @@ theme_asset_install_icon_theme_numix_light_to_local () {
 
 	cp -a 'numix-icon-theme/usr/share/icons/Numix-Light' "$HOME/.icons/Numix-Light"
 	##cp -a 'numix-icon-theme/usr/share/icons/Numix-Light' "$HOME/.local/share/icons/Numix-Light"
+
+
+	echo
+	echo "gtk-update-icon-cache $HOME/.icons/Numix-Light"
+	gtk-update-icon-cache "$HOME/.icons/Numix-Light"
+
 }
 
 
