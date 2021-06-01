@@ -16,6 +16,8 @@ help:
 	@echo
 	@echo '	$$ make theme-numix-blue'
 	@echo
+	@echo '	$$ make theme-obsidian-2-gray'
+	@echo
 	@echo '	$$ make theme-shades-of-gray'
 	@echo
 	@echo '	$$ make theme-honda-super-cub-wm-pastel-dark'
@@ -29,7 +31,7 @@ help:
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-chandelier theme-honda-super-cub-wm-pastel-dark
+all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-chandelier theme-honda-super-cub-wm-pastel-dark
 
 .PHONY: all
 
@@ -42,6 +44,11 @@ theme-numix:
 theme-numix-blue:
 	make -C theme-numix-blue install
 .PHONY: theme-numix-blue
+
+
+theme-obsidian-2-gray:
+	make -C theme-obsidian-2-gray install
+.PHONY: theme-obsidian-2-gray
 
 
 theme-shades-of-gray:
