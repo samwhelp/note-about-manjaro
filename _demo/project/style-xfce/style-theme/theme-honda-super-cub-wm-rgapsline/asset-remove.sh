@@ -9,7 +9,7 @@ set -e
 theme_asset_remove () {
 
 	theme_asset_remove_theme_honda_super_cub
-	theme_asset_remove_theme_pastel_dark
+	theme_asset_remove_theme_rgapsline
 
 }
 
@@ -26,15 +26,15 @@ theme_asset_remove_theme_honda_super_cub () {
 
 }
 
-theme_asset_remove_theme_pastel_dark () {
+theme_asset_remove_theme_rgapsline () {
 
-	echo "rm -rf $HOME/.themes/Pastel_Dark"
-	rm -rf "$HOME/.themes/Pastel_Dark"
+	echo "rm -rf $HOME/.themes/RGapsLine"
+	rm -rf "$HOME/.themes/RGapsLine"
 
 	echo
 
-	# file "$HOME/.themes/Pastel_Dark"
-	# ls -l "$HOME/.themes/Pastel_Dark"
+	# file "$HOME/.themes/RGapsLine"
+	# ls -l "$HOME/.themes/RGapsLine"
 
 }
 
