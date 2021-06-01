@@ -15,11 +15,7 @@ theme_asset_install () {
 
 theme_asset_install_theme_honda_super_cub () {
 
-
-	## https://github.com/reorr/my-theme-collection/tree/master/Honda%20Super%20Cub
-
-	echo "git clone 'https://github.com/reorr/my-theme-collection.git' 'asset/reorr_gtk-my-theme-collection'"
-	git clone 'https://github.com/reorr/my-theme-collection.git' 'asset/reorr_gtk-my-theme-collection'
+	theme_asset_install_theme_honda_super_cub_clone
 
 
 	#echo "$(pacman -Ql xfce4-settings | grep appearance-install-theme | cut -d ' ' -f 2) 'asset/reorr_gtk-my-theme-collection/Honda Super Cub'"
@@ -37,6 +33,20 @@ theme_asset_install_theme_honda_super_cub () {
 
 }
 
+theme_asset_install_theme_honda_super_cub_clone () {
+
+	if [ -a 'asset/reorr_gtk-my-theme-collection' ]; then ## file is exists
+		echo "File Exists: asset/reorr_gtk-my-theme-collection"
+		return 0
+	fi
+
+	## https://github.com/reorr/my-theme-collection/tree/master/Honda%20Super%20Cub
+
+	echo "git clone 'https://github.com/reorr/my-theme-collection.git' 'asset/reorr_gtk-my-theme-collection'"
+	git clone 'https://github.com/reorr/my-theme-collection.git' 'asset/reorr_gtk-my-theme-collection'
+
+}
+
 theme_asset_install_theme_honda_super_cub_to_local () {
 	if [ -a "$HOME/.themes/Honda-Super-Cub" ]; then ## file is exists
 		echo "File Exists: $HOME/.themes/Honda-Super-Cub"
@@ -51,11 +61,7 @@ theme_asset_install_theme_honda_super_cub_to_local () {
 
 theme_asset_install_theme_pastel_dark () {
 
-	# https://github.com/samwhelp/theme-xfwm4-collections/tree/master/themes/Pastel_Dark
-
-	echo "git clone 'https://github.com/samwhelp/theme-xfwm4-collections.git' 'asset/samwhelp_theme-xfwm4-collections'"
-	git clone 'https://github.com/samwhelp/theme-xfwm4-collections.git' 'asset/samwhelp_theme-xfwm4-collections'
-
+	theme_asset_install_theme_pastel_dark_clone
 
 	echo "$(pacman -Ql xfce4-settings | grep appearance-install-theme | cut -d ' ' -f 2) 'asset/samwhelp_theme-xfwm4-collections/themes/Pastel_Dark'"
 	#/usr/lib/xfce4/settings/appearance-install-theme 'asset/samwhelp_theme-xfwm4-collections/themes/Pastel_Dark'
@@ -68,6 +74,20 @@ theme_asset_install_theme_pastel_dark () {
 	ls -l "$HOME/.themes/Pastel_Dark"
 
 	echo
+
+}
+
+theme_asset_install_theme_pastel_dark_clone () {
+	if [ -a 'asset/samwhelp_theme-xfwm4-collections' ]; then ## file is exists
+		echo "File Exists: asset/samwhelp_theme-xfwm4-collections"
+		return 0
+	fi
+
+	# https://github.com/samwhelp/theme-xfwm4-collections/tree/master/themes/Pastel_Dark
+
+	echo "git clone 'https://github.com/samwhelp/theme-xfwm4-collections.git' 'asset/samwhelp_theme-xfwm4-collections'"
+	git clone 'https://github.com/samwhelp/theme-xfwm4-collections.git' 'asset/samwhelp_theme-xfwm4-collections'
+
 
 }
 
