@@ -22,10 +22,11 @@ theme_asset_install_theme_honda_super_cub () {
 	git clone 'https://github.com/reorr/my-theme-collection.git' 'asset/reorr_gtk-my-theme-collection'
 
 
-	echo "$(pacman -Ql xfce4-settings | grep appearance-install-theme | cut -d ' ' -f 2) 'asset/reorr_gtk-my-theme-collection/Honda Super Cub'"
+	#echo "$(pacman -Ql xfce4-settings | grep appearance-install-theme | cut -d ' ' -f 2) 'asset/reorr_gtk-my-theme-collection/Honda Super Cub'"
 	#/usr/lib/xfce4/settings/appearance-install-theme 'asset/reorr_gtk-my-theme-collection/Honda Super Cub'
-	$(pacman -Ql xfce4-settings | grep appearance-install-theme | cut -d ' ' -f 2) 'asset/reorr_gtk-my-theme-collection/Honda Super Cub'
+	#$(pacman -Ql xfce4-settings | grep appearance-install-theme | cut -d ' ' -f 2) 'asset/reorr_gtk-my-theme-collection/Honda Super Cub'
 
+	theme_asset_install_theme_honda_super_cub_to_local
 
 	echo
 
@@ -34,6 +35,18 @@ theme_asset_install_theme_honda_super_cub () {
 
 	echo
 
+}
+
+theme_asset_install_theme_honda_super_cub_to_local () {
+	if [ -a "$HOME/.themes/Honda-Super-Cub" ]; then ## file is exists
+		echo "File Exists: $HOME/.themes/Honda-Super-Cub"
+		return 0
+	fi
+
+	mkdir -p "$HOME/.themes"
+
+	cp -a 'asset/reorr_gtk-my-theme-collection/Honda Super Cub/.themes/Honda-Super-Cub' "$HOME/.themes/Honda-Super-Cub"
+	##cp -a 'asset/reorr_gtk-my-theme-collection/Honda Super Cub/.themes/Honda-Super-Cub' "$HOME/.local/share/themes/Honda-Super-Cub"
 }
 
 theme_asset_install_theme_pastel_dark () {
