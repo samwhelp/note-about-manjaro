@@ -74,7 +74,7 @@ theme_config_install_cursor_theme () {
 	##
 	##
 	## $ grep \"CursorThemeName\" ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-	## <property name="CursorThemeName" type="string" value="breeze_cursors"/>
+	## <property name="CursorThemeName" type="string" value="xcursor-breeze"/>
 	##
 	##
 	## $ grep \"CursorThemeSize\" ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
