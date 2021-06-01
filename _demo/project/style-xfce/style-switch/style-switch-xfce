@@ -641,6 +641,51 @@ theme_matcha_dark_sea () {
 
 
 ################################################################################
+### Head: Model theme_numix_blue
+##
+
+theme_numix_blue_config_wm_theme () {
+
+	sys_xfce_set_wm_theme 'NumixBlue'
+
+}
+
+theme_numix_blue_config_ui_theme () {
+
+	sys_xfce_set_ui_theme 'NumixBlue'
+
+}
+
+theme_numix_blue_config_icon_theme () {
+
+	sys_xfce_set_icon_theme 'Numix'
+
+}
+
+theme_numix_blue_config_cursor_theme () {
+
+	sys_xfce_set_cursor_theme_default
+
+}
+
+theme_numix_blue () {
+	#echo "theme_numix_blue"
+	#echo "$@"
+
+
+	theme_numix_blue_config_wm_theme
+	theme_numix_blue_config_ui_theme
+	theme_numix_blue_config_icon_theme
+	theme_numix_blue_config_cursor_theme
+
+}
+
+##
+### Tail: Model theme_numix_blue
+################################################################################
+
+
+################################################################################
 ### Head: Model ui_honda_super_cub_wm_pastel_dark
 ##
 
@@ -731,6 +776,12 @@ sub_run_theme_matcha_dark_sea () {
 }
 
 
+sub_run_theme_numix_blue () {
+	#echo "sub_run_theme_numix_blue"
+	theme_numix_blue "$@"
+}
+
+
 sub_run_ui_honda_super_cub_wm_pastel_dark () {
 	#echo "sub_run_ui_honda_super_cub_wm_pastel_dark"
 	ui_honda_super_cub_wm_pastel_dark "$@"
@@ -782,6 +833,8 @@ Example:
 		$ $cmd_name theme_matcha_dark_azul
 
 		$ $cmd_name theme_matcha_dark_sea
+
+		$ $cmd_name theme_numix_blue
 
 		$ $cmd_name ui_honda_super_cub_wm_pastel_dark
 
