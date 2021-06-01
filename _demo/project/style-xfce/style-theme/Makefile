@@ -22,12 +22,14 @@ help:
 	@echo
 	@echo '	$$ make theme-honda-super-cub-wm-rgapsline'
 	@echo
+	@echo '	$$ make theme-honda-super-cub-wm-chandelier'
+	@echo
 
 
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-pastel-dark
+all: theme-numix theme-numix-blue theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-chandelier theme-honda-super-cub-wm-pastel-dark
 
 .PHONY: all
 
@@ -55,3 +57,8 @@ theme-honda-super-cub-wm-pastel-dark:
 theme-honda-super-cub-wm-rgapsline:
 	make -C theme-honda-super-cub-wm-rgapsline install
 .PHONY: theme-honda-super-cub-wm-rgapsline
+
+
+theme-honda-super-cub-wm-chandelier:
+	make -C theme-honda-super-cub-wm-chandelier install
+.PHONY: theme-honda-super-cub-wm-chandelier
