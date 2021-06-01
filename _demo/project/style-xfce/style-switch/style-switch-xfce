@@ -641,6 +641,51 @@ theme_matcha_dark_sea () {
 
 
 ################################################################################
+### Head: Model theme_numix
+##
+
+theme_numix_config_wm_theme () {
+
+	sys_xfce_set_wm_theme 'Numix'
+
+}
+
+theme_numix_config_ui_theme () {
+
+	sys_xfce_set_ui_theme 'Numix'
+
+}
+
+theme_numix_config_icon_theme () {
+
+	sys_xfce_set_icon_theme 'Numix-Circle'
+
+}
+
+theme_numix_config_cursor_theme () {
+
+	sys_xfce_set_cursor_theme_default
+
+}
+
+theme_numix () {
+	#echo "theme_numix"
+	#echo "$@"
+
+
+	theme_numix_config_wm_theme
+	theme_numix_config_ui_theme
+	theme_numix_config_icon_theme
+	theme_numix_config_cursor_theme
+
+}
+
+##
+### Tail: Model theme_numix
+################################################################################
+
+
+################################################################################
 ### Head: Model theme_numix_blue
 ##
 
@@ -776,6 +821,12 @@ sub_run_theme_matcha_dark_sea () {
 }
 
 
+sub_run_theme_numix () {
+	#echo "sub_run_theme_numix"
+	theme_numix "$@"
+}
+
+
 sub_run_theme_numix_blue () {
 	#echo "sub_run_theme_numix_blue"
 	theme_numix_blue "$@"
@@ -833,6 +884,8 @@ Example:
 		$ $cmd_name theme_matcha_dark_azul
 
 		$ $cmd_name theme_matcha_dark_sea
+
+		$ $cmd_name theme_numix
 
 		$ $cmd_name theme_numix_blue
 
