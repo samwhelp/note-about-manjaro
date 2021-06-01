@@ -12,16 +12,22 @@ help:
 	@echo
 	@echo '	$$ make all'
 	@echo
+	@echo '	$$ make theme-numix'
+	@echo
 	@echo '	$$ make theme-numix-blue'
 	@echo
+	@echo '	$$ make theme-shades-of-gray'
+	@echo
 	@echo '	$$ make theme-honda-super-cub-wm-pastel-dark'
+	@echo
+	@echo '	$$ make theme-honda-super-cub-wm-rgapsline'
 	@echo
 
 
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-shades-of-gray theme-honda-super-cub-wm-pastel-dark
+all: theme-numix theme-numix-blue theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-pastel-dark
 
 .PHONY: all
 
@@ -44,3 +50,8 @@ theme-shades-of-gray:
 theme-honda-super-cub-wm-pastel-dark:
 	make -C theme-honda-super-cub-wm-pastel-dark install
 .PHONY: theme-honda-super-cub-wm-pastel-dark
+
+
+theme-honda-super-cub-wm-rgapsline:
+	make -C theme-honda-super-cub-wm-rgapsline install
+.PHONY: theme-honda-super-cub-wm-rgapsline
