@@ -1,5 +1,5 @@
 
-# Prototype howto install theme-honda-super-cub and theme-pastel-dark
+# Prototype howto install theme-honda-super-cub and theme-rgapsline
 
 ## Theme
 

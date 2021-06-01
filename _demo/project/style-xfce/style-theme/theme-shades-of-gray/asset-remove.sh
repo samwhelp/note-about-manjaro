@@ -8,35 +8,38 @@ set -e
 ##
 theme_asset_remove () {
 
-	theme_asset_remove_theme_honda_super_cub
-	theme_asset_remove_theme_pastel_dark
+	theme_asset_remove_gtk_theme_shades_of_gray
+	theme_asset_remove_icon_theme_nord_black_frost_suru
+
 
 }
 
-theme_asset_remove_theme_honda_super_cub () {
+theme_asset_remove_gtk_theme_shades_of_gray () {
 
-	echo "rm -rf $HOME/.themes/Honda-Super-Cub"
-	rm -rf "$HOME/.themes/Honda-Super-Cub"
+	echo "rm -rf $HOME/.themes/Shades-of-gray"
+	rm -rf "$HOME/.themes/Shades-of-gray"
+
+	echo
+
+	# file "$HOME/.themes/Shades-of-gray"
+	# ls -l "$HOME/.themes/Shades-of-gray"
+
+}
+
+theme_asset_remove_icon_theme_nord_black_frost_suru () {
+
+	echo "rm -rf $HOME/.icons/Black-Frost-Suru"
+	rm -rf "$HOME/.icons/Black-Frost-Suru"
 
 
 	echo
 
-	# file "$HOME/.themes/Honda-Super-Cub"
-	# ls -l "$HOME/.themes/Honda-Super-Cub"
+	# file "$HOME/.icons/Black-Frost-Suru"
+	# ls -l "$HOME/.icons/Black-Frost-Suru"
 
 }
 
-theme_asset_remove_theme_pastel_dark () {
 
-	echo "rm -rf $HOME/.themes/Pastel_Dark"
-	rm -rf "$HOME/.themes/Pastel_Dark"
-
-	echo
-
-	# file "$HOME/.themes/Pastel_Dark"
-	# ls -l "$HOME/.themes/Pastel_Dark"
-
-}
 
 
 ##

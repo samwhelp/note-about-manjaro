@@ -1,14 +1,14 @@
 
-# Prototype howto install theme-honda-super-cub and theme-pastel-dark
+# Prototype howto install gtk-theme-shades-of-gray and icon-theme-black-frost-suru
 
 ## Theme
 
-| Theme | Name |
-| --- | --- |
-| Gtk (UI) | [Honda-Super-Cub](https://github.com/reorr/my-theme-collection/tree/master/Honda%20Super%20Cub/.themes/Honda-Super-Cub) | --- |
-| Xfwm4 (WM) | [Pastel_Dark](https://github.com/samwhelp/theme-xfwm4-collections/tree/master/themes/Pastel_Dark) |
-| Icon | [Papirus-Dark](https://discover.manjaro.org/packages/papirus-icon-theme) |
-| Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) |
+| Theme | Name | Dir |
+| --- | --- | --- |
+| Gtk (UI) | [Shades-of-gray](https://github.com/WernerFP/Shades-of-gray-theme) | ~/.themes/Shades-of-gray |
+| Xfwm4 (WM) | [Shades-of-gray](https://github.com/WernerFP/Shades-of-gray-theme) | ~/.themes/Shades-of-gray |
+| Icon | [Black-Frost-Suru](https://github.com/rtlewis88/rtl88-Themes/tree/Nord-Black-Frost/Black-Frost-Suru) |
+| Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 
 
 

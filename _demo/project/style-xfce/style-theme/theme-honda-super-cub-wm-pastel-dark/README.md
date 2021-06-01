@@ -3,12 +3,12 @@
 
 ## Theme
 
-| Theme | Name |
-| --- | --- |
-| Gtk (UI) | [Honda-Super-Cub](https://github.com/reorr/my-theme-collection/tree/master/Honda%20Super%20Cub/.themes/Honda-Super-Cub) | --- |
-| Xfwm4 (WM) | [Pastel_Dark](https://github.com/samwhelp/theme-xfwm4-collections/tree/master/themes/Pastel_Dark) |
-| Icon | [Papirus-Dark](https://discover.manjaro.org/packages/papirus-icon-theme) |
-| Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) |
+| Theme | Name | Dir |
+| --- | --- | --- |
+| Gtk (UI) | [Honda-Super-Cub](https://github.com/reorr/my-theme-collection/tree/master/Honda%20Super%20Cub/.themes/Honda-Super-Cub) | ~/.themes/Honda-Super-Cub |
+| Xfwm4 (WM) | [Pastel_Dark](https://github.com/samwhelp/theme-xfwm4-collections/tree/master/themes/Pastel_Dark) | ~/.themes/Pastel_Dark |
+| Icon | [Papirus-Dark](https://discover.manjaro.org/packages/papirus-icon-theme) | /usr/share/icons/Papirus-Dark |
+| Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 
 
 

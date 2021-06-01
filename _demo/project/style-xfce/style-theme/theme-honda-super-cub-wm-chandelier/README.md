@@ -1,5 +1,5 @@
 
-# Prototype howto install gtk-theme-honda-super-cub and wm-theme-pastel-chandelier
+# Prototype howto install gtk-theme-honda-super-cub and wm-theme-chandelier
 
 ## Theme
 

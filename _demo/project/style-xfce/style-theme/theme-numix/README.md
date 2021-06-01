@@ -1,5 +1,5 @@
 
-# Prototype howto install numix-blue-gtk-theme and numix-icon-theme
+# Prototype howto install numix-gtk-theme and numix-icon-theme-circle
 
 ## Reference
 
