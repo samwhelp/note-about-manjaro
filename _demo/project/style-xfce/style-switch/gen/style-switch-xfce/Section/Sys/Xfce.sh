@@ -207,7 +207,7 @@ sys_xfce_set_cursor_theme_default_for_dark () {
 
 sys_xfce_get_cursor_theme_default_for_light () {
 
-	echo 'xcursor-breeze' 24
+	echo 'xcursor-breeze-snow' 24
 
 }
 

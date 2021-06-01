@@ -22,6 +22,9 @@ Example:
 	$ $cmd_name cursor_theme 'xcursor-breeze'
 	$ $cmd_name cursor_theme 'xcursor-breeze' 24
 
+	$ $cmd_name cursor_theme 'xcursor-breeze-snow'
+	$ $cmd_name cursor_theme 'xcursor-breeze-snow' 24
+
 EOF
 
 }
