@@ -7,3 +7,4 @@
 <?php include_once(__DIR__ . '/theme_obsidian_2_gray/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_shades_of_gray/Action.sh'); ?>
 <?php include_once(__DIR__ . '/ui_honda_super_cub_wm_pastel_dark/Action.sh'); ?>
+<?php include_once(__DIR__ . '/ui_honda_super_cub_wm_rgapsline/Action.sh'); ?>
