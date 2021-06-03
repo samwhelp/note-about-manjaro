@@ -24,7 +24,7 @@ help:
 	@echo
 	@echo '	$$ make theme-honda-super-cub-wm-rgapsline'
 	@echo
-	@echo '	$$ make theme-honda-super-cub-wm-chandelier'
+	@echo '	$$ make wm-chandelier-ui-honda-super-cub'
 	@echo
 	@echo '	$$ make wm-rgaps-line-ui-matcha-dark-aliz'
 	@echo
@@ -39,7 +39,7 @@ help:
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-chandelier theme-honda-super-cub-wm-pastel-dark wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
+all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline wm-chandelier-ui-honda-super-cub theme-honda-super-cub-wm-pastel-dark wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
 
 .PHONY: all
 
@@ -74,9 +74,9 @@ theme-honda-super-cub-wm-rgapsline:
 .PHONY: theme-honda-super-cub-wm-rgapsline
 
 
-theme-honda-super-cub-wm-chandelier:
-	make -C theme-honda-super-cub-wm-chandelier install
-.PHONY: theme-honda-super-cub-wm-chandelier
+wm-chandelier-ui-honda-super-cub:
+	make -C wm-chandelier-ui-honda-super-cub install
+.PHONY: wm-chandelier-ui-honda-super-cub
 
 
 wm-rgaps-line-ui-matcha-dark-aliz:
