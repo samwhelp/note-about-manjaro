@@ -74,5 +74,5 @@
 
 | 專案 |
 | --- |
-| [style-xfce](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce) |
-| [vimrc-profile](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/vimrc-profile) |
+| [style-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce.html) |
+| [vimrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/vimrc-profile.html) |
