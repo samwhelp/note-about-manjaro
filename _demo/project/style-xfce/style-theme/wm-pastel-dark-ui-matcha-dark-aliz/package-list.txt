@@ -1,0 +1,10 @@
+
+git
+
+xfce4-settings
+
+papirus-icon-theme
+
+xcursor-breeze
+
+matcha-gtk-theme
