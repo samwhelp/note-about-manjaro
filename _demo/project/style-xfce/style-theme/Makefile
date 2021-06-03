@@ -22,11 +22,11 @@ help:
 	@echo
 	@echo '	$$ make wm-pastel-dark-ui-honda-super-cub'
 	@echo
-	@echo '	$$ make theme-honda-super-cub-wm-rgapsline'
-	@echo
 	@echo '	$$ make wm-chandelier-ui-honda-super-cub'
 	@echo
 	@echo '	$$ make wm-chandelier-ui-matcha-dark-aliz'
+	@echo
+	@echo '	$$ make wm-rgaps-line-ui-honda-super-cub'
 	@echo
 	@echo '	$$ make wm-rgaps-line-ui-matcha-dark-aliz'
 	@echo
@@ -41,7 +41,7 @@ help:
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline wm-chandelier-ui-honda-super-cub wm-chandelier-ui-matcha-dark-aliz wm-pastel-dark-ui-honda-super-cub wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
+all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray wm-chandelier-ui-honda-super-cub wm-chandelier-ui-matcha-dark-aliz wm-pastel-dark-ui-honda-super-cub wm-rgaps-line-ui-honda-super-cub wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
 
 .PHONY: all
 
@@ -71,11 +71,6 @@ wm-pastel-dark-ui-honda-super-cub:
 .PHONY: wm-pastel-dark-ui-honda-super-cub
 
 
-theme-honda-super-cub-wm-rgapsline:
-	make -C theme-honda-super-cub-wm-rgapsline install
-.PHONY: theme-honda-super-cub-wm-rgapsline
-
-
 wm-chandelier-ui-honda-super-cub:
 	make -C wm-chandelier-ui-honda-super-cub install
 .PHONY: wm-chandelier-ui-honda-super-cub
@@ -84,6 +79,11 @@ wm-chandelier-ui-honda-super-cub:
 wm-chandelier-ui-matcha-dark-aliz:
 	make -C wm-chandelier-ui-matcha-dark-aliz install
 .PHONY: wm-chandelier-ui-matcha-dark-aliz
+
+
+wm-rgaps-line-ui-honda-super-cub:
+	make -C wm-rgaps-line-ui-honda-super-cub install
+.PHONY: wm-rgaps-line-ui-honda-super-cub
 
 
 wm-rgaps-line-ui-matcha-dark-aliz:
