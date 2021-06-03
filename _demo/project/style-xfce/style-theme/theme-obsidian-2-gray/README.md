@@ -5,8 +5,8 @@
 
 | Theme | Name | Dir |
 | --- | --- | --- |
-| Gtk (UI) | [Obsidian-2-Gray](https://github.com/madmaxms/theme-obsidian-2) | ~/.themes/Obsidian-2-Gray |
 | Xfwm4 (WM) | [Obsidian-2-Gray](https://github.com/madmaxms/theme-obsidian-2) | ~/.themes/Obsidian-2-Gray |
+| Gtk (UI) | [Obsidian-2-Gray](https://github.com/madmaxms/theme-obsidian-2) | ~/.themes/Obsidian-2-Gray |
 | Icon | [Black-Frost-Suru](https://github.com/rtlewis88/rtl88-Themes/tree/Nord-Black-Frost/Black-Frost-Suru) |
 | Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 

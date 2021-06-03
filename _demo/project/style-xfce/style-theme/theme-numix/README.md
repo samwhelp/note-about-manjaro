@@ -9,8 +9,8 @@
 
 | Theme | Name | Dir |
 | --- | --- | --- |
-| Gtk (UI) | [Numix](https://packages.ubuntu.com/focal/numix-gtk-theme) | ~/.themes/Numix |
 | Xfwm4 (WM) | [Numix](https://packages.ubuntu.com/focal/numix-gtk-theme) | ~/.themes/Numix |
+| Gtk (UI) | [Numix](https://packages.ubuntu.com/focal/numix-gtk-theme) | ~/.themes/Numix |
 | Icon | [Numix-Circle](https://packages.ubuntu.com/focal/numix-icon-theme-circle) | ~/.icons/Numix-Circle |
 | Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 

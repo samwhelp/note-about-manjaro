@@ -9,8 +9,8 @@
 
 | Theme | Name | Dir |
 | --- | --- | --- |
-| Gtk (UI) | [NumixBlue](https://packages.ubuntu.com/focal/numix-blue-gtk-theme) | ~/.themes/NumixBlue |
 | Xfwm4 (WM) | [NumixBlue](https://packages.ubuntu.com/focal/numix-blue-gtk-theme) | ~/.themes/NumixBlue |
+| Gtk (UI) | [NumixBlue](https://packages.ubuntu.com/focal/numix-blue-gtk-theme) | ~/.themes/NumixBlue |
 | Icon | [Numix](https://packages.ubuntu.com/focal/numix-icon-theme) | ~/.icons/Numix |
 | Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 

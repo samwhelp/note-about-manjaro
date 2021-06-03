@@ -5,8 +5,8 @@
 
 | Theme | Name | Dir |
 | --- | --- | --- |
-| Gtk (UI) | [Shades-of-gray](https://github.com/WernerFP/Shades-of-gray-theme) | ~/.themes/Shades-of-gray |
 | Xfwm4 (WM) | [Shades-of-gray](https://github.com/WernerFP/Shades-of-gray-theme) | ~/.themes/Shades-of-gray |
+| Gtk (UI) | [Shades-of-gray](https://github.com/WernerFP/Shades-of-gray-theme) | ~/.themes/Shades-of-gray |
 | Icon | [Black-Frost-Suru](https://github.com/rtlewis88/rtl88-Themes/tree/Nord-Black-Frost/Black-Frost-Suru) |
 | Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 
