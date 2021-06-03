@@ -20,6 +20,8 @@ help:
 	@echo
 	@echo '	$$ make theme-shades-of-gray'
 	@echo
+	@echo '	$$ make wm-2bxfwm-regenta-ui-matcha-dark-aliz'
+	@echo
 	@echo '	$$ make wm-pastel-dark-ui-honda-super-cub'
 	@echo
 	@echo '	$$ make wm-pastel-dark-ui-matcha-dark-aliz'
@@ -43,7 +45,7 @@ help:
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray wm-chandelier-ui-honda-super-cub wm-chandelier-ui-matcha-dark-aliz wm-pastel-dark-ui-honda-super-cub wm-pastel-dark-ui-matcha-dark-aliz wm-rgaps-line-ui-honda-super-cub wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
+all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray wm-2bxfwm-regenta-ui-matcha-dark-aliz wm-chandelier-ui-honda-super-cub wm-chandelier-ui-matcha-dark-aliz wm-pastel-dark-ui-honda-super-cub wm-pastel-dark-ui-matcha-dark-aliz wm-rgaps-line-ui-honda-super-cub wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
 
 .PHONY: all
 
@@ -66,6 +68,11 @@ theme-obsidian-2-gray:
 theme-shades-of-gray:
 	make -C theme-shades-of-gray install
 .PHONY: theme-shades-of-gray
+
+
+wm-2bxfwm-regenta-ui-matcha-dark-aliz:
+	make -C wm-2bxfwm-regenta-ui-matcha-dark-aliz install
+.PHONY: wm-2bxfwm-regenta-ui-matcha-dark-aliz
 
 
 wm-pastel-dark-ui-honda-super-cub:
