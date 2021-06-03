@@ -821,47 +821,47 @@ theme_shades_of_gray () {
 
 
 ################################################################################
-### Head: Model ui_honda_super_cub_wm_pastel_dark
+### Head: Model wm_pastel_dark_ui_honda_super_cub
 ##
 
-ui_honda_super_cub_wm_pastel_dark_config_wm_theme () {
+wm_pastel_dark_ui_honda_super_cub_config_wm_theme () {
 
 	sys_xfce_set_wm_theme 'Pastel_Dark'
 
 }
 
-ui_honda_super_cub_wm_pastel_dark_config_ui_theme () {
+wm_pastel_dark_ui_honda_super_cub_config_ui_theme () {
 
 	sys_xfce_set_ui_theme 'Honda-Super-Cub'
 
 }
 
-ui_honda_super_cub_wm_pastel_dark_config_icon_theme () {
+wm_pastel_dark_ui_honda_super_cub_config_icon_theme () {
 
 	sys_xfce_set_icon_theme 'Papirus-Dark'
 
 }
 
-ui_honda_super_cub_wm_pastel_dark_config_cursor_theme () {
+wm_pastel_dark_ui_honda_super_cub_config_cursor_theme () {
 
 	sys_xfce_set_cursor_theme_default
 
 }
 
-ui_honda_super_cub_wm_pastel_dark () {
-	#echo "ui_honda_super_cub_wm_pastel_dark"
+wm_pastel_dark_ui_honda_super_cub () {
+	#echo "wm_pastel_dark_ui_honda_super_cub"
 	#echo "$@"
 
 
-	ui_honda_super_cub_wm_pastel_dark_config_wm_theme
-	ui_honda_super_cub_wm_pastel_dark_config_ui_theme
-	ui_honda_super_cub_wm_pastel_dark_config_icon_theme
-	ui_honda_super_cub_wm_pastel_dark_config_cursor_theme
+	wm_pastel_dark_ui_honda_super_cub_config_wm_theme
+	wm_pastel_dark_ui_honda_super_cub_config_ui_theme
+	wm_pastel_dark_ui_honda_super_cub_config_icon_theme
+	wm_pastel_dark_ui_honda_super_cub_config_cursor_theme
 
 }
 
 ##
-### Tail: Model ui_honda_super_cub_wm_pastel_dark
+### Tail: Model wm_pastel_dark_ui_honda_super_cub
 ################################################################################
 
 
@@ -1250,9 +1250,9 @@ sub_run_theme_shades_of_gray () {
 }
 
 
-sub_run_ui_honda_super_cub_wm_pastel_dark () {
-	#echo "sub_run_ui_honda_super_cub_wm_pastel_dark"
-	ui_honda_super_cub_wm_pastel_dark "$@"
+sub_run_wm_pastel_dark_ui_honda_super_cub () {
+	#echo "sub_run_wm_pastel_dark_ui_honda_super_cub"
+	wm_pastel_dark_ui_honda_super_cub "$@"
 }
 
 
@@ -1352,7 +1352,7 @@ Example:
 
 		$ $cmd_name theme_shades_of_gray
 
-		$ $cmd_name ui_honda_super_cub_wm_pastel_dark
+		$ $cmd_name wm_pastel_dark_ui_honda_super_cub
 
 		$ $cmd_name ui_honda_super_cub_wm_rgapsline
 

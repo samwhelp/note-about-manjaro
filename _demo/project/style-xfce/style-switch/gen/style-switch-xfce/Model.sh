@@ -6,7 +6,7 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_numix_blue/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_obsidian_2_gray/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_shades_of_gray/Core.sh'); ?>
-<?php include_once(__DIR__ . '/Section/Model/ui_honda_super_cub_wm_pastel_dark/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/wm_pastel_dark_ui_honda_super_cub/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/ui_honda_super_cub_wm_rgapsline/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/wm_chandelier_ui_honda_super_cub/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/wm_chandelier_ui_matcha_dark_aliz/Core.sh'); ?>
