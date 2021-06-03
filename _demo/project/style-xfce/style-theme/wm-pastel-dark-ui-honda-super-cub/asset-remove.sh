@@ -8,25 +8,12 @@ set -e
 ##
 theme_asset_remove () {
 
-	theme_asset_remove_theme_honda_super_cub
-	theme_asset_remove_theme_pastel_dark
+	theme_asset_remove_wm_pastel_dark
+	theme_asset_remove_ui_honda_super_cub
 
 }
 
-theme_asset_remove_theme_honda_super_cub () {
-
-	echo "rm -rf $HOME/.themes/Honda-Super-Cub"
-	rm -rf "$HOME/.themes/Honda-Super-Cub"
-
-
-	echo
-
-	# file "$HOME/.themes/Honda-Super-Cub"
-	# ls -l "$HOME/.themes/Honda-Super-Cub"
-
-}
-
-theme_asset_remove_theme_pastel_dark () {
+theme_asset_remove_wm_pastel_dark () {
 
 	echo "rm -rf $HOME/.themes/Pastel_Dark"
 	rm -rf "$HOME/.themes/Pastel_Dark"
@@ -38,6 +25,18 @@ theme_asset_remove_theme_pastel_dark () {
 
 }
 
+theme_asset_remove_ui_honda_super_cub () {
+
+	echo "rm -rf $HOME/.themes/Honda-Super-Cub"
+	rm -rf "$HOME/.themes/Honda-Super-Cub"
+
+
+	echo
+
+	# file "$HOME/.themes/Honda-Super-Cub"
+	# ls -l "$HOME/.themes/Honda-Super-Cub"
+
+}
 
 ##
 ### Tail: theme

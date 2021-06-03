@@ -20,7 +20,7 @@ help:
 	@echo
 	@echo '	$$ make theme-shades-of-gray'
 	@echo
-	@echo '	$$ make theme-honda-super-cub-wm-pastel-dark'
+	@echo '	$$ make wm-pastel-dark-ui-honda-super-cub'
 	@echo
 	@echo '	$$ make theme-honda-super-cub-wm-rgapsline'
 	@echo
@@ -41,7 +41,7 @@ help:
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline wm-chandelier-ui-honda-super-cub wm-chandelier-ui-matcha-dark-aliz theme-honda-super-cub-wm-pastel-dark wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
+all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline wm-chandelier-ui-honda-super-cub wm-chandelier-ui-matcha-dark-aliz wm-pastel-dark-ui-honda-super-cub wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
 
 .PHONY: all
 
@@ -66,9 +66,9 @@ theme-shades-of-gray:
 .PHONY: theme-shades-of-gray
 
 
-theme-honda-super-cub-wm-pastel-dark:
-	make -C theme-honda-super-cub-wm-pastel-dark install
-.PHONY: theme-honda-super-cub-wm-pastel-dark
+wm-pastel-dark-ui-honda-super-cub:
+	make -C wm-pastel-dark-ui-honda-super-cub install
+.PHONY: wm-pastel-dark-ui-honda-super-cub
 
 
 theme-honda-super-cub-wm-rgapsline:
