@@ -20,3 +20,7 @@ xorg-server-xephyr
 
 ## Text
 
+
+## Media
+mediainfo
+mediainfo-gui
