@@ -956,6 +956,51 @@ wm_chandelier_ui_honda_super_cub () {
 
 
 ################################################################################
+### Head: Model wm_chandelier_ui_matcha_dark_aliz
+##
+
+wm_chandelier_ui_matcha_dark_aliz_config_wm_theme () {
+
+	sys_xfce_set_wm_theme 'Chandelier'
+
+}
+
+wm_chandelier_ui_matcha_dark_aliz_config_ui_theme () {
+
+	sys_xfce_set_ui_theme 'Matcha-dark-aliz'
+
+}
+
+wm_chandelier_ui_matcha_dark_aliz_config_icon_theme () {
+
+	sys_xfce_set_icon_theme 'Papirus-Dark'
+
+}
+
+wm_chandelier_ui_matcha_dark_aliz_config_cursor_theme () {
+
+	sys_xfce_set_cursor_theme_default
+
+}
+
+wm_chandelier_ui_matcha_dark_aliz () {
+	#echo "wm_chandelier_ui_matcha_dark_aliz"
+	#echo "$@"
+
+
+	wm_chandelier_ui_matcha_dark_aliz_config_wm_theme
+	wm_chandelier_ui_matcha_dark_aliz_config_ui_theme
+	wm_chandelier_ui_matcha_dark_aliz_config_icon_theme
+	wm_chandelier_ui_matcha_dark_aliz_config_cursor_theme
+
+}
+
+##
+### Tail: Model wm_chandelier_ui_matcha_dark_aliz
+################################################################################
+
+
+################################################################################
 ### Head: Model wm_rgaps_line_ui_matcha_dark_aliz
 ##
 
@@ -1223,6 +1268,12 @@ sub_run_wm_chandelier_ui_honda_super_cub () {
 }
 
 
+sub_run_wm_chandelier_ui_matcha_dark_aliz () {
+	#echo "sub_run_wm_chandelier_ui_matcha_dark_aliz"
+	wm_chandelier_ui_matcha_dark_aliz "$@"
+}
+
+
 sub_run_wm_rgaps_line_ui_matcha_dark_aliz () {
 	#echo "sub_run_wm_rgaps_line_ui_matcha_dark_aliz"
 	wm_rgaps_line_ui_matcha_dark_aliz "$@"
@@ -1306,6 +1357,8 @@ Example:
 		$ $cmd_name ui_honda_super_cub_wm_rgapsline
 
 		$ $cmd_name wm_chandelier_ui_honda_super_cub
+
+		$ $cmd_name wm_chandelier_ui_matcha_dark_aliz
 
 		$ $cmd_name wm_rgaps_line_ui_matcha_dark_aliz
 
