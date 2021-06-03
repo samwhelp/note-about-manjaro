@@ -28,6 +28,8 @@ help:
 	@echo
 	@echo '	$$ make wm-rgaps-line-ui-matcha-dark-aliz'
 	@echo
+	@echo '	$$ make wm-rgaps-line-nobuttons-ui-matcha-dark-aliz'
+	@echo
 	@echo '	$$ make wm-rgaps-blend-ui-matcha-dark-aliz'
 	@echo
 	@echo '	$$ make wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz'
@@ -37,7 +39,7 @@ help:
 .PHONY: help
 
 
-all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-chandelier theme-honda-super-cub-wm-pastel-dark wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
+all: theme-numix theme-numix-blue theme-obsidian-2-gray theme-shades-of-gray theme-honda-super-cub-wm-rgapsline theme-honda-super-cub-wm-chandelier theme-honda-super-cub-wm-pastel-dark wm-rgaps-line-ui-matcha-dark-aliz wm-rgaps-line-nobuttons-ui-matcha-dark-aliz wm-rgaps-blend-ui-matcha-dark-aliz wm-rgaps-blend-nobuttons-ui-matcha-dark-aliz
 
 .PHONY: all
 
@@ -80,6 +82,11 @@ theme-honda-super-cub-wm-chandelier:
 wm-rgaps-line-ui-matcha-dark-aliz:
 	make -C wm-rgaps-line-ui-matcha-dark-aliz install
 .PHONY: wm-rgaps-line-ui-matcha-dark-aliz
+
+
+wm-rgaps-line-nobuttons-ui-matcha-dark-aliz:
+	make -C wm-rgaps-line-nobuttons-ui-matcha-dark-aliz install
+.PHONY: wm-rgaps-line-nobuttons-ui-matcha-dark-aliz
 
 
 wm-rgaps-blend-ui-matcha-dark-aliz:
