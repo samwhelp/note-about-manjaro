@@ -9,15 +9,13 @@ set -e
 theme_asset_remove () {
 
 	theme_asset_remove_gtk_theme_obsidian_2_gray
-	theme_asset_remove_icon_theme_nord_black_frost_suru
-
 
 }
 
 theme_asset_remove_gtk_theme_obsidian_2_gray () {
 
-	echo "rm -rf $HOME/.themes/Obsidian-2-Gray"
-	rm -rf "$HOME/.themes/Obsidian-2-Gray"
+	echo "sudo rm -rf /boot/grub/themes/virtual_future"
+	sudo rm -rf "/boot/grub/themes/virtual_future"
 
 	echo
 
@@ -25,22 +23,6 @@ theme_asset_remove_gtk_theme_obsidian_2_gray () {
 	# ls -l "$HOME/.themes/Obsidian-2-Gray"
 
 }
-
-theme_asset_remove_icon_theme_nord_black_frost_suru () {
-
-	echo "rm -rf $HOME/.icons/Black-Frost-Suru"
-	rm -rf "$HOME/.icons/Black-Frost-Suru"
-
-
-	echo
-
-	# file "$HOME/.icons/Black-Frost-Suru"
-	# ls -l "$HOME/.icons/Black-Frost-Suru"
-
-}
-
-
-
 
 ##
 ### Tail: theme
