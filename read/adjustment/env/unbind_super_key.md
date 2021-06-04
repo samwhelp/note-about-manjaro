@@ -82,3 +82,7 @@ Hidden=true
 當然也可以直接刪除「~/.config/autostart/xcape.desktop」這個檔案。
 
 若要恢復，可以將「/etc/skel/.config/autostart/xcape.desktop」複製到「~/.config/autostart/xcape.desktop」。
+
+## 個人慣用按鍵綁定
+
+我個人慣用的按鍵綁定，請參考「[我的備忘](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/spec-keybind.md)」。
