@@ -506,6 +506,51 @@ sys_xfce_set_cursor_theme_default_for_light () {
 
 
 ################################################################################
+### Head: Model favorite
+##
+
+favorite_config_wm_theme () {
+
+	sys_xfce_set_wm_theme 'RGapsBlendNoButtons'
+
+}
+
+favorite_config_ui_theme () {
+
+	sys_xfce_set_ui_theme 'Matcha-dark-aliz'
+
+}
+
+favorite_config_icon_theme () {
+
+	sys_xfce_set_icon_theme 'Papirus-Dark'
+
+}
+
+favorite_config_cursor_theme () {
+
+	sys_xfce_set_cursor_theme_default
+
+}
+
+favorite () {
+	#echo "favorite"
+	#echo "$@"
+
+
+	favorite_config_wm_theme
+	favorite_config_ui_theme
+	favorite_config_icon_theme
+	favorite_config_cursor_theme
+
+}
+
+##
+### Tail: Model favorite
+################################################################################
+
+
+################################################################################
 ### Head: Model theme_matcha_dark_aliz
 ##
 
@@ -1298,6 +1343,12 @@ sub_run_default () {
 
 
 
+sub_run_favorite () {
+	#echo "sub_run_favorite"
+	favorite "$@"
+}
+
+
 sub_run_theme_matcha_dark_aliz () {
 	#echo "sub_run_theme_matcha_dark_aliz"
 	theme_matcha_dark_aliz "$@"
@@ -1439,6 +1490,8 @@ Example:
 
 		$ $cmd_name default
 
+
+		$ $cmd_name favorite
 
 		$ $cmd_name theme_matcha_dark_aliz
 

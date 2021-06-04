@@ -1,3 +1,4 @@
+<?php include_once(__DIR__ . '/favorite/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_aliz/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_azul/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_sea/Usage.sh'); ?>
