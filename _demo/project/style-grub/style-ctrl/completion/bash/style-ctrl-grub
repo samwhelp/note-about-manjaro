@@ -1,0 +1,18 @@
+
+## /usr/local/share/bash-completion/completions/style-ctrl-grub
+## $ sudo install -Dm644 ./style-ctrl-grub /usr/local/share/bash-completion/completions/style-ctrl-grub
+
+_style_ctrl_grub () {
+
+	local cur prev words cword
+	_init_completion || return
+
+	if [ "$cword" = "1" ]; then
+		local action_list=$(DEBUG_SC_CTRL=false style-ctrl-grub self_actions)
+		COMPREPLY=( $( compgen -W "$action_list" -- "$cur" ) )
+	fi
+
+	return 0
+}
+
+complete -F _style_ctrl_grub style-ctrl-grub
