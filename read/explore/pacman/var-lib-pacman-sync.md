@@ -112,7 +112,7 @@ state=3269048b417f2055251ca87694d77a1a42300e10
 
 ### 實驗三
 
-執行下面指令，產生「dl.txt」
+執行下面指令，產生「dl.txt」，或是參考另一個「[腳本](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/explore/pacman/repo-create-list/list.sh)」產生。
 
 ``` sh
 
