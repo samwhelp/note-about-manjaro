@@ -1,0 +1,16 @@
+http://free.nchc.org.tw/manjaro/stable/core/x86_64/core.db
+http://free.nchc.org.tw/manjaro/stable/core/x86_64/core.db.tar.gz
+http://free.nchc.org.tw/manjaro/stable/core/x86_64/core.files
+http://free.nchc.org.tw/manjaro/stable/core/x86_64/core.files.tar.gz
+http://free.nchc.org.tw/manjaro/stable/extra/x86_64/extra.db
+http://free.nchc.org.tw/manjaro/stable/extra/x86_64/extra.db.tar.gz
+http://free.nchc.org.tw/manjaro/stable/extra/x86_64/extra.files
+http://free.nchc.org.tw/manjaro/stable/extra/x86_64/extra.files.tar.gz
+http://free.nchc.org.tw/manjaro/stable/community/x86_64/community.db
+http://free.nchc.org.tw/manjaro/stable/community/x86_64/community.db.tar.gz
+http://free.nchc.org.tw/manjaro/stable/community/x86_64/community.files
+http://free.nchc.org.tw/manjaro/stable/community/x86_64/community.files.tar.gz
+http://free.nchc.org.tw/manjaro/stable/multilib/x86_64/multilib.db
+http://free.nchc.org.tw/manjaro/stable/multilib/x86_64/multilib.db.tar.gz
+http://free.nchc.org.tw/manjaro/stable/multilib/x86_64/multilib.files
+http://free.nchc.org.tw/manjaro/stable/multilib/x86_64/multilib.files.tar.gz
