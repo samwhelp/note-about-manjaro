@@ -69,6 +69,7 @@
 | --- |
 | [~/.local/bin](https://samwhelp.github.io/note-about-manjaro/read/explore/home-local-bin.html) |
 | [/etc/fonts/local.conf](https://samwhelp.github.io/note-about-manjaro/read/explore/etc-fonts-local-conf.html) |
+| [/var/lib/pacman/sync/](https://samwhelp.github.io/note-about-manjaro/read/explore/var-lib-pacman-sync.html) |
 
 
 ### 專案
