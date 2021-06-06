@@ -26,6 +26,13 @@ has_children: true
 * [sakura](https://samwhelp.github.io/note-about-manjaro/read/adjustment/tool/sakura.html)
 
 
+## Arch Wiki
+
+* [Category:Package management](https://wiki.archlinux.org/title/Category:Package_management)
+* [Category:Package development](https://wiki.archlinux.org/title/Category:Package_development)
+* [Category:Arch development](https://wiki.archlinux.org/title/Category:Arch_development)
+* [Category:DeveloperWiki](https://wiki.archlinux.org/title/Category:DeveloperWiki)
+
 ## Just the Docs
 
 * [Just the Docs](https://pmarsceill.github.io/just-the-docs/) ([GitHub](https://github.com/pmarsceill/just-the-docs))
