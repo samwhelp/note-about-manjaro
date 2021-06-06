@@ -49,9 +49,9 @@
 
 ### 環境微調
 
-
 | 議題 |
 | --- |
+| [pacman-mirrors](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/pacman-mirrors.html) |
 | [修改預設 editor](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html) |
 | [校時](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/time.html) |
 | [locale 切換](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/locale.html) |
@@ -60,6 +60,7 @@
 | [gtk 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/gtk.html) |
 | [qt5ct 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/qt5ct.html) |
 | [lightdm 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/lightdm.html) |
+| [Unbind Super Key](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/unbind_super_key.html) |
 
 
 ### 探索
