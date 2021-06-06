@@ -242,5 +242,5 @@ sudo pacman-mirrors --country Taiwan,Japan,United_States
 * /usr/share/pacman-mirrors/mirrors.json
 * /var/lib/pacman-mirrors/status.json
 * /var/lib/pacman-mirrors/custom-mirrors.json
-* https://repo.manjaro.org/mirrors.json
-* http://repo.manjaro.org/status.json
+* [https://repo.manjaro.org/mirrors.json](https://repo.manjaro.org/mirrors.json)
+* [http://repo.manjaro.org/status.json](http://repo.manjaro.org/status.json)
