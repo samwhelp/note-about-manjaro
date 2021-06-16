@@ -288,6 +288,16 @@ binutils-2.36.1-2/desc
 tar tf core.db 2> /dev/null | less
 ```
 
+#### bsdtar
+
+後來在「Arch Wiki / [Pacman](https://wiki.archlinux.org/title/Pacman)」發現，
+
+要採用「bsdtar」來觀看，就不會出現那個錯誤訊息
+
+``` sh
+bsdtar tf core.db
+```
+
 #### 解開 「core.db」
 
 執行下面指令，先產生一個資料夾「core」
@@ -302,10 +312,16 @@ mkdir -p core
 tar -C core -xf core.db
 ```
 
-執行下面指令，解開「core.db」
+或是執行下面指令，解開「core.db」
 
 ``` sh
 tar -C core -xf core.db 2> /dev/null
+```
+
+或是執行下面指令，解開「core.db」
+
+``` sh
+bsdtar -C core -xf core.db
 ```
 
 解開後，可以執行下面指令，觀看「core」的資料夾
@@ -391,10 +407,16 @@ openssl
 mkdir -p core_files
 ```
 
-執行下面指令，解開「core_files」
+執行下面指令，解開「core.files」
 
 ``` sh
 tar -C core_files -xf core.files 2> /dev/null
+```
+
+或是執行下面指令，解開「core.files」
+
+``` sh
+bsdtar -C core_files -xf core.files
 ```
 
 執行下面指令，
