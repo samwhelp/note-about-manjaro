@@ -1,4 +1,5 @@
 
+<?php include_once(__DIR__ . '/fzf/Action.sh'); ?>
 <?php include_once(__DIR__ . '/favorite/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_aliz/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_azul/Action.sh'); ?>

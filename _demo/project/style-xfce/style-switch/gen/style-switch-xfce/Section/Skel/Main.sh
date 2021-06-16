@@ -31,10 +31,12 @@ Example:
 
 		$ $cmd_name self_actions
 
+	## fzf
+<?php include_once(dirname(__DIR__) . '/Model/fzf/Usage.sh'); ?>
+
 	## theme
 
 		$ $cmd_name default
-
 <?php include_once(dirname(__DIR__) . '/Model/Usage.sh'); ?>
 
 
