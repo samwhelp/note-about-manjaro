@@ -9,7 +9,7 @@ has_children: true
 
 ## Manjaro
 
-* [Manjaro](https://manjaro.org/) ([Gitlab](https://gitlab.manjaro.org/explore/groups)) ([GitHub](https://github.com/manjaro))
+* [Manjaro](https://manjaro.org/) ([GitLab](https://gitlab.manjaro.org/explore/groups)) ([GitHub](https://github.com/manjaro))
 * [https://wiki.manjaro.org/index.php/Pamac](https://wiki.manjaro.org/index.php/Pamac)
 * [https://discover.manjaro.org/](https://discover.manjaro.org/)
 * [https://wiki.manjaro.org/](https://wiki.manjaro.org/)
