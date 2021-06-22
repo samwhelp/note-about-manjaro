@@ -6,3 +6,17 @@ parent: 微調
 ---
 
 # 桌面環境微調
+
+## Wiki
+
+* [Desktop environment](https://en.wikipedia.org/wiki/Desktop_environment)
+* [Window manager](https://en.wikipedia.org/wiki/Window_manager)
+
+## 桌面環境
+
+* [xfce](full/xfce)
+
+
+## 視窗管理員
+
+* [lightfm](wm/lightfm)
