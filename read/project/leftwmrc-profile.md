@@ -1,6 +1,6 @@
 ---
 title: leftwmrc-profile
-nav_order: 8002
+nav_order: 8004
 has_children: false
 parent: 專案
 ---
@@ -15,5 +15,5 @@ parent: 專案
 
 ## Tool
 
-* [leftwmrc-theme-get]https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get)
-* [leftwmrc-theme-ctrl]https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-ctrl)
+* [leftwmrc-theme-get](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get)
+* [leftwmrc-theme-ctrl](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-ctrl)
