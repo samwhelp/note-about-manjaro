@@ -12,6 +12,7 @@ grand_parent: 微調
 
 ## Link
 
+* [http://leftwm.org/](http://leftwm.org/)
 * GitHub / [leftwm](https://github.com/leftwm/leftwm)
 * Arch Wiki / [LeftWM](https://wiki.archlinux.org/title/LeftWM)
 
