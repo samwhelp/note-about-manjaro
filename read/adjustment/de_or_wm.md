@@ -19,4 +19,4 @@ parent: 微調
 
 ## 視窗管理員
 
-* [lightfm](wm/lightfm)
+* [leftwm](wm/leftwm)
