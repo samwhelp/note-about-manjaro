@@ -85,9 +85,9 @@ pamac build leftwm-theme-git
 
 ## 注意事項
 
-在這個環境，放在「/etc/xdg/autostart/」沒被執行到，
+在這個環境，登入時，放在「/etc/xdg/autostart/」這個資料夾沒被執行到，
 
-解決方試，複製到「~/.config/autostart/」這個資料夾
+解決方式，複製到「~/.config/autostart/」這個資料夾。
 
 ``` sh
 cp /etc/xdg/autostart/fcitx-autostart.desktop ~/.config/autostart/
