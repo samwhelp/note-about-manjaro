@@ -15,7 +15,7 @@ grand_parent: 微調
 * [http://leftwm.org/](http://leftwm.org/)
 * GitHub / [leftwm](https://github.com/leftwm/leftwm)
 * Arch Wiki / [LeftWM](https://wiki.archlinux.org/title/LeftWM)
-
+* [leftwm 探索筆記](https://samwhelp.github.io/note-about-leftwm/)
 
 ## Config File Path
 
