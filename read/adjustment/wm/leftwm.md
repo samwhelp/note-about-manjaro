@@ -81,3 +81,18 @@ pamac build leftwm-git
 ``` sh
 pamac build leftwm-theme-git
 ```
+
+
+## 注意事項
+
+在這個環境，放在「/etc/xdg/autostart/」沒被執行到，
+
+解決方試，複製到「~/.config/autostart/」這個資料夾
+
+``` sh
+cp /etc/xdg/autostart/fcitx-autostart.desktop ~/.config/autostart/
+cp /etc/xdg/autostart/xfce4-notifyd.desktop ~/.config/autostart/
+cp /etc/xdg/autostart/nm-applet.desktop ~/.config/autostart/
+cp /etc/xdg/autostart/pulseaudio.desktop ~/.config/autostart/
+cp /etc/xdg/autostart/mate-volume-control-status-icon.desktop ~/.config/autostart/
+```
