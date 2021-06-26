@@ -14,6 +14,7 @@ grand_parent: 微調
 * [https://github.com/seebye/ueberzug](https://github.com/seebye/ueberzug)
 * [https://github.com/topics/ueberzug](https://github.com/topics/ueberzug)
 * [https://github.com/pystardust/ytfzf](https://github.com/pystardust/ytfzf)
+* fzf 探索筆記 / [預覽圖片範例](https://samwhelp.github.io/note-about-fzf/read/start/preview/image.html)
 
 
 ## Search
