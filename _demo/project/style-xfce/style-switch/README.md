@@ -48,6 +48,12 @@ $ style-switch-xfce help
 $ export DEBUG_SS_CTRL=true
 ```
 
+### fzf
+
+``` sh
+style-switch-xfce fzf
+```
+
 
 ## Install Theme
 

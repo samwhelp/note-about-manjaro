@@ -12,3 +12,26 @@ grand_parent: 專案
 ## Link
 
 * [style-ctrl-xfce](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce/style-ctrl)
+
+
+## Usage
+
+
+### help
+
+``` sh
+$ style-ctrl-xfce
+```
+
+or
+
+``` sh
+$ style-ctrl-xfce help
+```
+
+
+### debug
+
+``` sh
+$ export DEBUG_SC_CTRL=true
+```
