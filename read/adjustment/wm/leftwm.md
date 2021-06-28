@@ -20,7 +20,7 @@ grand_parent: 微調
 
 ## Config File Path
 
-* [~/.config/leftwm/config.toml](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/main/config/leftwm/config.toml) ([Keybind](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/main/spec-keybind.md)) ([使用情境](https://samwhelp.github.io/note-about-leftwm/read/scenario.html))
+* [~/.config/leftwm/config.toml](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/main/config/leftwm/config.toml) ([按鍵綁定](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/main/spec-keybind.md)) ([使用情境](https://samwhelp.github.io/note-about-leftwm/read/scenario.html))
 
 
 ## Search
