@@ -15,7 +15,7 @@ parent: 入門
 * Pamac / [Using the Pamac CLI](https://wiki.manjaro.org/index.php/Pamac#Using_the_Pamac_CLI)
 
 
-## pamac
+## Package / pamac
 
 * [https://gitlab.manjaro.org/packages/extra/pamac](https://gitlab.manjaro.org/packages/extra/pamac)
 * [https://gitlab.manjaro.org/applications/pamac](https://gitlab.manjaro.org/applications/pamac)
@@ -25,3 +25,16 @@ parent: 入門
 
 * [https://gitlab.manjaro.org/explore/groups](https://gitlab.manjaro.org/explore/groups)
 * [https://gitlab.manjaro.org/packages](https://gitlab.manjaro.org/packages)
+
+
+## Packages
+
+* Manjaro / [Discover Software](https://discover.manjaro.org/)
+* Arch / [Packages](https://archlinux.org/packages/)
+* Arch / [AUR](https://aur.archlinux.org/)
+
+
+## Wiki
+
+* Arch Wiki / [List of applications](https://wiki.archlinux.org/index.php/List_of_applications)
+* Manjaro Wiki / [List of Qt Applications](https://wiki.manjaro.org/index.php/List_of_Qt_Applications)
