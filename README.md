@@ -81,4 +81,4 @@
 | [wallpaper-select](https://samwhelp.github.io/note-about-manjaro/read/project/wallpaper-select.html) |
 | [awesomewmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/awesomewmrc-profile.html) |
 | [leftwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/leftwmrc-profile.html) |
-| [awesomewmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/awesomewmrc-profile.html) |
+| [spectrwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/spectrwmrc-profile.html) |
