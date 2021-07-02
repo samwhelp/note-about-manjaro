@@ -11,8 +11,14 @@ has_children: true
 
 * [Manjaro](https://manjaro.org/) ([GitLab](https://gitlab.manjaro.org/explore/groups)) ([GitHub](https://github.com/manjaro))
 * [https://wiki.manjaro.org/index.php/Pamac](https://wiki.manjaro.org/index.php/Pamac)
-* [https://discover.manjaro.org/](https://discover.manjaro.org/)
 * [https://wiki.manjaro.org/](https://wiki.manjaro.org/)
+
+
+## Package
+
+* Manjaro / [Discover Software](https://discover.manjaro.org/)
+* Arch / [Packages](https://archlinux.org/packages/)
+* Arch / [AUR](https://aur.archlinux.org/)
 
 
 ## Tools
