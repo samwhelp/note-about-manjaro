@@ -20,6 +20,7 @@
 
 * [入門](#入門)
 * [概念](#概念)
+* [外觀微調](#外觀微調)
 * [桌面微調](#桌面微調)
 * [環境微調](#環境微調)
 * [探索](#探索)
@@ -38,6 +39,17 @@
 | 議題 |
 | --- |
 | [Meta_Package and Package_Group](https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
+
+
+### 外觀微調
+
+| 議題 |
+| --- |
+| [theme](https://samwhelp.github.io/note-about-manjaro/read/theme.html) |
+| [ui-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/theme/ui-theme.html) |
+| [wm-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/theme/wm-theme.html) |
+| [icon-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/icon/icon-theme.html) |
+| [cursor-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/icon/cursor-theme.html) |
 
 
 ### 桌面微調
