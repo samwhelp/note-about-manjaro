@@ -14,12 +14,6 @@ parent: 佈景主題
 放置資料夾路徑，請參考「[icons](https://samwhelp.github.io/note-about-manjaro/read/theme.html#icons)」。
 
 
-## 輔助工具 / 指令操作
-
-
-| 指令 | Desktop Entry | For UI |
-| --- | --- | --- |
-
 ### style-ctrl-xfce
 
 * [style-ctrl-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-ctrl-xfce.html)
