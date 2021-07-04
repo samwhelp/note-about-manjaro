@@ -27,7 +27,8 @@ grand_parent: 微調
 
 ## 預設的設定
 
-可到「[/etc/skel/.config/xfce4/](file:///etc/skel/.config/xfce4/)」找「manjaro xfce」預設的設定。
+* 可在「[/etc/skel/.config/xfce4/](https://gitlab.manjaro.org/profiles-and-settings/manjaro-xfce-settings/-/tree/master/skel/.config/xfce4)」找到「manjaro xfce」預設的設定。
+* 可在「/etc/xdg/xfce4/」找到「xfce」預設的設定。
 
 
 ## 工具
