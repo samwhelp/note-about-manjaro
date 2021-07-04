@@ -35,3 +35,9 @@ grand_parent: 微調
 
 * [style-ctrl-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-ctrl-xfce)
 * [style-switch-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-switch-xfce.html)
+
+
+## Source
+
+* [xfce](https://gitlab.xfce.org/xfce)
+* GitHub / [xfce-mirror](https://github.com/xfce-mirror)
