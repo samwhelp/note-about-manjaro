@@ -14,3 +14,6 @@ grand_parent: 微調
 
 
 ## 按鍵綁定
+
+* [spec-keybind-chewing](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/env/im/fcitx-chewing/spec-keybind-chewing.md)
+* [spec-keybind](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/env/im/fcitx-chewing/spec-keybind.md)
