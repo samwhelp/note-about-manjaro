@@ -14,7 +14,7 @@ grand_parent: 佈景主題
 
 執行下面指令查詢
 
-```
+``` sh
 pamac search breeze
 ```
 
