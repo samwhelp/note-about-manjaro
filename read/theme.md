@@ -30,7 +30,7 @@ has_children: true
 | /usr/share/icons | 系統全域 | 高 |
 | /usr/local/share/icons | 系統全域 | |
 
-> Themes 資料夾包含了「[icon-theme](theme/icon/icon-theme)」或是「[cursor-theme](theme/theme/cursor-theme)」。
+> Themes 資料夾包含了「[icon-theme](theme/icon/icon-theme)」或是「[cursor-theme](theme/icon/cursor-theme)」。
 
 
 ## 輔助工具
