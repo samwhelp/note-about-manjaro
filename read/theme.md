@@ -61,3 +61,10 @@ has_children: true
 | 設定檔 | 版本 |
 | [~/.config/gtk-3.0/settings.ini](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk3/settings.ini) | gtk3 |
 | [~/.gtkrc-2.0](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk2/.gtkrc-2.0) | gtk2 |
+
+
+## 專案
+
+* [style-theme](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce/style-theme)
+* [style-switch-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-switch-xfce)
+* [style-ctrl-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-ctrl-xfce)
