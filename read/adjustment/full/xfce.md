@@ -97,6 +97,8 @@ pacman -Qo /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xm
 
 ## Other WM
 
-不執行「xfwm4」，執行其他「Window Manager」，只要修改「~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml」，
+不執行「xfwm4」，執行其他「Window Manager」，
+
+只要修改「~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml」，
 
 請參考「[範例](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/explore/xfce4-session/config)」。
