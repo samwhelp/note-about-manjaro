@@ -1,5 +1,6 @@
 <?php include_once(__DIR__ . '/favorite/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_dracula/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_gruvbox_dark/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_gruvbox_material_dark/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_klaus/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_aliz/Usage.sh'); ?>
