@@ -5,6 +5,7 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_matcha_dark_aliz/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_matcha_dark_azul/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_matcha_dark_sea/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_nordic/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_numix/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_numix_blue/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_obsidian_2_gray/Core.sh'); ?>

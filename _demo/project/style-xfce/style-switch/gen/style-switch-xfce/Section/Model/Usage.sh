@@ -3,6 +3,7 @@
 <?php include_once(__DIR__ . '/theme_matcha_dark_aliz/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_azul/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_matcha_dark_sea/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_nordic/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_numix/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_numix_blue/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_obsidian_2_gray/Usage.sh'); ?>
