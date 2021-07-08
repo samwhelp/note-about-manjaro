@@ -41,3 +41,55 @@ grand_parent: 微調
 
 * [xfce](https://gitlab.xfce.org/xfce)
 * GitHub / [xfce-mirror](https://github.com/xfce-mirror)
+
+
+
+## 探索
+
+執行
+
+``` sh
+pacman -Qo /etc/skel/.config/xfce4/xfconf/
+```
+
+顯示
+
+```
+/etc/skel/.config/xfce4/xfconf/ is owned by manjaro-xfce-settings 20210124-1
+```
+
+執行
+
+``` sh
+pacman -Qo /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+```
+
+顯示
+
+```
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml is owned by xfce4-session 4.16.0-2
+```
+
+執行
+
+``` sh
+pacman -Qo /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+```
+
+顯示
+
+```
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml is owned by xfce4-settings 4.16.2-1
+```
+
+執行
+
+``` sh
+pacman -Qo /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+```
+
+顯示
+
+```
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml is owned by libxfce4ui 4.16.0-1
+```
