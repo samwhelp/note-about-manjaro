@@ -638,6 +638,51 @@ favorite () {
 
 
 ################################################################################
+### Head: Model theme_dracula
+##
+
+theme_dracula_config_wm_theme () {
+
+	sys_xfce_set_wm_theme 'Dracula'
+
+}
+
+theme_dracula_config_ui_theme () {
+
+	sys_xfce_set_ui_theme 'Dracula'
+
+}
+
+theme_dracula_config_icon_theme () {
+
+	sys_xfce_set_icon_theme 'Dracula'
+
+}
+
+theme_dracula_config_cursor_theme () {
+
+	sys_xfce_set_cursor_theme_default
+
+}
+
+theme_dracula () {
+	#echo "theme_dracula"
+	#echo "$@"
+
+
+	theme_dracula_config_wm_theme
+	theme_dracula_config_ui_theme
+	theme_dracula_config_icon_theme
+	theme_dracula_config_cursor_theme
+
+}
+
+##
+### Tail: Model theme_dracula
+################################################################################
+
+
+################################################################################
 ### Head: Model theme_matcha_dark_aliz
 ##
 
@@ -1442,6 +1487,12 @@ sub_run_favorite () {
 }
 
 
+sub_run_theme_dracula () {
+	#echo "sub_run_theme_dracula"
+	theme_dracula "$@"
+}
+
+
 sub_run_theme_matcha_dark_aliz () {
 	#echo "sub_run_theme_matcha_dark_aliz"
 	theme_matcha_dark_aliz "$@"
@@ -1588,6 +1639,8 @@ Example:
 		$ $cmd_name default
 
 		$ $cmd_name favorite
+
+		$ $cmd_name theme_dracula
 
 		$ $cmd_name theme_matcha_dark_aliz
 
