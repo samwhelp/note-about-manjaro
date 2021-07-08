@@ -18,7 +18,7 @@ theme_klaus_config_ui_theme () {
 
 theme_klaus_config_icon_theme () {
 
-	sys_xfce_set_icon_theme 'Papirus-Dark'
+	sys_xfce_set_icon_theme 'Gruvbox-Material-Dark'
 
 }
 
