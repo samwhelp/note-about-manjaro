@@ -28,3 +28,4 @@ parent: 微調
 | [bspwm](wm/bspwm) |
 | [spectrwm](wm/spectrwm) |
 | [leftwm](wm/leftwm) |
+| [openbox](wm/openbox) |

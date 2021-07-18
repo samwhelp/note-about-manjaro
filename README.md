@@ -68,7 +68,7 @@
 | [bspwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/bspwm.html) |
 | [spectrwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/spectrwm.html) |
 | [leftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html) |
-
+| [openbox](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/openbox.html) |
 
 ### 環境微調
 
