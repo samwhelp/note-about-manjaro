@@ -16,7 +16,7 @@ parent: 微調
 
 | 桌面環境 |
 | --- |
-| [herbstluftwm](full/xfce) |
+| [xfce](full/xfce) |
 
 ## 視窗管理器
 
