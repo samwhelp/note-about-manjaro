@@ -14,9 +14,17 @@ parent: 微調
 
 ## 桌面環境
 
-* [xfce](full/xfce)
+| 桌面環境 |
+| --- |
+| [herbstluftwm](full/xfce) |
 
+## 視窗管理器
 
-## 視窗管理員
-
-* [leftwm](wm/leftwm)
+| 視窗管理器 |
+| --- |
+| [herbstluftwm](wm/herbstluftwm) |
+| [awesomewm](wm/awesomewm) |
+| [i3wm](wm/i3wm) |
+| [bspwm](wm/bspwm) |
+| [spectrwm](wm/spectrwm) |
+| [leftwm](wm/leftwm) |

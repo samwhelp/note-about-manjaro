@@ -1,5 +1,5 @@
 ---
-title: herbstluftwm
+title: Herbstluftwm
 nav_order: 4014
 has_children: false
 parent: 桌面環境微調
@@ -7,10 +7,10 @@ grand_parent: 微調
 ---
 
 
-# herbstluftwm
+# Herbstluftwm
 
 
-## Link
+## 相關連結
 
 * [https://herbstluftwm.org/](https://herbstluftwm.org/)
 * GitHub / [herbstluftwm](https://github.com/herbstluftwm/herbstluftwm)
@@ -18,7 +18,7 @@ grand_parent: 微調
 * [herbstluftwm 探索筆記](https://samwhelp.github.io/note-about-herbstluftwm/)
 
 
-## Search
+## 查詢
 
 執行
 
@@ -108,3 +108,94 @@ First Submitted       : 08/27/2011
 Last Modified         : 01/05/2021
 Votes                 : 33
 ```
+
+## 安裝
+
+執行
+
+``` sh
+pamac install herbstluftwm
+```
+
+## 探索
+
+執行下面指令，查看有哪些檔案安裝在系統上
+
+``` sh
+pacman -Ql herbstluftwm -q
+```
+
+顯示
+
+```
+/etc/
+/etc/xdg/
+/etc/xdg/herbstluftwm/
+/etc/xdg/herbstluftwm/autostart
+/etc/xdg/herbstluftwm/dmenu_run_hlwm
+/etc/xdg/herbstluftwm/panel.sh
+/etc/xdg/herbstluftwm/restartpanels.sh
+/usr/
+/usr/bin/
+/usr/bin/herbstclient
+/usr/bin/herbstluftwm
+/usr/share/
+/usr/share/bash-completion/
+/usr/share/bash-completion/completions/
+/usr/share/bash-completion/completions/herbstclient
+/usr/share/doc/
+/usr/share/doc/herbstluftwm/
+/usr/share/doc/herbstluftwm/LICENSE
+/usr/share/doc/herbstluftwm/NEWS
+/usr/share/doc/herbstluftwm/examples/
+/usr/share/doc/herbstluftwm/examples/README
+/usr/share/doc/herbstluftwm/examples/dmenu.sh
+/usr/share/doc/herbstluftwm/examples/dumpbeautify.sh
+/usr/share/doc/herbstluftwm/examples/exec_on_tag.sh
+/usr/share/doc/herbstluftwm/examples/execwith.sh
+/usr/share/doc/herbstluftwm/examples/float-maximize.sh
+/usr/share/doc/herbstluftwm/examples/floatmon.sh
+/usr/share/doc/herbstluftwm/examples/herbstcommander.sh
+/usr/share/doc/herbstluftwm/examples/keychain.sh
+/usr/share/doc/herbstluftwm/examples/lasttag.sh
+/usr/share/doc/herbstluftwm/examples/layout.sh
+/usr/share/doc/herbstluftwm/examples/loadstate.sh
+/usr/share/doc/herbstluftwm/examples/maximize.sh
+/usr/share/doc/herbstluftwm/examples/perclient_kb_layout.sh
+/usr/share/doc/herbstluftwm/examples/q3terminal.sh
+/usr/share/doc/herbstluftwm/examples/savestate.sh
+/usr/share/doc/herbstluftwm/examples/scratchpad.sh
+/usr/share/doc/herbstluftwm/examples/toggledualhead.sh
+/usr/share/doc/herbstluftwm/examples/unminimize.sh
+/usr/share/doc/herbstluftwm/examples/windowmenu.sh
+/usr/share/doc/herbstluftwm/examples/wselect.sh
+/usr/share/doc/herbstluftwm/hlwm-doc.json
+/usr/share/doc/herbstluftwm/html/
+/usr/share/doc/herbstluftwm/html/herbstclient.html
+/usr/share/doc/herbstluftwm/html/herbstluftwm-tutorial.html
+/usr/share/doc/herbstluftwm/html/herbstluftwm.html
+/usr/share/fish/
+/usr/share/fish/vendor_completions.d/
+/usr/share/fish/vendor_completions.d/herbstclient.fish
+/usr/share/licenses/
+/usr/share/licenses/herbstluftwm/
+/usr/share/licenses/herbstluftwm/LICENSE
+/usr/share/man/
+/usr/share/man/man1/
+/usr/share/man/man1/herbstclient.1.gz
+/usr/share/man/man1/herbstluftwm.1.gz
+/usr/share/man/man7/
+/usr/share/man/man7/herbstluftwm-tutorial.7.gz
+/usr/share/xsessions/
+/usr/share/xsessions/herbstluftwm.desktop
+/usr/share/zsh/
+/usr/share/zsh/functions/
+/usr/share/zsh/functions/Completion/
+/usr/share/zsh/functions/Completion/X/
+/usr/share/zsh/functions/Completion/X/_herbstclient
+```
+
+
+### 如何設定
+
+接下來請閱讀「[herbstluftwm 探索筆記](https://samwhelp.github.io/note-about-herbstluftwm/)」。

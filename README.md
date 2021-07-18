@@ -52,11 +52,22 @@
 | [cursor-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/icon/cursor-theme.html) |
 
 
-### 桌面微調
+### 桌面環境
 
-| 桌面 |
+| 桌面環境 |
 | --- |
 | [xfce](https://samwhelp.github.io/note-about-manjaro/read/adjustment/full/xfce.html) |
+
+### 視窗管理器
+
+| 視窗管理器 |
+| --- |
+| [herbstluftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/herbstluftwm.html) |
+| [awesomewm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/awesomewm.html) |
+| [i3wm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/i3wm.html) |
+| [bspwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/bspwm.html) |
+| [spectrwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/spectrwm.html) |
+| [leftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html) |
 
 
 ### 環境微調
