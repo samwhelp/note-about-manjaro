@@ -42,6 +42,22 @@
 | [Meta_Package and Package_Group](https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
 
 
+### 環境微調
+
+| 議題 |
+| --- |
+| [pacman-mirrors](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/pacman-mirrors.html) |
+| [修改預設 editor](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html) |
+| [校時](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/time.html) |
+| [locale 切換](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/locale.html) |
+| [字型的安裝與設定](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/font.html) |
+| [中文輸入法](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/im.html) |
+| [gtk 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/gtk.html) |
+| [qt5ct 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/qt5ct.html) |
+| [lightdm 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/lightdm.html) |
+| [Unbind Super Key](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/unbind_super_key.html) |
+
+
 ### 外觀微調
 
 | 議題 |
@@ -70,21 +86,6 @@
 | [spectrwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/spectrwm.html) |
 | [leftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html) |
 | [openbox](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/openbox.html) |
-
-### 環境微調
-
-| 議題 |
-| --- |
-| [pacman-mirrors](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/pacman-mirrors.html) |
-| [修改預設 editor](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/editor.html) |
-| [校時](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/time.html) |
-| [locale 切換](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/locale.html) |
-| [字型的安裝與設定](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/font.html) |
-| [中文輸入法](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/im.html) |
-| [gtk 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/gtk.html) |
-| [qt5ct 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/qt5ct.html) |
-| [lightdm 微調](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/lightdm.html) |
-| [Unbind Super Key](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/unbind_super_key.html) |
 
 
 ### 探索
