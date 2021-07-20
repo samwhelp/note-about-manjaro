@@ -21,3 +21,29 @@ grand_parent: 微調
 ## 設定檔路徑
 
 * [~/.config/xfce4/terminal/terminalrc](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/tool/xfce4-terminal/config/xfce4-terminal/terminalrc)
+
+
+## colorschemes
+
+* /usr/share/xfce4/terminal/colorschemes/
+* ~/.local/share/xfce4/terminal/colorschemes
+* [https://github.com/arcticicestudio/nord-xfce-terminal](https://github.com/arcticicestudio/nord-xfce-terminal)
+
+執行
+
+```
+ls -1 /usr/share/xfce4/terminal/colorschemes/
+```
+
+顯示
+
+```
+black-on-white.theme
+dark-pastels.theme
+green-on-black.theme
+solarized-dark.theme
+solarized-light.theme
+tango.theme
+white-on-black.theme
+xterm.theme
+```
