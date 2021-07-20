@@ -27,7 +27,7 @@ grand_parent: 微調
 
 * /usr/share/xfce4/terminal/colorschemes/
 * ~/.local/share/xfce4/terminal/colorschemes
-* [https://github.com/arcticicestudio/nord-xfce-terminal](https://github.com/arcticicestudio/nord-xfce-terminal)
+
 
 執行
 
@@ -46,4 +46,15 @@ solarized-light.theme
 tango.theme
 white-on-black.theme
 xterm.theme
+```
+
+### nord.theme
+
+* [https://github.com/arcticicestudio/nord-xfce-terminal](https://github.com/arcticicestudio/nord-xfce-terminal)
+
+執行下面指令安裝
+
+``` sh
+git clone https://github.com/arcticicestudio/nord-xfce-terminal.git
+install -Dm644 nord-xfce-terminal/src/nord.theme ~/.local/share/xfce4/terminal/colorschemes/nord.theme
 ```
