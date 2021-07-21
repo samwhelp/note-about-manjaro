@@ -56,7 +56,7 @@ has_children: true
 
 ## gtk
 
-> 若是執行其他的「Window Manager」，沒有執行「xfsettingsd」，則「gtk」就會根據下面檔案的設定
+> 若是執行其他的「Window Manager」，沒有執行「xfsettingsd」或是「xsettingsd」，則「gtk」就會根據下面檔案的設定
 
 | 設定檔 | 版本 |
 | [~/.config/gtk-3.0/settings.ini](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk3/settings.ini) | gtk3 |
