@@ -23,7 +23,7 @@ pamac search xsettingsd
 show
 
 ```
-xsettingsd                                                                          1.0.0-3  community 
+xsettingsd                                                                          1.0.0-3  community
     Provides settings to X11 applications via the XSETTINGS specification
 ```
 
@@ -36,9 +36,9 @@ pamac search xsettingsd -a
 show
 
 ```
-xsettingsd-git                                                                r79.b4999f5-4  AUR 
+xsettingsd-git                                                                r79.b4999f5-4  AUR
     xsettingsd is a daemon that implements the XSETTINGS specification.
-xsettingsd                                                                    1.0.0-3        community 
+xsettingsd                                                                    1.0.0-3        community
     Provides settings to X11 applications via the XSETTINGS specification
 ```
 
@@ -107,3 +107,17 @@ or run
 pamac build xsettingsd-git
 ```
 
+
+## 設定範例
+
+* ~/.xsettingsd
+
+內容如下
+
+```
+## theme_dracula
+Net/ThemeName "Dracula"
+Net/IconThemeName "Dracula"
+Gtk/CursorThemeName "xcursor-breeze"
+Gtk/CursorThemeSize "24"
+```
