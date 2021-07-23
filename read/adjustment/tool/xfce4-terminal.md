@@ -58,3 +58,8 @@ xterm.theme
 git clone https://github.com/arcticicestudio/nord-xfce-terminal.git
 install -Dm644 nord-xfce-terminal/src/nord.theme ~/.local/share/xfce4/terminal/colorschemes/nord.theme
 ```
+
+
+## 輔助工具
+
+* [xftvim](https://github.com/samwhelp/note-about-vim/tree/gh-pages/_demo/project/xftvim)
