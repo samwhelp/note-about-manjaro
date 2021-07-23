@@ -62,6 +62,8 @@ has_children: true
 | [~/.config/gtk-3.0/settings.ini](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk3/settings.ini) | gtk3 |
 | [~/.gtkrc-2.0](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk2/.gtkrc-2.0) | gtk2 |
 
+* Arch Wiki / [Gtk](https://wiki.archlinux.org/title/GTK#Configuration)
+
 
 ## 專案
 

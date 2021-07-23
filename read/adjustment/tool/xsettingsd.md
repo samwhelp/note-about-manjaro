@@ -10,6 +10,7 @@ grand_parent: 微調
 ## Link
 
 * GitHub / derat / [xsettingsd](https://github.com/derat/xsettingsd)
+* Arch Wiki / [Gtk](https://wiki.archlinux.org/title/GTK#Configuration)
 
 
 ## Search

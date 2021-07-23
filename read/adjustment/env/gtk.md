@@ -13,3 +13,8 @@ grand_parent: 微調
 
 * [gtk2](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/part/gtk2)
 * [gtk3](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/part/gtk3)
+
+
+## Link
+
+* Arch Wiki / [Gtk](https://wiki.archlinux.org/title/GTK#Configuration)
