@@ -15,8 +15,12 @@
 
 ```
 opacity-rule = [
-  "90:class_g = 'Sakura' && focused",
+  "100:class_g = 'Sakura' && focused",
   "60:class_g = 'Sakura' && !focused",
+  "100:class_g = 'xfce4-terminal' && focused",
+  "60:class_g = 'xfce4-terminal' && !focused",
+  "80:class_g = 'thunar' && focused",
+  "60:class_g = 'thunar' && !focused",
   "90:class_g = 'Atom' && focused",
   "80:class_g = 'Atom' && !focused",
   "100:class_g = 'mpv' && focused",
@@ -24,7 +28,7 @@ opacity-rule = [
   "100:class_g = 'vlc' && focused",
   "60:class_g = 'vlc' && !focused",
   "100:class_g = 'smplayer' && focused",
-  "60:class_g = 'smplayer' && !focused",  
+  "60:class_g = 'smplayer' && !focused",
   "80:class_g     = 'Bar'",             # lemonbar
   "100:class_g    = 'slop'",            # maim
   "100:class_g    = 'XTerm'",
