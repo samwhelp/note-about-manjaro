@@ -178,3 +178,7 @@ corner-radius = 10.0;
 ```
 corner-radius = 0.0;
 ```
+
+## 設定範例
+
+* [修改範例](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/picom/profile/)
