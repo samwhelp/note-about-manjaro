@@ -89,3 +89,16 @@ Last Modified         : 05/25/2021
 ``` sh
 pamac build ne-git
 ```
+
+## 按鍵綁定
+
+### Menu
+
+* [https://ne.di.unimi.it/docs/Menus.html](https://ne.di.unimi.it/docs/Menus.html)
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| 按兩次Esc | 顯示 Menu Bar |
+| `F1` | 顯示 Menu Bar |
+| `Shift + Left` | 顯示 Menu Bar |
+| `Shift + Right` | 顯示 Menu Bar |
