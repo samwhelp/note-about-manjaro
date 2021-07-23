@@ -62,4 +62,4 @@ install -Dm644 nord-xfce-terminal/src/nord.theme ~/.local/share/xfce4/terminal/c
 
 ## 輔助工具
 
-* [xftvim](https://github.com/samwhelp/note-about-vim/tree/gh-pages/_demo/project/xftvim)
+* [xftvim](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/)
