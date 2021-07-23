@@ -69,3 +69,4 @@ install -Dm644 nord-xfce-terminal/src/nord.theme ~/.local/share/xfce4/terminal/c
 | [xftvim](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftvim) | [vim](https://www.vim.org/) or [nvim](https://neovim.io/) |
 | [xftmicro](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftmicro) | [micro](https://micro-editor.github.io/) |
 | [xftkak](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftkak) | [kak](https://kakoune.org/) |
+| [xftnano](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftnano) | [kak](https://www.nano-editor.org/) |
