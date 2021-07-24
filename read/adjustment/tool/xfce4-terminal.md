@@ -70,3 +70,47 @@ install -Dm644 nord-xfce-terminal/src/nord.theme ~/.local/share/xfce4/terminal/c
 | [xftmicro](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftmicro) | [micro](https://micro-editor.github.io/) |
 | [xftkak](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftkak) | [kak](https://kakoune.org/) |
 | [xftnano](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftnano) | [nano](https://www.nano-editor.org/) |
+
+
+## 按鍵綁定
+
+### 視窗
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `Ctrl + Shift + n` | 開啟新的 Terminal | 
+| `Ctrl + Shift + q` | 關閉目前 Terminal | 
+
+### 頁籤
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `Ctrl + Shift + t` | 開啟新的頁籤 | 
+| `Ctrl + Shift + w` | 關閉目前頁籤 | 
+
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `Ctrl + PageUp` | 切換到上一個頁籤 | 
+| `Ctrl + PageDown` | 切換到下一個頁籤 | 
+| `Ctrl + Shift + PageUp` | 將目前頁籤與下一個頁籤交換位置 | 
+| `Ctrl + Shift + PageDown` | 將目前頁籤與上一個頁籤交換位置 | 
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `Ctrl + Shift + a` | 選擇全部 | 
+| `Ctrl + Shift + c` | 複製 | 
+| `Ctrl + Shift + v` | 貼上 | 
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `Ctrl + Shift + f` | 查詢 | 
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `Ctrl + Shift + s` | 設定標題 | 
+
+| 按鍵組合 | 功能 |
+| --- | --- |
+| `F11` | 全螢幕 | 
+
