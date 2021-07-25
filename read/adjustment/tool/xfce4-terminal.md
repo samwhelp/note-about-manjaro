@@ -48,7 +48,7 @@ white-on-black.theme
 xterm.theme
 ```
 
-### nord.theme
+### nord
 
 * [https://github.com/arcticicestudio/nord-xfce-terminal](https://github.com/arcticicestudio/nord-xfce-terminal)
 
@@ -59,17 +59,36 @@ git clone https://github.com/arcticicestudio/nord-xfce-terminal.git
 install -Dm644 nord-xfce-terminal/src/nord.theme ~/.local/share/xfce4/terminal/colorschemes/nord.theme
 ```
 
+### dracula
+
+* [https://github.com/dracula/xfce4-terminal](https://github.com/dracula/xfce4-terminal)
+* [https://draculatheme.com/xfce4-terminal](https://draculatheme.com/xfce4-terminal)
+
+執行下面指令安裝
+
+``` sh
+git clone https://github.com/dracula/xfce4-terminal.git dracula-xfce4-terminal
+install -Dm644 dracula-xfce4-terminal/Dracula.theme ~/.local/share/xfce4/terminal/colorschemes/Dracula.theme
+```
+
 
 ## 應用工具
 
-應用「xfce4-terminal --tab」的工具
+應用「xfce4-terminal --tab」這個功能衍生的輔助工具
 
 | 工具 | For Editor |
 | --- | --- |
-| [xftvim](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftvim) | [vim](https://www.vim.org/) or [nvim](https://neovim.io/) |
-| [xftmicro](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftmicro) | [micro](https://micro-editor.github.io/) |
-| [xftkak](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftkak) | [kak](https://kakoune.org/) |
-| [xftnano](https://samwhelp.github.io/note-about-vim/read/project/xft-editor/xftnano) | [nano](https://www.nano-editor.org/) |
+| [xftt](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xfttt) | 開啟新Tab，切換到指定資料夾 |
+| [xfted](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xfted) | 根據「EDITOR」的設定 |
+| [xftvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftvim) | [vim](https://www.vim.org/) or [nvim](https://neovim.io/) |
+| [xftmicro](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmicro) | [micro](https://micro-editor.github.io/) |
+| [xftkak](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftkak) | [kak](https://kakoune.org/) |
+| [xftnano](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftnano) | [nano](https://www.nano-editor.org/) |
+| [xftne](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftne) | [ne](http://ne.di.unimi.it/) |
+| [xftemacs](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftemacs) | [emacs](https://www.gnu.org/software/emacs/) |
+| [xftmced](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmced) | [mcedit](https://midnight-commander.org/) |
+
+
 
 
 ## 按鍵綁定
