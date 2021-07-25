@@ -13,3 +13,8 @@ grand_parent: 微調
 
 * [https://discover.manjaro.org/packages/feh](https://discover.manjaro.org/packages/feh)
 * Arch Wiki / [Feh](https://wiki.archlinux.org/index.php/Feh)
+
+
+## 應用工具
+
+* [wallpaper-select-feh](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-feh)

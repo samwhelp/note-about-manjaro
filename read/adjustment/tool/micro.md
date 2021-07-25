@@ -18,6 +18,11 @@ grand_parent: 微調
 * [https://github.com/zyedidia/micro/releases](https://github.com/zyedidia/micro/releases)
 
 
+## 輔助工具
+
+* [xftmicro](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmicro)
+
+
 ## Search
 
 run
@@ -31,7 +36,7 @@ show
 ```
 ...
 
-micro                                                                  2.0.9-1               community 
+micro                                                                  2.0.9-1               community
     Modern and intuitive terminal-based text editor
 ```
 

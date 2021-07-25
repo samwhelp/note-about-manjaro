@@ -18,3 +18,8 @@ grand_parent: 微調
 ## 設定檔路徑
 
 * ~/.config/kak/kakrc
+
+
+## 輔助工具
+
+* [xftkak](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftkak)
