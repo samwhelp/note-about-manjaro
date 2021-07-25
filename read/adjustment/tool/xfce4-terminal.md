@@ -78,7 +78,7 @@ install -Dm644 dracula-xfce4-terminal/Dracula.theme ~/.local/share/xfce4/termina
 
 | 工具 | For Editor |
 | --- | --- |
-| [xftt](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xfttt) | 開啟新Tab，切換到指定資料夾 |
+| [xftt](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftt) | 開啟新Tab，切換到指定資料夾 |
 | [xfted](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xfted) | 根據「EDITOR」的設定 |
 | [xftvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftvim) | [vim](https://www.vim.org/) or [nvim](https://neovim.io/) |
 | [xftmicro](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmicro) | [micro](https://micro-editor.github.io/) |
