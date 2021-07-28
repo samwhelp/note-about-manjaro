@@ -13,6 +13,14 @@ grand_parent: 微調
 * [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/xfce4-terminal)
 
 
+## 主題
+
+* [設定檔路徑](#設定檔路徑)
+* [colorschemes](#colorschemes)
+* [按鍵綁定](#按鍵綁定)
+* [應用工具](#應用工具)
+
+
 ## Link
 
 * [https://discover.manjaro.org/packages/xfce4-terminal](https://discover.manjaro.org/packages/xfce4-terminal)
@@ -72,64 +80,63 @@ install -Dm644 dracula-xfce4-terminal/Dracula.theme ~/.local/share/xfce4/termina
 ```
 
 
-## 應用工具
-
-應用「xfce4-terminal --tab」這個功能衍生的輔助工具
-
-| 工具 | For Editor |
-| --- | --- |
-| [xftt](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftt) | 開啟新Tab，切換到指定資料夾 |
-| [xfted](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xfted) | 根據「EDITOR」的設定 |
-| [xftvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftvim) | [vim](https://www.vim.org/) or [nvim](https://neovim.io/) |
-| [xftmicro](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmicro) | [micro](https://micro-editor.github.io/) |
-| [xftkak](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftkak) | [kak](https://kakoune.org/) |
-| [xftnano](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftnano) | [nano](https://www.nano-editor.org/) |
-| [xftne](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftne) | [ne](http://ne.di.unimi.it/) |
-| [xftemacs](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftemacs) | [emacs](https://www.gnu.org/software/emacs/) |
-| [xftmced](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmced) | [mcedit](https://midnight-commander.org/) |
-
-
-
-
 ## 按鍵綁定
 
 ### 視窗
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Ctrl + Shift + n` | 開啟新的 Terminal | 
-| `Ctrl + Shift + q` | 關閉目前 Terminal | 
+| `Ctrl + Shift + n` | 開啟新的 Terminal |
+| `Ctrl + Shift + q` | 關閉目前 Terminal |
 
 ### 頁籤
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Ctrl + Shift + t` | 開啟新的頁籤 | 
-| `Ctrl + Shift + w` | 關閉目前頁籤 | 
+| `Ctrl + Shift + t` | 開啟新的頁籤 |
+| `Ctrl + Shift + w` | 關閉目前頁籤 |
 
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Ctrl + PageUp` | 切換到上一個頁籤 | 
-| `Ctrl + PageDown` | 切換到下一個頁籤 | 
-| `Ctrl + Shift + PageUp` | 將目前頁籤與下一個頁籤交換位置 | 
-| `Ctrl + Shift + PageDown` | 將目前頁籤與上一個頁籤交換位置 | 
+| `Ctrl + PageUp` | 切換到上一個頁籤 |
+| `Ctrl + PageDown` | 切換到下一個頁籤 |
+| `Ctrl + Shift + PageUp` | 將目前頁籤與下一個頁籤交換位置 |
+| `Ctrl + Shift + PageDown` | 將目前頁籤與上一個頁籤交換位置 |
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Ctrl + Shift + a` | 選擇全部 | 
-| `Ctrl + Shift + c` | 複製 | 
-| `Ctrl + Shift + v` | 貼上 | 
+| `Ctrl + Shift + a` | 選擇全部 |
+| `Ctrl + Shift + c` | 複製 |
+| `Ctrl + Shift + v` | 貼上 |
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Ctrl + Shift + f` | 查詢 | 
+| `Ctrl + Shift + f` | 查詢 |
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Ctrl + Shift + s` | 設定標題 | 
+| `Ctrl + Shift + s` | 設定標題 |
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `F11` | 全螢幕 | 
+| `F11` | 全螢幕 |
 
+
+## 應用工具
+
+應用「xfce4-terminal --tab」這個功能，衍生的輔助工具
+
+| 工具 | For Editor |
+| --- | --- |
+| [xftt](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftt) | 開啟新Tab，切換到指定資料夾 |
+| [xfted](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xfted) | 根據「EDITOR」的設定 |
+| [xftvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftvim) | [vim](https://www.vim.org/) |
+| [xftnvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftnvim) | [nvim](https://neovim.io/) |
+| [xftlvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftlvim) | [lvim](https://github.com/ChristianChiarulli/LunarVim) |
+| [xftmicro](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmicro) | [micro](https://micro-editor.github.io/) |
+| [xftkak](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftkak) | [kak](https://kakoune.org/) |
+| [xftnano](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftnano) | [nano](https://www.nano-editor.org/) |
+| [xftne](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftne) | [ne](http://ne.di.unimi.it/) |
+| [xftemacs](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftemacs) | [emacs](https://www.gnu.org/software/emacs/) |
+| [xftmced](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftmced) | [mcedit](https://midnight-commander.org/) |
