@@ -15,6 +15,13 @@ grand_parent: 微調
 * [https://github.com/himdel/hsetroot](https://github.com/himdel/hsetroot)
 
 
+## 應用工具
+
+| 應用工具 |
+| --- |
+| [wallpaper-select-hsetroot](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-hsetroot) |
+| [opset-wallpaper-hsetroot](https://samwhelp.github.io/note-about-wallpaper/read/project/opset-wallpaper/opset-wallpaper-hsetroot.html) |
+
 ## 查詢
 
 執行

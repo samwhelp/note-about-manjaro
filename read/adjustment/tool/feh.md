@@ -17,4 +17,7 @@ grand_parent: 微調
 
 ## 應用工具
 
-* [wallpaper-select-feh](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-feh)
+| 應用工具 |
+| --- |
+| [wallpaper-select-feh](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-feh) |
+| [opset-wallpaper-feh](https://samwhelp.github.io/note-about-wallpaper/read/project/opset-wallpaper/opset-wallpaper-feh.html) |

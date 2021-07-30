@@ -15,6 +15,15 @@ grand_parent: 微調
 * [https://github.com/stoeckmann/xwallpaper](https://github.com/stoeckmann/xwallpaper)
 * Arch Wiki / List of applications / Other / [Wallpaper setters](https://wiki.archlinux.org/title/List_of_applications/Other#Wallpaper_setters)
 
+
+## 應用工具
+
+| 應用工具 |
+| --- |
+| [wallpaper-select-xwallpaper](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-xwallpaper) |
+| [opset-wallpaper-xwallpaper](https://samwhelp.github.io/note-about-wallpaper/read/project/opset-wallpaper/opset-wallpaper-xwallpaper.html) |
+
+
 ## 探索
 
 執行
@@ -26,7 +35,7 @@ pamac search xwallpaper
 顯示
 
 ```
-xwallpaper                                                                          0.7.1-1  community 
+xwallpaper                                                                          0.7.1-1  community
     Wallpaper setting utility for X
 ```
 
