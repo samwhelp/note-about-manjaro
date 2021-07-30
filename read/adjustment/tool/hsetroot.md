@@ -19,7 +19,7 @@ grand_parent: 微調
 
 | 應用工具 |
 | --- |
-| [wallpaper-select-hsetroot](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-hsetroot) |
+| [wallpaper-select-hsetroot](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-hsetroot.html) |
 | [opset-wallpaper-hsetroot](https://samwhelp.github.io/note-about-wallpaper/read/project/opset-wallpaper/opset-wallpaper-hsetroot.html) |
 
 ## 查詢
