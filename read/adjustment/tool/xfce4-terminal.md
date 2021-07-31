@@ -80,6 +80,12 @@ install -Dm644 dracula-xfce4-terminal/Dracula.theme ~/.local/share/xfce4/termina
 ```
 
 
+### gruvbox
+
+* [xfce4-terminal-colorschemes](https://github.com/vifo/xfce4-terminal-colorschemes)
+* [base16-xfce4-terminal](https://github.com/afq984/base16-xfce4-terminal)
+
+
 ## 按鍵綁定
 
 ### 視窗
