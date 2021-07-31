@@ -24,7 +24,7 @@ fi
 
 
 	#https://en.wikipedia.org/wiki/Here_document
-local selected=$(fzf << EOF
+local selected="$(fzf << EOF
 default
 favorite
 theme_matcha_dark_aliz
@@ -40,12 +40,13 @@ wm_chandelier_ui_matcha_dark_aliz
 wm_pastel_dark_ui_honda_super_cub
 wm_pastel_dark_ui_matcha_dark_aliz
 wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz
+wm_rgaps_blend_nobuttons_ui_gruvbox
 wm_rgaps_blend_ui_matcha_dark_aliz
 wm_rgaps_line_nobuttons_ui_matcha_dark_aliz
 wm_rgaps_line_ui_honda_super_cub
 wm_rgaps_line_ui_matcha_dark_aliz
 EOF
-)
+)"
 
 
 echo

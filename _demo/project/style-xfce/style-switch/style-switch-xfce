@@ -554,7 +554,7 @@ fi
 
 
 	#https://en.wikipedia.org/wiki/Here_document
-local selected=$(fzf << EOF
+local selected="$(fzf << EOF
 default
 favorite
 theme_matcha_dark_aliz
@@ -570,12 +570,13 @@ wm_chandelier_ui_matcha_dark_aliz
 wm_pastel_dark_ui_honda_super_cub
 wm_pastel_dark_ui_matcha_dark_aliz
 wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz
+wm_rgaps_blend_nobuttons_ui_gruvbox
 wm_rgaps_blend_ui_matcha_dark_aliz
 wm_rgaps_line_nobuttons_ui_matcha_dark_aliz
 wm_rgaps_line_ui_honda_super_cub
 wm_rgaps_line_ui_matcha_dark_aliz
 EOF
-)
+)"
 
 
 echo
@@ -790,7 +791,7 @@ theme_klaus_config_ui_theme () {
 
 theme_klaus_config_icon_theme () {
 
-	sys_xfce_set_icon_theme 'Papirus-Dark'
+	sys_xfce_set_icon_theme 'Gruvbox-Material-Dark'
 
 }
 
@@ -1628,6 +1629,58 @@ wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz () {
 
 
 ################################################################################
+### Head: Model wm_rgaps_blend_nobuttons_ui_gruvbox
+##
+
+##
+## wm_theme: RGapsBlendNoButtons
+## ui_theme: Gruvbox
+## icon_theme: Gruvbox-Dark
+## cursor_theme: xcursor-breeze 24
+##
+
+wm_rgaps_blend_nobuttons_ui_gruvbox_config_wm_theme () {
+
+	sys_xfce_set_wm_theme 'RGapsBlendNoButtons'
+
+}
+
+wm_rgaps_blend_nobuttons_ui_gruvbox_config_ui_theme () {
+
+	sys_xfce_set_ui_theme 'Gruvbox'
+
+}
+
+wm_rgaps_blend_nobuttons_ui_gruvbox_config_icon_theme () {
+
+	sys_xfce_set_icon_theme 'Gruvbox-Dark'
+
+}
+
+wm_rgaps_blend_nobuttons_ui_gruvbox_config_cursor_theme () {
+
+	sys_xfce_set_cursor_theme_default
+
+}
+
+wm_rgaps_blend_nobuttons_ui_gruvbox () {
+	#echo "wm_rgaps_blend_nobuttons_ui_gruvbox"
+	#echo "$@"
+
+
+	wm_rgaps_blend_nobuttons_ui_gruvbox_config_wm_theme
+	wm_rgaps_blend_nobuttons_ui_gruvbox_config_ui_theme
+	wm_rgaps_blend_nobuttons_ui_gruvbox_config_icon_theme
+	wm_rgaps_blend_nobuttons_ui_gruvbox_config_cursor_theme
+
+}
+
+##
+### Tail: Model wm_rgaps_blend_nobuttons_ui_gruvbox
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -1798,6 +1851,12 @@ sub_run_wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz () {
 	wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz "$@"
 }
 
+
+sub_run_wm_rgaps_blend_nobuttons_ui_gruvbox () {
+	#echo "sub_run_wm_rgaps_blend_nobuttons_ui_gruvbox"
+	wm_rgaps_blend_nobuttons_ui_gruvbox "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1887,6 +1946,15 @@ Example:
 		$ $cmd_name wm_rgaps_blend_ui_matcha_dark_aliz
 
 		$ $cmd_name wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz
+
+		$ $cmd_name wm_rgaps_blend_nobuttons_ui_gruvbox
+
+		##
+		## wm_theme: RGapsBlendNoButtons
+		## ui_theme: Gruvbox
+		## icon_theme: Gruvbox-Dark
+		## cursor_theme: xcursor-breeze 24
+		##
 
 
 Debug:
