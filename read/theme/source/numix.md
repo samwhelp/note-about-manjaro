@@ -1,6 +1,6 @@
 ---
 title: numix
-nav_order: 2700
+nav_order: 2704
 has_children: false
 parent: theme-source
 grand_parent: 佈景主題
