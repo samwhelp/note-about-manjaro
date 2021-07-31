@@ -2,6 +2,7 @@
 <?php include_once(__DIR__ . '/fzf/Action.sh'); ?>
 <?php include_once(__DIR__ . '/favorite/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_dracula/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_gruvbox/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_gruvbox_dark/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_gruvbox_material_dark/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_klaus/Action.sh'); ?>

@@ -30,6 +30,12 @@ favorite
 theme_matcha_dark_aliz
 theme_matcha_dark_azul
 theme_matcha_dark_sea
+theme_dracula
+theme_gruvbox
+theme_gruvbox_dark
+theme_gruvbox_material_dark
+theme_klaus
+theme_nordic
 theme_numix
 theme_numix_blue
 theme_obsidian_2_gray

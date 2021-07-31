@@ -2,6 +2,7 @@
 <?php include_once(__DIR__ . '/Section/Model/fzf/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/favorite/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_dracula/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_gruvbox/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_gruvbox_dark/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_gruvbox_material_dark/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_klaus/Core.sh'); ?>
