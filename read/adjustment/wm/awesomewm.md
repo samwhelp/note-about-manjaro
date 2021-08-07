@@ -15,4 +15,4 @@ grand_parent: 微調
 * [https://awesomewm.org/](https://awesomewm.org/)
 * GitHub / awesomeWM / [awesome](https://github.com/awesomeWM/awesome)
 * Arch Wiki / [awesome](https://wiki.archlinux.org/title/awesome)
-* [awesome 探索筆記](https://samwhelp.github.io/note-about-awesome-wm/)
+* [awesome 探索筆記](https://samwhelp.github.io/note-about-awesomewm/)

@@ -10,10 +10,10 @@ parent: 專案
 
 ## Link
 
-* [awesomewmrc-profile](https://samwhelp.github.io/note-about-awesome-wm/read/project/awesomewmrc-profile/)
+* [awesomewmrc-profile](https://samwhelp.github.io/note-about-awesomewm/read/project/awesomewmrc-profile/)
 
 
 ## Tool
 
-* [awesomewmrc-get](https://samwhelp.github.io/note-about-awesome-wm/read/project/awesomewmrc-profile/awesomewmrc-get)
-* [awesomewmrc-ctrl](https://samwhelp.github.io/note-about-awesome-wm/read/project/awesomewmrc-profile/awesomewmrc-ctrl)
+* [awesomewmrc-get](https://samwhelp.github.io/note-about-awesomewm/read/project/awesomewmrc-profile/awesomewmrc-get)
+* [awesomewmrc-ctrl](https://samwhelp.github.io/note-about-awesomewm/read/project/awesomewmrc-profile/awesomewmrc-ctrl)
