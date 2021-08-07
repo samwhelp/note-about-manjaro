@@ -67,6 +67,7 @@
 | [wm-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/theme/wm-theme.html) |
 | [icon-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/icon/icon-theme.html) |
 | [cursor-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/icon/cursor-theme.html) |
+| [grub-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/grub-theme.html) |
 
 
 ### 桌面環境
