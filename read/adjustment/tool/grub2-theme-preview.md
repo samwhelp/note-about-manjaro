@@ -11,6 +11,7 @@ grand_parent: 微調
 
 ## Link
 
+* Hartwork Blog / [Tool to preview Grub2 themes easily (using KVM)](https://blog.hartwork.org/posts/tool-to-preview-grub2-themes-using-kvm/)
 * GitHub / [grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview)
 * AUR / [grub2-theme-preview](https://aur.archlinux.org/packages/grub2-theme-preview)
 
@@ -64,4 +65,17 @@ Votes                 : 14
 
 ``` sh
 pamac build grub2-theme-preview
+```
+
+
+## 執行範例
+
+假設已經安裝「[Dracula](https://github.com/zshzero/dracula-grub2/)」這個「[GRUB佈景主題](https://samwhelp.github.io/note-about-grub/read/howto/use_theme.html)」，
+
+放在「/boot/grub/themes/dracula」這個路徑。
+
+執行下面指令來預覽
+
+```
+grub2-theme-preview /boot/grub/themes/dracula
 ```
