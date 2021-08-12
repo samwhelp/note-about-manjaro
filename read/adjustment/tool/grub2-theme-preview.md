@@ -79,3 +79,25 @@ pamac build grub2-theme-preview
 ```
 grub2-theme-preview /boot/grub/themes/dracula
 ```
+
+
+## 額外一提
+
+在「[動手學 grub](https://www.cyut.edu.tw/~ckhung/b/sa/grub.php)」這篇文章
+
+看到一個測試指令
+
+``` sh
+qemu -usb /dev/sdz
+```
+
+
+假設「grub」安裝在「/dev/sdb」，
+
+我在「Manjaro」環境，使用「man [qemu](https://man.archlinux.org/man/qemu.1)」查詢的結果，
+
+則是要改執行下面指令
+
+``` sh
+sudo qemu-system-x86_64 /dev/sdb
+```
