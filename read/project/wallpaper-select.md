@@ -16,3 +16,7 @@ parent: 專案
 ## Tool
 
 * [wallpaper-select-feh](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-feh)
+* [wallpaper-select-hsetroot](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-hsetroot)
+* [wallpaper-select-xwallpaper](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-xwallpaper)
+* [wallpaper-select-xfce](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-xfce)
+* [wallpaper-select-gnome](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-gnome)

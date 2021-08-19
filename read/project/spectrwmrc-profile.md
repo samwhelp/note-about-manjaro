@@ -1,6 +1,6 @@
 ---
 title: spectrwmrc-profile
-nav_order: 8022
+nav_order: 8025
 has_children: false
 parent: 專案
 ---
