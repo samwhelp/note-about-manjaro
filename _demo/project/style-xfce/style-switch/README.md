@@ -62,5 +62,5 @@ style-switch-xfce fzf
 
 ## GUI Tool
 
-* xfce4-appearance-settings
-* xfwm4-settings
+* [xfce4-appearance-settings](https://docs.xfce.org/xfce/xfce4-settings/appearance)
+* [xfwm4-settings](https://docs.xfce.org/xfce/xfwm4/preferences)
