@@ -1,7 +1,7 @@
 
 ## Style Theme
 
-* [style-switch-xfce](../style-switch-xfce)
+* [style-switch-xfce](../style-switch)
 
 | Style | Command |
 | --- | --- |
