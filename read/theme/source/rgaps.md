@@ -55,14 +55,38 @@ style-ctrl-xfce wm_theme RGapsBlendNoButtons
 
 另外我有搭配一些組合，所以可以採用「[style-switch-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-switch-xfce.html)」。
 
-可以執行
+有幾個組合可以執行
 
 ``` sh
 style-switch-xfce wm_rgaps_blend_nobuttons_ui_gruvbox
 ```
 
-可以執行
+執行
+
+``` sh
+style-switch-xfce wm_rgaps_blend_nobuttons_ui_dracula
+```
+
+執行
+
+``` sh
+style-switch-xfce wm_rgaps_blend_nobuttons_ui_nordic
+```
+
+執行
 
 ``` sh
 style-switch-xfce wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz
+```
+
+執行
+
+``` sh
+style-switch-xfce wm_rgaps_blend_nobuttons_ui_obsidian_2_gray
+```
+
+執行
+
+``` sh
+style-switch-xfce wm_rgaps_blend_nobuttons_ui_shades_of_gray
 ```

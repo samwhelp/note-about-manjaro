@@ -21,5 +21,9 @@
 <?php include_once(__DIR__ . '/wm_rgaps_line_ui_matcha_dark_aliz/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/wm_rgaps_line_nobuttons_ui_matcha_dark_aliz/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/wm_rgaps_blend_ui_matcha_dark_aliz/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/wm_rgaps_blend_nobuttons_ui_obsidian_2_gray/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/wm_rgaps_blend_nobuttons_ui_shades_of_gray/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/wm_rgaps_blend_nobuttons_ui_matcha_dark_aliz/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/wm_rgaps_blend_nobuttons_ui_nordic/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/wm_rgaps_blend_nobuttons_ui_dracula/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/wm_rgaps_blend_nobuttons_ui_gruvbox/Usage.sh'); ?>
