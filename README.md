@@ -105,6 +105,10 @@
 | [style-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce.html) |
 | [vimrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/vimrc-profile.html) |
 | [wallpaper-select](https://samwhelp.github.io/note-about-manjaro/read/project/wallpaper-select.html) |
+| [grubrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/grubrc-profile.html) |
+| [herbstluftwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/herbstluftwmrc-profile.html) |
+| [bstwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/bstwmrc-profile.html) |
+| [i3wmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/i3wmrc-profile.html) |
 | [awesomewmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/awesomewmrc-profile.html) |
 | [leftwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/leftwmrc-profile.html) |
 | [spectrwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/spectrwmrc-profile.html) |
