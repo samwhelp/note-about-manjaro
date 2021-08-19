@@ -1,6 +1,6 @@
 ---
 title: bspwmrc-profile
-nav_order: 8020
+nav_order: 8021
 has_children: false
 parent: 專案
 ---
