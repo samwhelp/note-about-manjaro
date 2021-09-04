@@ -10,7 +10,7 @@
 
 ## Note
 
-* note-ubuntu-20.04 / [xfce](https://samwhelp.github.io/note-ubuntu-20.04/read/subject/xfce/)
+* note-about-manjaro / [xfce](https://samwhelp.github.io/note-about-manjaro/read/adjustment/full/xfce.html)
 
 
 ## Develop Tool

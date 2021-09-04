@@ -44,7 +44,8 @@ main_package_find_list_raw () {
 main_package_install () {
 	# sudo pamac install $(cat package-list.txt)
 	# sudo pamac install $(main_package_find_list_raw)
-	sudo pamac install $(main_package_find_list)
+	#sudo pamac install $(main_package_find_list)
+	pamac install $(main_package_find_list)
 }
 
 main_package_install

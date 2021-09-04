@@ -166,6 +166,24 @@ rofi_put_app_desktop_entry () {
 
 
 ################################################################################
+### Head: xfce4_terminal
+##
+xfce4_terminal_config_install () {
+
+	echo "mkdir -p $HOME/.config/xfce4/terminal"
+	mkdir -p "$HOME/.config/xfce4/terminal"
+
+	echo "cp ./config/xfce4-terminal/terminalrc $HOME/.config/xfce4/terminal/terminalrc"
+	cp "./config/xfce4-terminal/terminalrc" "$HOME/.config/xfce4/terminal/terminalrc"
+
+}
+
+##
+### Tail: xfce4_terminal
+################################################################################
+
+
+################################################################################
 ### Head: sakura
 ##
 sakura_config_install () {
@@ -178,7 +196,7 @@ sakura_config_install () {
 	echo "cp ./config/sakura/sakura.conf $HOME/.config/sakura/sakura.conf"
 	cp "./config/sakura/sakura.conf" "$HOME/.config/sakura/sakura.conf"
 
-	sakura_put_my_desktop_entry
+	#sakura_put_my_desktop_entry
 
 }
 
@@ -310,6 +328,8 @@ main_config_install () {
 	pcmanfm_qt_config_install
 
 	rofi_config_install
+
+	xfce4_terminal_config_install
 
 	sakura_config_install
 

@@ -18,7 +18,7 @@ sakura_config_install () {
 	echo "cp ./config/sakura/sakura.conf $HOME/.config/sakura/sakura.conf"
 	cp "./config/sakura/sakura.conf" "$HOME/.config/sakura/sakura.conf"
 
-	sakura_put_my_desktop_entry
+	#sakura_put_my_desktop_entry
 
 }
 
