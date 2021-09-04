@@ -1,5 +1,5 @@
 ---
-title: Herbstluftwm
+title: herbstluftwm
 nav_order: 4014
 has_children: false
 parent: 桌面環境微調
@@ -7,7 +7,7 @@ grand_parent: 微調
 ---
 
 
-# Herbstluftwm
+# herbstluftwm
 
 
 ## 相關連結
