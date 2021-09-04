@@ -86,6 +86,8 @@
 			<property name="&lt;Primary&gt;&lt;Alt&gt;x" type="string" value="xkill"/>
 			<property name="&lt;Primary&gt;&lt;Alt&gt;m" type="string" value="xfce4-taskmanager"/>
 			<property name="XF86Calculator" type="string" value="galculator"/>
+			<property name="&lt;Alt&gt;w" type="string" value="wallpaper-select-xfce default"/>
+			<property name="&lt;Primary&gt;&lt;Alt&gt;w" type="string" value="wallpaper-select-xfce default"/>
 		</property>
 	</property>
 	<property name="xfwm4" type="empty">
