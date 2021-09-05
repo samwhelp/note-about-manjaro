@@ -139,8 +139,8 @@ rofi_config_install () {
 	mkdir -p "$HOME/.config/rofi"
 
 
-	echo "cp ./config/rofi/config $HOME/.config/rofi/config"
-	cp "./config/rofi/config" "$HOME/.config/rofi/config"
+	echo "cp ./config/rofi/config.rasi $HOME/.config/rofi/config.rasi"
+	cp "./config/rofi/config.rasi" "$HOME/.config/rofi/config.rasi"
 
 
 	rofi_put_app_desktop_entry
