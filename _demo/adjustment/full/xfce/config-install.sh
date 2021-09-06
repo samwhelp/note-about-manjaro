@@ -7,39 +7,43 @@ set -e
 ### Head: xfce4
 ##
 xfce4_config_install () {
-	mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
+
+	echo "## Config: xfce4"
+	echo
+
 	echo "mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml"
+	mkdir -p "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml"
 
-	cp ./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml
 	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml"
+	cp "./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml"
 
-	cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
+	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
 
-	cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
 
-	cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
+	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
 
-	cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
+	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
 
-	cp ./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
+	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
 
-
-	mkdir -p $HOME/.config/xfce4/panel
 	echo "mkdir -p $HOME/.config/xfce4/panel"
+	mkdir -p "$HOME/.config/xfce4/panel"
 
-	cp ./config/xfce4/panel/whiskermenu-1.rc $HOME/.config/xfce4/panel/whiskermenu-1.rc
 	echo "cp ./config/xfce4/panel/whiskermenu-1.rc $HOME/.config/xfce4/panel/whiskermenu-1.rc"
+	cp "./config/xfce4/panel/whiskermenu-1.rc" "$HOME/.config/xfce4/panel/whiskermenu-1.rc"
 
 
-	cp ./config/xfce4/helpers.rc $HOME/.config/xfce4/helpers.rc
 	echo "cp ./config/xfce4/helpers.rc $HOME/.config/xfce4/helpers.rc"
+	cp "./config/xfce4/helpers.rc" "$HOME/.config/xfce4/helpers.rc"
 
 
+	echo
 
 }
 ##
@@ -114,16 +118,43 @@ theme_config_install_cursor_theme () {
 
 
 ################################################################################
+### Head: thunar
+##
+thunar_config_install () {
+
+	echo "## Config: thunar"
+	echo
+
+	echo "mkdir -p $HOME/.config/Thunar"
+	mkdir -p "$HOME/.config/Thunar"
+
+
+	echo "cp ./config/thunar/uca.xml $HOME/.config/Thunar/uca.xml"
+	cp "./config/thunar/uca.xml" "$HOME/.config/Thunar/uca.xml"
+
+	echo
+}
+##
+### Tail: thunar
+################################################################################
+
+
+################################################################################
 ### Head: pcmanfm-qt
 ##
 pcmanfm_qt_config_install () {
 
-	mkdir -p "$HOME/.config/pcmanfm-qt/default"
+	echo "## Config: pcmanfm-qt"
+	echo
+
 	echo "mkdir -p $HOME/.config/pcmanfm-qt/default"
+	mkdir -p "$HOME/.config/pcmanfm-qt/default"
 
-	cp ./config/pcmanfm-qt/default/settings.conf "$HOME/.config/pcmanfm-qt/default/settings.conf"
 	echo "cp ./config/pcmanfm-qt/default/settings.conf $HOME/.config/pcmanfm-qt/default/settings.conf"
+	cp "./config/pcmanfm-qt/default/settings.conf" "$HOME/.config/pcmanfm-qt/default/settings.conf"
 
+
+	echo
 }
 ##
 ### Tail: pcmanfm-qt
@@ -135,6 +166,10 @@ pcmanfm_qt_config_install () {
 ##
 rofi_config_install () {
 
+
+	echo "## Config: rofi"
+	echo
+
 	echo "mkdir -p $HOME/.config/rofi"
 	mkdir -p "$HOME/.config/rofi"
 
@@ -144,20 +179,23 @@ rofi_config_install () {
 
 
 	rofi_put_app_desktop_entry
+
+	echo
 }
 
 rofi_put_app_desktop_entry () {
-	mkdir -p "$HOME/.local/share/applications"
+
 	echo "mkdir -p $HOME/.local/share/applications"
+	mkdir -p "$HOME/.local/share/applications"
 
-	cp "./config/rofi/rofi-show-drun.desktop" "$HOME/.local/share/applications/rofi-show-drun.desktop"
 	echo "cp ./config/rofi/rofi-show-drun.desktop $HOME/.local/share/applications/rofi-show-drun.desktop"
+	cp "./config/rofi/rofi-show-drun.desktop" "$HOME/.local/share/applications/rofi-show-drun.desktop"
 
-	cp "./config/rofi/rofi-show-run.desktop" "$HOME/.local/share/applications/rofi-show-run.desktop"
 	echo "cp ./config/rofi/rofi-show-run.desktop $HOME/.local/share/applications/rofi-show-run.desktop"
+	cp "./config/rofi/rofi-show-run.desktop" "$HOME/.local/share/applications/rofi-show-run.desktop"
 
-	cp "./config/rofi/rofi-show-window.desktop" "$HOME/.local/share/applications/rofi-show-window.desktop"
 	echo "cp ./config/rofi/rofi-show-window.desktop $HOME/.local/share/applications/rofi-show-window.desktop"
+	cp "./config/rofi/rofi-show-window.desktop" "$HOME/.local/share/applications/rofi-show-window.desktop"
 
 }
 ##
@@ -166,9 +204,12 @@ rofi_put_app_desktop_entry () {
 
 
 ################################################################################
-### Head: xfce4_terminal
+### Head: xfce4-terminal
 ##
 xfce4_terminal_config_install () {
+
+	echo "## Config: xfce4-terminal"
+	echo
 
 	echo "mkdir -p $HOME/.config/xfce4/terminal"
 	mkdir -p "$HOME/.config/xfce4/terminal"
@@ -176,10 +217,10 @@ xfce4_terminal_config_install () {
 	echo "cp ./config/xfce4-terminal/terminalrc $HOME/.config/xfce4/terminal/terminalrc"
 	cp "./config/xfce4-terminal/terminalrc" "$HOME/.config/xfce4/terminal/terminalrc"
 
+	echo
 }
-
 ##
-### Tail: xfce4_terminal
+### Tail: xfce4-terminal
 ################################################################################
 
 
@@ -188,7 +229,9 @@ xfce4_terminal_config_install () {
 ##
 sakura_config_install () {
 
+	echo "## Config: sakura"
 	echo
+
 	echo "mkdir -p $HOME/.config/sakura"
 	mkdir -p "$HOME/.config/sakura"
 
@@ -198,6 +241,7 @@ sakura_config_install () {
 
 	#sakura_put_my_desktop_entry
 
+	echo
 }
 
 sakura_put_my_desktop_entry () {
@@ -223,17 +267,20 @@ sakura_put_my_desktop_entry () {
 ##
 fcitx_config_install () {
 
+	echo "## Config: fcitx"
 	echo
+
+
 	echo "mkdir -p $HOME/.config/fcitx/conf"
-	mkdir -p $HOME/.config/fcitx/conf
+	mkdir -p "$HOME/.config/fcitx/conf"
 
 
-	echo "install -m 644 ./config/fcitx/profile $HOME/.config/fcitx/profile"
-	install -m 644 ./config/fcitx/profile $HOME/.config/fcitx/profile
+	echo "install -Dm644 ./config/fcitx/profile $HOME/.config/fcitx/profile"
+	install -Dm644 "./config/fcitx/profile" "$HOME/.config/fcitx/profile"
 
 
-	echo "install -m 644 ./config/fcitx/conf/fcitx-classic-ui.config $HOME/.config/fcitx/conf/fcitx-classic-ui.config"
-	install -m 644 ./config/fcitx/conf/fcitx-classic-ui.config $HOME/.config/fcitx/conf/fcitx-classic-ui.config
+	echo "install -Dm644 ./config/fcitx/conf/fcitx-classic-ui.config $HOME/.config/fcitx/conf/fcitx-classic-ui.config"
+	install -Dm644 "./config/fcitx/conf/fcitx-classic-ui.config" "$HOME/.config/fcitx/conf/fcitx-classic-ui.config"
 
 
 	fcitx_config_install_im_config
@@ -244,8 +291,8 @@ fcitx_config_install () {
 
 fcitx_config_install_im_config () {
 
-	echo "install -m 644 ./config/fcitx/.pam_environment $HOME/.pam_environment"
-	install -m 644 ./config/fcitx/.pam_environment $HOME/.pam_environment
+	echo "install -Dm644 ./config/fcitx/.pam_environment $HOME/.pam_environment"
+	install -Dm644 "./config/fcitx/.pam_environment" "$HOME/.pam_environment"
 
 }
 ##
@@ -262,11 +309,11 @@ qt5ct_config_install () {
 	echo
 
 	echo "mkdir -p $HOME/.config/qt5ct"
-	mkdir -p $HOME/.config/qt5ct
+	mkdir -p "$HOME/.config/qt5ct"
 
 
-	echo "install -m 644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf"
-	install -m 644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf
+	echo "install -Dm644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf"
+	install -Dm644 "./config/qt5ct/qt5ct.conf" "$HOME/.config/qt5ct/qt5ct.conf"
 
 	echo
 
@@ -285,11 +332,11 @@ gtk3_config_install () {
 	echo
 
 	echo "mkdir -p $HOME/.config/gtk-3.0"
-	mkdir -p $HOME/.config/gtk-3.0
+	mkdir -p "$HOME/.config/gtk-3.0"
 
 
-	echo "install -m 644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini"
-	install -m 644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini
+	echo "install -Dm644 ./config/gtk3/settings.ini $HOME/.config/gtk-3.0/settings.ini"
+	install -Dm644 "./config/gtk3/settings.ini" "$HOME/.config/gtk-3.0/settings.ini"
 
 	echo
 
@@ -307,8 +354,8 @@ gtk2_config_install () {
 	echo "## Config: gtk2"
 	echo
 
-	echo "install -m 644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0"
-	install -m 644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0
+	echo "install -Dm644 ./config/gtk2/.gtkrc-2.0 $HOME/.gtkrc-2.0"
+	install -Dm644 "./config/gtk2/.gtkrc-2.0" "$HOME/.gtkrc-2.0"
 
 	echo
 }
@@ -324,6 +371,8 @@ main_config_install () {
 	xfce4_config_install
 
 	#theme_config_install
+
+	thunar_config_install
 
 	pcmanfm_qt_config_install
 

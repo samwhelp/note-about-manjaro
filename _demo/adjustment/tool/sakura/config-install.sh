@@ -20,6 +20,7 @@ sakura_config_install () {
 
 	#sakura_put_my_desktop_entry
 
+	echo
 }
 
 sakura_put_my_desktop_entry () {

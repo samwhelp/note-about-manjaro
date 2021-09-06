@@ -12,11 +12,11 @@ qt5ct_config_install () {
 	echo
 
 	echo "mkdir -p $HOME/.config/qt5ct"
-	mkdir -p $HOME/.config/qt5ct
+	mkdir -p "$HOME/.config/qt5ct"
 
 
-	echo "install -m 644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf"
-	install -m 644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf
+	echo "install -Dm644 ./config/qt5ct/qt5ct.conf $HOME/.config/qt5ct/qt5ct.conf"
+	install -Dm644 "./config/qt5ct/qt5ct.conf" "$HOME/.config/qt5ct/qt5ct.conf"
 
 	echo
 
