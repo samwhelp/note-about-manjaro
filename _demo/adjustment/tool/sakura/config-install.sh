@@ -15,8 +15,8 @@ sakura_config_install () {
 	mkdir -p "$HOME/.config/sakura"
 
 
-	echo "cp ./config/sakura/sakura.conf $HOME/.config/sakura/sakura.conf"
-	cp "./config/sakura/sakura.conf" "$HOME/.config/sakura/sakura.conf"
+	echo "install -Dm644 ./config/sakura/sakura.conf $HOME/.config/sakura/sakura.conf"
+	install -Dm644 "./config/sakura/sakura.conf" "$HOME/.config/sakura/sakura.conf"
 
 	#sakura_put_my_desktop_entry
 
@@ -29,8 +29,8 @@ sakura_put_my_desktop_entry () {
 	echo "mkdir -p $HOME/.local/share/applications"
 	mkdir -p "$HOME/.local/share/applications"
 
-	echo "cp /usr/share/applications/sakura.desktop $HOME/.local/share/applications/sakura.desktop"
-	cp "/usr/share/applications/sakura.desktop" "$HOME/.local/share/applications/sakura.desktop"
+	echo "install -Dm644 /usr/share/applications/sakura.desktop $HOME/.local/share/applications/sakura.desktop"
+	install -Dm644 "/usr/share/applications/sakura.desktop" "$HOME/.local/share/applications/sakura.desktop"
 
 	echo "sed -i 's/^Exec=sakura/Exec=sakura -m/g' $HOME/.local/share/applications/sakura.desktop"
 	sed -i 's/^Exec=sakura/Exec=sakura -m/g' "$HOME/.local/share/applications/sakura.desktop"

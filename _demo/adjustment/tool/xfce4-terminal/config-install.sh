@@ -14,8 +14,8 @@ xfce4_terminal_config_install () {
 	echo "mkdir -p $HOME/.config/xfce4/terminal"
 	mkdir -p "$HOME/.config/xfce4/terminal"
 
-	echo "cp ./config/xfce4-terminal/terminalrc $HOME/.config/xfce4/terminal/terminalrc"
-	cp "./config/xfce4-terminal/terminalrc" "$HOME/.config/xfce4/terminal/terminalrc"
+	echo "install -Dm644 ./config/xfce4-terminal/terminalrc $HOME/.config/xfce4/terminal/terminalrc"
+	install -Dm644 "./config/xfce4-terminal/terminalrc" "$HOME/.config/xfce4/terminal/terminalrc"
 
 	echo
 }

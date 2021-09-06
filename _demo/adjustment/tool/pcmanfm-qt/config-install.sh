@@ -14,8 +14,8 @@ pcmanfm_qt_config_install () {
 	echo "mkdir -p $HOME/.config/pcmanfm-qt/default"
 	mkdir -p "$HOME/.config/pcmanfm-qt/default"
 
-	echo "cp ./config/pcmanfm-qt/default/settings.conf $HOME/.config/pcmanfm-qt/default/settings.conf"
-	cp "./config/pcmanfm-qt/default/settings.conf" "$HOME/.config/pcmanfm-qt/default/settings.conf"
+	echo "install -Dm644 ./config/pcmanfm-qt/default/settings.conf $HOME/.config/pcmanfm-qt/default/settings.conf"
+	install -Dm644 "./config/pcmanfm-qt/default/settings.conf" "$HOME/.config/pcmanfm-qt/default/settings.conf"
 
 
 	echo

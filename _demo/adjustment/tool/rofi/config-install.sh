@@ -16,8 +16,8 @@ rofi_config_install () {
 	mkdir -p "$HOME/.config/rofi"
 
 
-	echo "cp ./config/rofi/config.rasi $HOME/.config/rofi/config.rasi"
-	cp "./config/rofi/config.rasi" "$HOME/.config/rofi/config.rasi"
+	echo "install -Dm644 ./config/rofi/config.rasi $HOME/.config/rofi/config.rasi"
+	install -Dm644 "./config/rofi/config.rasi" "$HOME/.config/rofi/config.rasi"
 
 
 	rofi_put_app_desktop_entry
@@ -30,14 +30,14 @@ rofi_put_app_desktop_entry () {
 	echo "mkdir -p $HOME/.local/share/applications"
 	mkdir -p "$HOME/.local/share/applications"
 
-	echo "cp ./config/rofi/rofi-show-drun.desktop $HOME/.local/share/applications/rofi-show-drun.desktop"
-	cp "./config/rofi/rofi-show-drun.desktop" "$HOME/.local/share/applications/rofi-show-drun.desktop"
+	echo "install -Dm644 ./config/rofi/rofi-show-drun.desktop $HOME/.local/share/applications/rofi-show-drun.desktop"
+	install -Dm644 "./config/rofi/rofi-show-drun.desktop" "$HOME/.local/share/applications/rofi-show-drun.desktop"
 
-	echo "cp ./config/rofi/rofi-show-run.desktop $HOME/.local/share/applications/rofi-show-run.desktop"
-	cp "./config/rofi/rofi-show-run.desktop" "$HOME/.local/share/applications/rofi-show-run.desktop"
+	echo "install -Dm644 ./config/rofi/rofi-show-run.desktop $HOME/.local/share/applications/rofi-show-run.desktop"
+	install -Dm644 "./config/rofi/rofi-show-run.desktop" "$HOME/.local/share/applications/rofi-show-run.desktop"
 
-	echo "cp ./config/rofi/rofi-show-window.desktop $HOME/.local/share/applications/rofi-show-window.desktop"
-	cp "./config/rofi/rofi-show-window.desktop" "$HOME/.local/share/applications/rofi-show-window.desktop"
+	echo "install -Dm644 ./config/rofi/rofi-show-window.desktop $HOME/.local/share/applications/rofi-show-window.desktop"
+	install -Dm644 "./config/rofi/rofi-show-window.desktop" "$HOME/.local/share/applications/rofi-show-window.desktop"
 
 }
 ##

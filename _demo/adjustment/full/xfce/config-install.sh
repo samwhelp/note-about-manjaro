@@ -14,33 +14,33 @@ xfce4_config_install () {
 	echo "mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml"
 	mkdir -p "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml"
 
-	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml"
-	cp "./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml"
+	echo "install -Dm644 ./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml"
+	install -Dm644 "./config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml"
 
-	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
-	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
+	echo "install -Dm644 ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
+	install -Dm644 "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
 
-	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
-	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+	echo "install -Dm644 ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+	install -Dm644 "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
 
-	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
-	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
+	echo "install -Dm644 ./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
+	install -Dm644 "./config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml"
 
-	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
-	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
+	echo "install -Dm644 ./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
+	install -Dm644 "./config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
 
-	echo "cp ./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
-	cp "./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
+	echo "install -Dm644 ./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
+	install -Dm644 "./config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
 
 	echo "mkdir -p $HOME/.config/xfce4/panel"
 	mkdir -p "$HOME/.config/xfce4/panel"
 
-	echo "cp ./config/xfce4/panel/whiskermenu-1.rc $HOME/.config/xfce4/panel/whiskermenu-1.rc"
-	cp "./config/xfce4/panel/whiskermenu-1.rc" "$HOME/.config/xfce4/panel/whiskermenu-1.rc"
+	echo "install -Dm644 ./config/xfce4/panel/whiskermenu-1.rc $HOME/.config/xfce4/panel/whiskermenu-1.rc"
+	install -Dm644 "./config/xfce4/panel/whiskermenu-1.rc" "$HOME/.config/xfce4/panel/whiskermenu-1.rc"
 
 
-	echo "cp ./config/xfce4/helpers.rc $HOME/.config/xfce4/helpers.rc"
-	cp "./config/xfce4/helpers.rc" "$HOME/.config/xfce4/helpers.rc"
+	echo "install -Dm644 ./config/xfce4/helpers.rc $HOME/.config/xfce4/helpers.rc"
+	install -Dm644 "./config/xfce4/helpers.rc" "$HOME/.config/xfce4/helpers.rc"
 
 
 	echo
@@ -129,8 +129,8 @@ thunar_config_install () {
 	mkdir -p "$HOME/.config/Thunar"
 
 
-	echo "cp ./config/thunar/uca.xml $HOME/.config/Thunar/uca.xml"
-	cp "./config/thunar/uca.xml" "$HOME/.config/Thunar/uca.xml"
+	echo "install -Dm644 ./config/thunar/uca.xml $HOME/.config/Thunar/uca.xml"
+	install -Dm644 "./config/thunar/uca.xml" "$HOME/.config/Thunar/uca.xml"
 
 	echo
 }
@@ -150,8 +150,8 @@ pcmanfm_qt_config_install () {
 	echo "mkdir -p $HOME/.config/pcmanfm-qt/default"
 	mkdir -p "$HOME/.config/pcmanfm-qt/default"
 
-	echo "cp ./config/pcmanfm-qt/default/settings.conf $HOME/.config/pcmanfm-qt/default/settings.conf"
-	cp "./config/pcmanfm-qt/default/settings.conf" "$HOME/.config/pcmanfm-qt/default/settings.conf"
+	echo "install -Dm644 ./config/pcmanfm-qt/default/settings.conf $HOME/.config/pcmanfm-qt/default/settings.conf"
+	install -Dm644 "./config/pcmanfm-qt/default/settings.conf" "$HOME/.config/pcmanfm-qt/default/settings.conf"
 
 
 	echo
@@ -174,8 +174,8 @@ rofi_config_install () {
 	mkdir -p "$HOME/.config/rofi"
 
 
-	echo "cp ./config/rofi/config.rasi $HOME/.config/rofi/config.rasi"
-	cp "./config/rofi/config.rasi" "$HOME/.config/rofi/config.rasi"
+	echo "install -Dm644 ./config/rofi/config.rasi $HOME/.config/rofi/config.rasi"
+	install -Dm644 "./config/rofi/config.rasi" "$HOME/.config/rofi/config.rasi"
 
 
 	rofi_put_app_desktop_entry
@@ -188,14 +188,14 @@ rofi_put_app_desktop_entry () {
 	echo "mkdir -p $HOME/.local/share/applications"
 	mkdir -p "$HOME/.local/share/applications"
 
-	echo "cp ./config/rofi/rofi-show-drun.desktop $HOME/.local/share/applications/rofi-show-drun.desktop"
-	cp "./config/rofi/rofi-show-drun.desktop" "$HOME/.local/share/applications/rofi-show-drun.desktop"
+	echo "install -Dm644 ./config/rofi/rofi-show-drun.desktop $HOME/.local/share/applications/rofi-show-drun.desktop"
+	install -Dm644 "./config/rofi/rofi-show-drun.desktop" "$HOME/.local/share/applications/rofi-show-drun.desktop"
 
-	echo "cp ./config/rofi/rofi-show-run.desktop $HOME/.local/share/applications/rofi-show-run.desktop"
-	cp "./config/rofi/rofi-show-run.desktop" "$HOME/.local/share/applications/rofi-show-run.desktop"
+	echo "install -Dm644 ./config/rofi/rofi-show-run.desktop $HOME/.local/share/applications/rofi-show-run.desktop"
+	install -Dm644 "./config/rofi/rofi-show-run.desktop" "$HOME/.local/share/applications/rofi-show-run.desktop"
 
-	echo "cp ./config/rofi/rofi-show-window.desktop $HOME/.local/share/applications/rofi-show-window.desktop"
-	cp "./config/rofi/rofi-show-window.desktop" "$HOME/.local/share/applications/rofi-show-window.desktop"
+	echo "install -Dm644 ./config/rofi/rofi-show-window.desktop $HOME/.local/share/applications/rofi-show-window.desktop"
+	install -Dm644 "./config/rofi/rofi-show-window.desktop" "$HOME/.local/share/applications/rofi-show-window.desktop"
 
 }
 ##
@@ -214,8 +214,8 @@ xfce4_terminal_config_install () {
 	echo "mkdir -p $HOME/.config/xfce4/terminal"
 	mkdir -p "$HOME/.config/xfce4/terminal"
 
-	echo "cp ./config/xfce4-terminal/terminalrc $HOME/.config/xfce4/terminal/terminalrc"
-	cp "./config/xfce4-terminal/terminalrc" "$HOME/.config/xfce4/terminal/terminalrc"
+	echo "install -Dm644 ./config/xfce4-terminal/terminalrc $HOME/.config/xfce4/terminal/terminalrc"
+	install -Dm644 "./config/xfce4-terminal/terminalrc" "$HOME/.config/xfce4/terminal/terminalrc"
 
 	echo
 }
@@ -236,8 +236,8 @@ sakura_config_install () {
 	mkdir -p "$HOME/.config/sakura"
 
 
-	echo "cp ./config/sakura/sakura.conf $HOME/.config/sakura/sakura.conf"
-	cp "./config/sakura/sakura.conf" "$HOME/.config/sakura/sakura.conf"
+	echo "install -Dm644 ./config/sakura/sakura.conf $HOME/.config/sakura/sakura.conf"
+	install -Dm644 "./config/sakura/sakura.conf" "$HOME/.config/sakura/sakura.conf"
 
 	#sakura_put_my_desktop_entry
 
@@ -250,8 +250,8 @@ sakura_put_my_desktop_entry () {
 	echo "mkdir -p $HOME/.local/share/applications"
 	mkdir -p "$HOME/.local/share/applications"
 
-	echo "cp /usr/share/applications/sakura.desktop $HOME/.local/share/applications/sakura.desktop"
-	cp "/usr/share/applications/sakura.desktop" "$HOME/.local/share/applications/sakura.desktop"
+	echo "install -Dm644 /usr/share/applications/sakura.desktop $HOME/.local/share/applications/sakura.desktop"
+	install -Dm644 "/usr/share/applications/sakura.desktop" "$HOME/.local/share/applications/sakura.desktop"
 
 	echo "sed -i 's/^Exec=sakura/Exec=sakura -m/g' $HOME/.local/share/applications/sakura.desktop"
 	sed -i 's/^Exec=sakura/Exec=sakura -m/g' "$HOME/.local/share/applications/sakura.desktop"
