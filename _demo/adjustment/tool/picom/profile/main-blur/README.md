@@ -14,6 +14,19 @@
 ## Note
 
 ```
+inactive-opacity = 0.6;
+```
+
+```
+frame-opacity = 0.9;
+```
+
+```
+active-opacity = 0.8;
+```
+
+
+```
 opacity-rule = [
   "100:class_g = 'Sakura' && focused",
   "60:class_g = 'Sakura' && !focused",
