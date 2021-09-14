@@ -4,7 +4,7 @@
 ## Path
 
 * /etc/xdg/picom.conf.example
-* ~/.config/picom/picom.conf
+* [~/.config/picom/picom.conf](picom.conf)
 
 ## Link
 
