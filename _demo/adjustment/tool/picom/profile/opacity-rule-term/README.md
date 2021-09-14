@@ -3,7 +3,7 @@
 
 ## Path
 
-* ~/.config/picom/picom.conf
+* [~/.config/picom/picom.conf](picom.conf)
 
 ## Link
 
