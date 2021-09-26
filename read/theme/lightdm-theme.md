@@ -90,6 +90,30 @@ greeter-session=lightdm-gtk-greeter
 greeter-session=lightdm-webkit2-greeter
 ```
 
+上面的動作，可以執行下面指令，直接修改
+
+``` sh
+sudo sed -i 's/^greeter-session=.*/greeter-session=lightdm-webkit2-greeter/g' /etc/lightdm/lightdm.conf
+```
+
+執行下面指令，確認是否有修改成功
+
+``` sh
+grep '^greeter-session' /etc/lightdm/lightdm.conf
+```
+
+顯示
+
+```
+greeter-session=lightdm-webkit2-greeter
+```
+
+若要改回「lightdm-gtk-greeter」，則是執行下面指令
+
+``` sh
+sudo sed -i 's/^greeter-session=.*/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf
+```
+
 
 ## lightdm-webkit2-theme
 
@@ -137,7 +161,7 @@ lightdm-webkit2-theme-alter                                                     
 | theme |
 | --- |
 | [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-glorious) |
-| [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-tty-git) |
+| [lightdm-webkit2-theme-tty-git](#lightdm-webkit2-theme-tty-git) |
 
 
 
@@ -205,6 +229,24 @@ debug_mode          = false
 
 ```
 debug_mode          = true
+```
+
+上面的動作，可以執行下面指令，直接修改
+
+``` sh
+sudo sed -i 's/^webkit_theme.*/webkit_theme=glorious/g' /etc/lightdm/lightdm-webkit2-greeter.conf
+```
+
+執行下面指令，確認是否有修改成功
+
+``` sh
+grep '^webkit_theme' /etc/lightdm/lightdm-webkit2-greeter.conf
+```
+
+顯示
+
+```
+webkit_theme=glorious
 ```
 
 
@@ -300,6 +342,25 @@ webkit_theme        = antergos
 
 ```
 webkit_theme        = tty
+```
+
+
+上面的動作，可以執行下面指令，直接修改
+
+``` sh
+sudo sed -i 's/^webkit_theme.*/webkit_theme=tty/g' /etc/lightdm/lightdm-webkit2-greeter.conf
+```
+
+執行下面指令，確認是否有修改成功
+
+``` sh
+grep '^webkit_theme' /etc/lightdm/lightdm-webkit2-greeter.conf
+```
+
+顯示
+
+```
+webkit_theme=tty
 ```
 
 執行下面指令，測試
