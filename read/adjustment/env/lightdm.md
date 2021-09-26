@@ -12,6 +12,7 @@ grand_parent: 微調
 ## 參考連結
 
 * Arch Wiki / [LightDM](https://wiki.archlinux.org/title/LightDM)
+* Manjaro Wiki / [LightDM](https://wiki.manjaro.org/index.php/Install_Display_Managers#LightDM)
 
 
 ## lightdm-gtk-greeter
