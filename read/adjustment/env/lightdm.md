@@ -9,6 +9,13 @@ grand_parent: 微調
 
 # lightdm 微調
 
+## 參考連結
+
+* Arch Wiki / [LightDM](https://wiki.archlinux.org/title/LightDM)
+
+
+## lightdm-gtk-greeter
+
 * [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/lightdm)
 
 
@@ -52,3 +59,8 @@ sudo cat /var/cache/lightdm/dmrc/$(id -un).dmrc
 Language=en_US.utf8
 Session=xfce
 ```
+
+
+## lightdm-webkit2-greeter
+
+若要更改採用「[lightdm-webkit2-greeter](https://archlinux.org/packages/community/x86_64/lightdm-webkit2-greeter/)」，請參考「[另一篇](https://samwhelp.github.io/note-about-manjaro/read/theme/lightdm-theme.html)」的說明。
