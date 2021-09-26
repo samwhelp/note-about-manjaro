@@ -249,6 +249,22 @@ grep '^webkit_theme' /etc/lightdm/lightdm-webkit2-greeter.conf
 webkit_theme=glorious
 ```
 
+``` sh
+sudo sed -i 's/^debug_mode.*/debug_mode=true/g' /etc/lightdm/lightdm-webkit2-greeter.conf
+```
+
+執行下面指令，確認是否有修改成功
+
+``` sh
+grep '^debug_mode' /etc/lightdm/lightdm-webkit2-greeter.conf
+```
+
+顯示
+
+```
+debug_mode=true
+```
+
 
 執行下面指令，測試
 
