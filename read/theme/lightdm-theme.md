@@ -12,6 +12,9 @@ parent: 佈景主題
 
 * Arch Wiki / [LightDM](https://wiki.archlinux.org/title/LightDM)
 
+## lightdm-gtk-greeter
+
+若是採用「[lightdm-gtk-greeter](https://archlinux.org/packages/extra/x86_64/lightdm-gtk-greeter/)」，請參考「[另一篇](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/lightdm.html)」的說明。
 
 ## lightdm-webkit2-greeter
 
@@ -133,7 +136,9 @@ lightdm-webkit2-theme-alter                                                     
 | theme |
 | --- |
 | [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-glorious) |
-| [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-glorious) |
+| [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-tty-git) |
+
+
 
 ## lightdm-webkit2-theme-glorious
 
@@ -208,9 +213,6 @@ debug_mode          = true
 dm-tool switch-to-greeter
 ```
 
-## lightdm-gtk-greeter
-
-若要採用「[lightdm-gtk-greeter](https://archlinux.org/packages/extra/x86_64/lightdm-gtk-greeter/)」，請參考「[另一篇](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/lightdm.html)」的說明。
 
 ## lightdm-webkit2-theme-tty-git
 
