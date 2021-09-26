@@ -127,6 +127,16 @@ lightdm-webkit2-theme-alter                                                     
     AlterLinux webkit2 greeter theme
 ```
 
+## lightdm-webkit2-theme-list
+
+
+| theme |
+| --- |
+| [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-glorious) |
+| [lightdm-webkit2-theme-glorious](#lightdm-webkit2-theme-glorious) |
+
+## lightdm-webkit2-theme-glorious
+
 ### 資訊
 
 執行
@@ -165,7 +175,7 @@ pamac build lightdm-webkit2-theme-glorious
 
 ### 設定
 
-修改「lightdm-webkit2-greeter.conf」這個檔案，
+修改「/etc/lightdm/lightdm-webkit2-greeter.conf」這個檔案，
 
 將原本
 
@@ -189,4 +199,106 @@ debug_mode          = false
 
 ```
 debug_mode          = true
+```
+
+
+執行下面指令，測試
+
+``` sh
+dm-tool switch-to-greeter
+```
+
+
+
+## lightdm-webkit2-theme-tty-git
+
+### 資訊
+
+執行
+
+```
+pamac info lightdm-webkit2-theme-tty-git -a
+```
+
+顯示
+
+```
+Name                  : lightdm-webkit2-theme-tty-git
+Version               : r5.0b8fc23-1
+Description           : A simple terminal style theme for lightdm-webkit2-greeter
+URL                   : https://github.com/eNzyOfficial/lightdm-tty
+Licenses              : WTFPL
+Repository            : AUR
+Depends On            : lightdm-webkit2-greeter
+Make Dependencies     : git
+Maintainer            : tardog
+First Submitted       : 11/07/2017
+Last Modified         : 11/07/2017
+Votes                 : 1
+```
+
+* AUR / [lightdm-webkit2-theme-tty-git](https://aur.archlinux.org/packages/lightdm-webkit2-theme-tty-git/)
+* GitHub / [lightdm-tty](https://github.com/eNzyOfficial/lightdm-tty)
+
+### 安裝
+
+執行
+
+```
+pamac build lightdm-webkit2-theme-tty-git
+```
+
+安裝完畢後，可以執行下面指令，觀看有哪些檔案
+
+``` sh
+pacman -Ql lightdm-webkit2-theme-tty-git -q
+```
+
+顯示
+
+```
+/usr/
+/usr/share/
+/usr/share/lightdm-webkit/
+/usr/share/lightdm-webkit/themes/
+/usr/share/lightdm-webkit/themes/tty/
+/usr/share/lightdm-webkit/themes/tty/LICENSE
+/usr/share/lightdm-webkit/themes/tty/PKGBUILD
+/usr/share/lightdm-webkit/themes/tty/README.MD
+/usr/share/lightdm-webkit/themes/tty/css/
+/usr/share/lightdm-webkit/themes/tty/css/default.css
+/usr/share/lightdm-webkit/themes/tty/css/normalize.css
+/usr/share/lightdm-webkit/themes/tty/img/
+/usr/share/lightdm-webkit/themes/tty/img/bg.jpg
+/usr/share/lightdm-webkit/themes/tty/index.html
+/usr/share/lightdm-webkit/themes/tty/js/
+/usr/share/lightdm-webkit/themes/tty/js/commands.js
+/usr/share/lightdm-webkit/themes/tty/js/main.js
+/usr/share/lightdm-webkit/themes/tty/js/mock.js
+/usr/share/lightdm-webkit/themes/tty/screenshots/
+/usr/share/lightdm-webkit/themes/tty/screenshots/screenshot_1.gif
+/usr/share/lightdm-webkit/themes/tty/test.sh
+```
+
+
+### 設定
+
+修改「/etc/lightdm/lightdm-webkit2-greeter.conf」這個檔案，
+
+將原本
+
+```
+webkit_theme        = antergos
+```
+
+改成
+
+```
+webkit_theme        = tty
+```
+
+執行下面指令，測試
+
+``` sh
+dm-tool switch-to-greeter
 ```

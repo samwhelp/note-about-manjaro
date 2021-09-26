@@ -35,3 +35,20 @@ panel-position = top
 
 
 * lightdm-gtk-greeter-settings-pkexec (LightDM GTK+ Greeter settings) (/usr/share/applications/lightdm-gtk-greeter-settings.desktop)
+
+
+## Cache
+
+執行
+
+``` sh
+sudo cat /var/cache/lightdm/dmrc/$(id -un).dmrc
+```
+
+顯示
+
+```
+[Desktop]
+Language=en_US.utf8
+Session=xfce
+```
