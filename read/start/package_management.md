@@ -48,7 +48,7 @@ parent: 入門
 
 ## 查詢檔案屬於那個套件
 
-執行下面指令，查詢檔案屬於那個套件
+執行下面指令，查詢「/usr/share/icons/Papirus」這個檔案，是屬於那個套件。
 
 ``` sh
 $ pacman -Qo /usr/share/icons/Papirus
@@ -60,11 +60,22 @@ $ pacman -Qo /usr/share/icons/Papirus
 /usr/share/icons/Papirus/ is owned by papirus-icon-theme 20210901-1
 ```
 
+也可以加上「-q」，也就是執行下面指令
+
+``` sh
+$ pacman -Qo /usr/share/icons/Papirus -q
+```
+
+顯示
+
+```
+papirus-icon-theme
+```
+
 
 ## 查詢套件安裝那些檔案
 
-
-執行下面指令，查詢檔案屬於那個套件
+執行下面指令，查詢「papirus-icon-theme」這個套件，安裝那些檔案在系統上。
 
 ``` sh
 pacman -Ql papirus-icon-theme
