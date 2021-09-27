@@ -62,6 +62,21 @@ Session=xfce
 ```
 
 
+執行
+
+``` sh
+cat ~/.dmrc
+```
+
+顯示
+
+```
+[Desktop]
+Language=en_US.utf8
+Session=xfce
+```
+
+
 ## lightdm-webkit2-greeter
 
 若要更改採用「[lightdm-webkit2-greeter](https://archlinux.org/packages/community/x86_64/lightdm-webkit2-greeter/)」，請參考「[另一篇](https://samwhelp.github.io/note-about-manjaro/read/theme/lightdm-theme.html)」的說明。
