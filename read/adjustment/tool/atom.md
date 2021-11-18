@@ -51,3 +51,8 @@ apm install monokai
 apm install language-viml
 ```
 
+* [language-lua](https://atom.io/packages/language-lua)
+
+``` sh
+apm install language-lua
+```
