@@ -70,3 +70,17 @@ has_children: true
 * [style-theme](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce/style-theme)
 * [style-switch-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-switch-xfce)
 * [style-ctrl-xfce](https://samwhelp.github.io/note-about-manjaro/read/project/style-xfce/style-ctrl-xfce)
+
+
+## Palette
+
+* [gruvbox](https://github.com/morhetz/gruvbox)
+* [dracula](https://draculatheme.com/) ([GitHub](https://github.com/dracula/dracula-theme))
+* [nord](https://www.nordtheme.com/) ([GitHub](https://github.com/arcticicestudio/nord))
+* [rose-pine](https://rosepinetheme.com/palette) ([GitHub](https://github.com/rose-pine))
+* [catppuccin](https://github.com/catppuccin/catppuccin#-palette)
+
+
+## Guide
+
+* [Gtk theming guide](https://gtkthemingguide.surajmandal.in/) ([GitHub](https://github.com/Fausto-Korpsvart/Gtk-Theming-Guide))
