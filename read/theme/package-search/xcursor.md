@@ -63,9 +63,3 @@ xcursor-breeze                                                        [Installed
 ``` sh
 pamac search xcursor -a
 ```
-
-
-## Link
-
-* [https://wiki.archlinux.org/title/Cursor_themes](https://wiki.archlinux.org/title/Cursor_themes)
-* [https://www.gnome-look.org/browse?cat=107&ord=latest](https://www.gnome-look.org/browse?cat=107&ord=latest)

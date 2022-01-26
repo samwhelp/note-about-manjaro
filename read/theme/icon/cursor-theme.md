@@ -79,3 +79,10 @@ grep 'name="CursorThemeSize"' ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettin
 ```
     <property name="CursorThemeSize" type="int" value="24"/>
 ```
+
+
+## Link
+
+* [arch package search](https://samwhelp.github.io/note-about-manjaro/read/theme/package-search/xcursor.html)
+* [https://wiki.archlinux.org/title/Cursor_themes](https://wiki.archlinux.org/title/Cursor_themes)
+* [https://www.gnome-look.org/browse?cat=107&ord=latest](https://www.gnome-look.org/browse?cat=107&ord=latest)
