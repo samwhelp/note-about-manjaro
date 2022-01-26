@@ -19,7 +19,7 @@ has_children: true
 | /usr/share/themes | 系統全域 | 高 |
 | /usr/local/share/themes | 系統全域 |  |
 
-> Themes 資料夾包含了「[ui-theme](theme/theme/ui-theme)」或是「[wm-theme](theme/theme/wm-theme)」。
+> themes 資料夾包含了「[ui-theme](theme/theme/ui-theme)」或是「[wm-theme](theme/theme/wm-theme)」。
 
 ### Icons
 
@@ -30,7 +30,7 @@ has_children: true
 | /usr/share/icons | 系統全域 | 高 |
 | /usr/local/share/icons | 系統全域 | |
 
-> Themes 資料夾包含了「[icon-theme](theme/icon/icon-theme)」或是「[cursor-theme](theme/icon/cursor-theme)」。
+> icons 資料夾包含了「[icon-theme](theme/icon/icon-theme)」或是「[cursor-theme](theme/icon/cursor-theme)」。
 
 
 ## 輔助工具
