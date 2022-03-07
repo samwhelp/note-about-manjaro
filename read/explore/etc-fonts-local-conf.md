@@ -31,7 +31,7 @@ $ cat /etc/fonts/conf.d/51-local.conf
 
 ## 相關腳本
 
-* [相關腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/font-setting/typeface-serif-sans-serif-monospace)
+* [相關腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/font-setting/font-match-order)
 
 
 ## 相關探索

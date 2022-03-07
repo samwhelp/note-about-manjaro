@@ -9,7 +9,7 @@ grand_parent: 微調
 
 # 字型的安裝與設定
 
-* [設定腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/font-setting/typeface-serif-sans-serif-monospace)
+* [設定腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/font-setting/font-match-order)
 
 
 | 字型 |
