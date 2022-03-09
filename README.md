@@ -75,7 +75,7 @@
 
 | 桌面環境 |
 | --- |
-| [xfce](https://samwhelp.github.io/note-about-manjaro/read/adjustment/full/xfce.html) |
+| [xfce](https://samwhelp.github.io/note-about-manjaro/read/adjustment/de/xfce.html) |
 
 ### 視窗管理器
 

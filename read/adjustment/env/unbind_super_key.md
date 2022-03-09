@@ -85,4 +85,4 @@ Hidden=true
 
 ## 個人慣用按鍵綁定
 
-我個人慣用的按鍵綁定，請參考「[我的備忘](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/spec-keybind.md)」。
+我個人慣用的按鍵綁定，請參考「[我的備忘](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/de/xfce/spec-keybind.md)」。
