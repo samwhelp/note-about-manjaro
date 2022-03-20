@@ -39,6 +39,34 @@ parent: 如何
 | [Sway Daily](https://manjaro-sway.download/) |  |  |
 
 
+## 下載腳本
+
+* [下載腳本](https://github.com/samwhelp/note-about-grub/tree/gh-pages/_demo/prototype/boot_iso/demo_41_custom/Manjaro/latest/iso)
+
+### iso-download.txt
+
+```
+https://download.manjaro.org/xfce/21.2.5/manjaro-xfce-21.2.5-220314-linux515.iso
+https://download.manjaro.org/gnome/21.2.5/manjaro-gnome-21.2.5-220314-linux515.iso
+https://download.manjaro.org/kde/21.2.5/manjaro-kde-21.2.5-220314-linux515.iso
+https://download.manjaro.org/openbox/21.2.5/manjaro-openbox-21.2.5-220316-linux515.iso
+https://download.manjaro.org/i3/21.2.5/manjaro-i3-21.2.5-220314-linux515.iso
+https://download.manjaro.org/mate/21.2.5/manjaro-mate-21.2.5-220314-linux515.iso
+https://download.manjaro.org/cinnamon/21.2.5/manjaro-cinnamon-21.2.5-220314-linux515.iso
+https://download.manjaro.org/budgie/21.2.5/manjaro-budgie-21.2.5-220314-linux515.iso
+https://download.manjaro.org/lxde/21.2.5/manjaro-lxde-21.2.5-220316-linux515.iso
+https://download.manjaro.org/lxqt/21.2.5/manjaro-lxqt-21.2.5-220316-linux515.iso
+https://download.manjaro.org/lxqt-kwin/21.2.5/manjaro-lxqt-kwin-21.2.5-220316-linux515.iso
+https://download.manjaro.org/deepin/21.1.2/manjaro-deepin-21.1.2-210907-linux513.iso
+```
+
+### iso-download.sh
+
+``` sh
+wget -c -i iso-download.txt
+```
+
+
 ## Link
 
 * Manjaro / Wiki / [Get Manjaro](https://wiki.manjaro.org/index.php/Main_Page#Get_Manjaro)
