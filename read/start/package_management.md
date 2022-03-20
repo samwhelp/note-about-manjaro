@@ -1,7 +1,7 @@
 ---
 title: 套件管理
 nav_order: 10
-has_children: true
+has_children: false
 parent: 入門
 ---
 

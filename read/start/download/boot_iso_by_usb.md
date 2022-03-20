@@ -2,7 +2,8 @@
 title: Boot ISO By USB
 nav_order: 7020
 has_children: false
-parent: 如何
+parent: 下載
+grand_parent: 入門
 ---
 
 
