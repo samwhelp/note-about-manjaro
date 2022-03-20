@@ -37,3 +37,9 @@ parent: 如何
 | [LXQT-KWIN](https://manjaro.org/downloads/community/lxqt-kwin/) | [Full](https://download.manjaro.org/lxqt-kwin/21.2.5/manjaro-lxqt-kwin-21.2.5-220316-linux515.iso) |  |
 | [Deepin](https://manjaro.org/downloads/community/deepin/) | [Full](https://download.manjaro.org/deepin/21.1.2/manjaro-deepin-21.1.2-210907-linux513.iso) | [Minimal](https://download.manjaro.org/deepin/21.1.2/manjaro-deepin-21.1.2-minimal-210907-linux513.iso) |
 | [Sway Daily](https://manjaro-sway.download/) |  |  |
+
+
+## Link
+
+* Manjaro / Wiki / [Get Manjaro](https://wiki.manjaro.org/index.php/Main_Page#Get_Manjaro)
+* Manjaro / Wiki / Burn an ISO File / [Writing to a USB Stick in Linux](https://wiki.manjaro.org/index.php/Burn_an_ISO_File#Writing_to_a_USB_Stick_in_Linux)
