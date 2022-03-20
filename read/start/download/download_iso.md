@@ -39,6 +39,7 @@ grand_parent: 入門
 | [LXQT-KWIN](https://manjaro.org/downloads/community/lxqt-kwin/) | [21.2.5](https://download.manjaro.org/lxqt-kwin/21.2.5/manjaro-lxqt-kwin-21.2.5-220316-linux515.iso) |  |
 | [Deepin](https://manjaro.org/downloads/community/deepin/) | [21.1.2](https://download.manjaro.org/deepin/21.1.2/manjaro-deepin-21.1.2-210907-linux513.iso) | [21.1.2](https://download.manjaro.org/deepin/21.1.2/manjaro-deepin-21.1.2-minimal-210907-linux513.iso) |
 | [Sway Daily](https://manjaro-sway.download/) |  |  |
+| [Cutefish](https://github.com/manjaro-cutefish/download/releases) |  |  |
 
 
 ## 下載腳本
