@@ -1,7 +1,7 @@
 ---
 title: 下載
 nav_order: 10
-has_children: false
+has_children: true
 parent: 入門
 ---
 
