@@ -7,6 +7,8 @@
 
 ## 相關專案
 
+* [system-modeling](https://samwhelp.github.io/system-modeling/) / ([GitHub](https://github.com/samwhelp/system-modeling))
+* [ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) / ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
 * [play-ubuntu-20.04-plan](https://github.com/samwhelp/play-ubuntu-20.04-plan)
 
 
