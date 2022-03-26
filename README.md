@@ -5,16 +5,7 @@
 
 > 筆記根據版本「[Manjaro 21.0 / Xfce](https://samwhelp.github.io/note-about-manjaro/read/version/21/download.html)」撰寫。
 
-## 相關專案
 
-* [system-modeling](https://samwhelp.github.io/system-modeling/) / ([GitHub](https://github.com/samwhelp/system-modeling))
-* [ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) / ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
-* [play-ubuntu-20.04-plan](https://github.com/samwhelp/play-ubuntu-20.04-plan)
-
-
-## samwhelp
-
-* [個人筆記](https://samwhelp.github.io/book/)
 
 
 ## 主題
@@ -28,6 +19,7 @@
 * [視窗管理器](#視窗管理器)
 * [探索](#探索)
 * [專案](#專案)
+* [相關筆記](#相關筆記)
 
 
 ### 入門
@@ -123,3 +115,17 @@
 | [awesomewmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/awesomewmrc-profile.html) |
 | [leftwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/leftwmrc-profile.html) |
 | [spectrwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/spectrwmrc-profile.html) |
+
+
+
+## 相關筆記
+
+* [system-modeling](https://samwhelp.github.io/system-modeling/) / ([GitHub](https://github.com/samwhelp/system-modeling))
+* [ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) / ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
+* [play-ubuntu-20.04-plan](https://github.com/samwhelp/play-ubuntu-20.04-plan)
+* [archcraft 探索筆記](https://samwhelp.github.io/note-about-archcraft/) / [archcraft-adjustment-package](https://github.com/samwhelp/archcraft-adjustment-package)
+
+
+## samwhelp
+
+* [個人筆記](https://samwhelp.github.io/book/)
