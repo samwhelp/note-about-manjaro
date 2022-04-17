@@ -9,22 +9,38 @@ grand_parent: 微調
 
 # mpv
 
-## Link
+* [微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/mpv)
+
+
+## 相關連結
 
 * [https://software.manjaro.org/package/mpv](https://software.manjaro.org/package/mpv)
 * Arch Wiki / [mpv](https://wiki.archlinux.org/index.php/mpv)
 
 
-## Install
+## 設定檔路徑
+
+* [~/.config/mpv/mpv.conf](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/mpv/config/mpv/mpv.conf)
+
+
+## 安裝指令
+
+執行
+
+``` sh
+sudo pacman -Sy --needed mpv youtube-dl
+```
+
+或是執行
 
 ``` sh
 pamac install mpv youtube-dl
 ```
 
+## 如何測試
 
-## Test
-
+執行下面指令
 
 ``` sh
-mpv https://www.youtube.com/watch?v=I6WgT7JkkQk
+mpv 'https://www.youtube.com/watch?v=I6WgT7JkkQk'
 ```

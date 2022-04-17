@@ -1,15 +1,15 @@
 
-# sakura
+# mpv
 
 
 ## Package
 
-* [https://software.manjaro.org/package/sakura](https://software.manjaro.org/package/sakura)
+* [https://software.manjaro.org/package/mpv](https://software.manjaro.org/package/mpv)
 
 
 ## Config File Path
 
-* [~/.config/sakura/sakura.conf](config/sakura/sakura.conf)
+* [~/.config/mpv/mpv.conf](config/mpv/mpv.conf)
 
 
 ## Howto
