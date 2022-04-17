@@ -7,8 +7,8 @@
 | --- | --- | --- |
 | Xfwm4 (WM) | [RGapsLine](https://github.com/Drzaln/Nema/tree/master/RGapsLine) | ~/.themes/RGapsLine |
 | Gtk (UI) | [Honda-Super-Cub](https://github.com/reorr/my-theme-collection/tree/master/Honda%20Super%20Cub/.themes/Honda-Super-Cub) | ~/.themes/Honda-Super-Cub |
-| Icon | [Papirus-Dark](https://discover.manjaro.org/packages/papirus-icon-theme) | /usr/share/icons/Papirus-Dark |
-| Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
+| Icon | [Papirus-Dark](https://software.manjaro.org/package/papirus-icon-theme) | /usr/share/icons/Papirus-Dark |
+| Cursor | [xcursor-breeze](https://software.manjaro.org/package/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 
 
 

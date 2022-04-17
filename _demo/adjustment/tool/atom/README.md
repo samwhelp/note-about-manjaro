@@ -3,7 +3,7 @@
 
 ## Link
 
-* [https://discover.manjaro.org/packages/atom](https://discover.manjaro.org/packages/atom)
+* [https://software.manjaro.org/package/atom](https://software.manjaro.org/package/atom)
 
 
 ## Config File Path

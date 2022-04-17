@@ -3,7 +3,7 @@
 
 ## Link
 
-* [https://discover.manjaro.org/packages/sakura](https://discover.manjaro.org/packages/sakura)
+* [https://software.manjaro.org/package/sakura](https://software.manjaro.org/package/sakura)
 
 
 ## Config File Path

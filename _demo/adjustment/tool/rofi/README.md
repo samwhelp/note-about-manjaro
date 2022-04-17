@@ -3,7 +3,7 @@
 
 ## Link
 
-* [https://discover.manjaro.org/packages/rofi](https://discover.manjaro.org/packages/rofi)
+* [https://software.manjaro.org/package/rofi](https://software.manjaro.org/package/rofi)
 
 
 ## Config File Path

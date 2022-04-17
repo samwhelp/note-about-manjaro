@@ -9,12 +9,12 @@ grand_parent: 微調
 
 # atom
 
-* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/atom)
+* [微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/tool/atom)
 
 
 ## Link
 
-* [https://discover.manjaro.org/packages/atom](https://discover.manjaro.org/packages/atom)
+* [https://software.manjaro.org/package/atom](https://software.manjaro.org/package/atom)
 
 
 ## 設定檔路徑

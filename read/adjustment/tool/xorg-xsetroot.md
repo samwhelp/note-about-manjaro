@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/xorg-xsetroot](https://discover.manjaro.org/packages/xorg-xsetroot)
+* [https://software.manjaro.org/package/xorg-xsetroot](https://software.manjaro.org/package/xorg-xsetroot)
 
 
 

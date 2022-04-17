@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/hsetroot](https://discover.manjaro.org/packages/hsetroot)
+* [https://software.manjaro.org/package/hsetroot](https://software.manjaro.org/package/hsetroot)
 * [https://github.com/himdel/hsetroot](https://github.com/himdel/hsetroot)
 
 

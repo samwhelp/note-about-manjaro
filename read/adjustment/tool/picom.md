@@ -9,7 +9,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/picom](https://discover.manjaro.org/packages/picom)
+* [https://software.manjaro.org/package/picom](https://software.manjaro.org/package/picom)
 * Arch Wiki / [Picom](https://wiki.archlinux.org/title/Picom)
 
 | Source | Package | 設定檔 | 安裝指令 |

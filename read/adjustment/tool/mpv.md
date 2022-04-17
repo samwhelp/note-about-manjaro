@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/mpv](https://discover.manjaro.org/packages/mpv)
+* [https://software.manjaro.org/package/mpv](https://software.manjaro.org/package/mpv)
 * Arch Wiki / [mpv](https://wiki.archlinux.org/index.php/mpv)
 
 

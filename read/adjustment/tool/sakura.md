@@ -14,7 +14,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/sakura](https://discover.manjaro.org/packages/sakura)
+* [https://software.manjaro.org/package/sakura](https://software.manjaro.org/package/sakura)
 
 
 ## 設定檔路徑

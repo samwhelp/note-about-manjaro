@@ -23,7 +23,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/xfce4-terminal](https://discover.manjaro.org/packages/xfce4-terminal)
+* [https://software.manjaro.org/package/xfce4-terminal](https://software.manjaro.org/package/xfce4-terminal)
 
 
 ## 設定檔路徑

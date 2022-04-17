@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/gpicview](https://discover.manjaro.org/packages/gpicview)
+* [https://software.manjaro.org/package/gpicview](https://software.manjaro.org/package/gpicview)
 * Arch Wiki / List of applications/Multimedia / [1.2.1.2 Graphical image viewers](https://wiki.archlinux.org/index.php/List_of_applications/Multimedia#Graphical_image_viewers)
 
 

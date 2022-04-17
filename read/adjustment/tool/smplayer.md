@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/smplayer](https://discover.manjaro.org/packages/smplayer)
+* [https://software.manjaro.org/package/smplayer](https://software.manjaro.org/package/smplayer)
 * Arch Wiki / [MPlayer](https://wiki.archlinux.org/index.php/MPlayer)
 
 

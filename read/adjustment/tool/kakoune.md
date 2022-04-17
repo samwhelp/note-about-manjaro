@@ -9,7 +9,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/kakoune](https://discover.manjaro.org/packages/kakoune)
+* [https://software.manjaro.org/package/kakoune](https://software.manjaro.org/package/kakoune)
 * [https://kakoune.org/](https://kakoune.org/)
 * [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 * [https://github.com/anhsirk0/kakoune-themes](https://github.com/anhsirk0/kakoune-themes)

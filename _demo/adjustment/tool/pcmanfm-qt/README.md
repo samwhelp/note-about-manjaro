@@ -3,7 +3,7 @@
 
 ## Link
 
-* [https://discover.manjaro.org/packages/pcmanfm-qt](https://discover.manjaro.org/packages/pcmanfm-qt)
+* [https://software.manjaro.org/package/pcmanfm-qt](https://software.manjaro.org/package/pcmanfm-qt)
 * [https://wiki.manjaro.org/index.php/PCmanFM-Qt](https://wiki.manjaro.org/index.php/PCmanFM-Qt)
 * [https://wiki.archlinux.org/index.php/PCManFM](https://wiki.archlinux.org/index.php/PCManFM)
 

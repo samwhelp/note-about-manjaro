@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/feh](https://discover.manjaro.org/packages/feh)
+* [https://software.manjaro.org/package/feh](https://software.manjaro.org/package/feh)
 * Arch Wiki / [Feh](https://wiki.archlinux.org/index.php/Feh)
 
 

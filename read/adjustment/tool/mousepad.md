@@ -14,4 +14,4 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/mousepad](https://discover.manjaro.org/packages/mousepad)
+* [https://software.manjaro.org/package/mousepad](https://software.manjaro.org/package/mousepad)

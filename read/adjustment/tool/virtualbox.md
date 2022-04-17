@@ -11,6 +11,6 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/virtualbox](https://discover.manjaro.org/packages/virtualbox)
+* [https://software.manjaro.org/package/virtualbox](https://software.manjaro.org/package/virtualbox)
 * [https://wiki.manjaro.org/index.php/VirtualBox](https://wiki.manjaro.org/index.php/VirtualBox)
 * [https://wiki.archlinux.org/index.php/VirtualBox](https://wiki.archlinux.org/index.php/VirtualBox)

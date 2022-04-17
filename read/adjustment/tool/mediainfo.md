@@ -10,8 +10,8 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/mediainfo](https://discover.manjaro.org/packages/mediainfo)
-* [https://discover.manjaro.org/packages/mediainfo-gui](https://discover.manjaro.org/packages/mediainfo-gui)
+* [https://software.manjaro.org/package/mediainfo](https://software.manjaro.org/package/mediainfo)
+* [https://software.manjaro.org/package/mediainfo-gui](https://software.manjaro.org/package/mediainfo-gui)
 
 
 ## Search

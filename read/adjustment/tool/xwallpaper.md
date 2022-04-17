@@ -11,7 +11,7 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/xwallpaper](https://discover.manjaro.org/packages/xwallpaper)
+* [https://software.manjaro.org/package/xwallpaper](https://software.manjaro.org/package/xwallpaper)
 * [https://github.com/stoeckmann/xwallpaper](https://github.com/stoeckmann/xwallpaper)
 * Arch Wiki / List of applications / Other / [Wallpaper setters](https://wiki.archlinux.org/title/List_of_applications/Other#Wallpaper_setters)
 

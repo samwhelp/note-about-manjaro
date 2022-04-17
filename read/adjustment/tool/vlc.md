@@ -10,5 +10,5 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/vlc](https://discover.manjaro.org/packages/vlc)
+* [https://software.manjaro.org/package/vlc](https://software.manjaro.org/package/vlc)
 * Arch Wiki / [vlc](https://wiki.archlinux.org/index.php/vlc)

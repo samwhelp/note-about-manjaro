@@ -11,5 +11,5 @@ grand_parent: 微調
 
 ## Link
 
-* [https://discover.manjaro.org/packages/xorg-server-xephyr](https://discover.manjaro.org/packages/xorg-server-xephyr)
+* [https://software.manjaro.org/package/xorg-server-xephyr](https://software.manjaro.org/package/xorg-server-xephyr)
 * Arch Wiki / [Xephyr](https://wiki.archlinux.org/index.php/Xephyr)

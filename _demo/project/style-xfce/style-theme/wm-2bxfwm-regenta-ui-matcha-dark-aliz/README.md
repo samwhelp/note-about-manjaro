@@ -5,9 +5,9 @@
 | Theme | Name | Dir |
 | --- | --- | --- |
 | Xfwm4 (WM) | [RGapsLine](https://github.com/Drzaln/Nema/tree/master/RGapsLine) | ~/.themes/RGapsLine |
-| Gtk (UI) | [Matcha-dark-aliz](https://discover.manjaro.org/packages/matcha-gtk-theme) | /usr/share/themes/Matcha-dark-aliz |
-| Icon | [Papirus-Dark](https://discover.manjaro.org/packages/papirus-icon-theme) | /usr/share/icons/Papirus-Dark |
-| Cursor | [xcursor-breeze](https://discover.manjaro.org/packages/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
+| Gtk (UI) | [Matcha-dark-aliz](https://software.manjaro.org/package/matcha-gtk-theme) | /usr/share/themes/Matcha-dark-aliz |
+| Icon | [Papirus-Dark](https://software.manjaro.org/package/papirus-icon-theme) | /usr/share/icons/Papirus-Dark |
+| Cursor | [xcursor-breeze](https://software.manjaro.org/package/xcursor-breeze) | /usr/share/icons/xcursor-breeze |
 
 
 
