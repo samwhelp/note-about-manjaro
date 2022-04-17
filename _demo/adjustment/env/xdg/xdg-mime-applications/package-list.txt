@@ -1,0 +1,8 @@
+engrampa
+lxqt-archiver
+
+viewnior
+
+mpv
+
+atom
