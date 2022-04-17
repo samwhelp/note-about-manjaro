@@ -13,7 +13,7 @@
 
 * [入門](#入門)
 * [概念](#概念)
-* [環境微調](#環境微調)
+* [系統環境微調](#系統環境微調)
 * [外觀微調](#外觀微調)
 * [桌面環境](#桌面環境)
 * [視窗管理器](#視窗管理器)
@@ -44,7 +44,7 @@
 | [Meta_Package and Package_Group](https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
 
 
-### 環境微調
+### 系統環境微調
 
 | 議題 |
 | --- |
