@@ -39,3 +39,25 @@ pacman -Ql qt5ct
 ## 圖形介面工具
 
 * qt5ct (Qt5 Settings) (Qt5 Configuration Tool) (/usr/share/applications/qt5ct.desktop)
+
+
+## qt5-styleplugins
+
+執行
+
+``` sh
+pamac search qt5-styleplugins -a
+```
+
+顯示
+
+```
+qt5-styleplugins                                         5.0.0.20170311-27  AUR 
+    Additional style plugins for Qt5
+```
+
+安裝
+
+``` sh
+pamac build qt5-styleplugins
+```
