@@ -1,4 +1,8 @@
 
+
+xcursor-breeze
+
+
 rofi
 
 
