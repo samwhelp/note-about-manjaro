@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo apt-get install mousepad
+sudo pacman -Sy --needed mousepad

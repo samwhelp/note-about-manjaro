@@ -42,10 +42,10 @@ main_package_find_list_raw () {
 ### Head: main
 ##
 main_package_install () {
-	# sudo pamac install $(cat package-list.txt)
-	# sudo pamac install $(main_package_find_list_raw)
-	#sudo pamac install $(main_package_find_list)
-	pamac install $(main_package_find_list)
+	# sudo pacman -Sy --needed $(cat package-list.txt)
+	# sudo pacman -Sy --needed $(main_package_find_list_raw)
+	sudo pacman -Sy --needed $(main_package_find_list)
+	#pamac install $(main_package_find_list)
 }
 
 main_package_install
