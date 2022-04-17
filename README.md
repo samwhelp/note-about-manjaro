@@ -15,14 +15,15 @@
 * [概念](#概念)
 * [系統環境微調](#系統環境微調)
 * [外觀微調](#外觀微調)
-* [桌面環境](#桌面環境)
-* [視窗管理器](#視窗管理器)
+* [桌面環境微調](#桌面環境微調)
+* [視窗管理器微調](#視窗管理器微調)
+* [工具微調](#工具微調)
 * [探索](#探索)
 * [專案](#專案)
 * [相關筆記](#相關筆記)
 
 
-### 入門
+## 入門
 
 | 議題 |
 | --- |
@@ -37,14 +38,14 @@
 | [Boot ISO By GRUB](https://samwhelp.github.io/note-about-manjaro/read/start/download/boot_iso_by_grub.html) |
 
 
-### 概念
+## 概念
 
 | 議題 |
 | --- |
 | [Meta_Package and Package_Group](https://samwhelp.github.io/note-about-manjaro/read/concept/meta_package_and_package_group.html) |
 
 
-### 系統環境微調
+## 系統環境微調
 
 | 議題 |
 | --- |
@@ -60,7 +61,7 @@
 | [Unbind Super Key](https://samwhelp.github.io/note-about-manjaro/read/adjustment/env/unbind_super_key.html) |
 
 
-### 外觀微調
+## 外觀微調
 
 | 議題 |
 | --- |
@@ -73,13 +74,14 @@
 | [lightdm-theme](https://samwhelp.github.io/note-about-manjaro/read/theme/lightdm-theme.html) |
 
 
-### 桌面環境
+## 桌面環境微調
 
 | 桌面環境 |
 | --- |
 | [xfce](https://samwhelp.github.io/note-about-manjaro/read/adjustment/de/xfce.html) |
 
-### 視窗管理器
+
+## 視窗管理器微調
 
 | 視窗管理器 |
 | --- |
@@ -91,8 +93,51 @@
 | [leftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html) |
 | [openbox](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/openbox.html) |
 
+## 工具微調
 
-### 探索
+
+### Terminal
+
+| Terminal | 微調腳本 |
+| --- | --- |
+| [sakura](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/sakura.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/sakura) |
+| [xfce4-terminal](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/xfce4-terminal.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/xfce4-terminal) |
+| [gnome-terminal](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/gnome-terminal.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/gnome-terminal) |
+
+
+### File Manager
+
+| File Manager | 微調腳本 |
+| --- | --- |
+| [pcmanfm-qt](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/pcmanfm-qt.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/pcmanfm-qt) |
+| [thunar](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/thunar.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/thunar) |
+
+
+### Text Editor
+
+| Text Editor | 微調腳本 |
+| --- | --- |
+| [vim](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/vim.html) | [vim 探索筆記](https://github.com/samwhelp/note-about-vim/) |
+| [nvim](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/nvim.html) | [nvim 探索筆記](https://samwhelp.github.io/note-about-nvim/) |
+| [mousepad](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/mousepad.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/mousepad) |
+| [atom](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/atom.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/atom) |
+
+
+### Image Viewer
+
+| Image Viewer | 微調腳本 |
+| --- | --- |
+| [viewnior](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/viewnior.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/viewnior) |
+
+
+### Media Player
+
+| Media Player | 微調腳本 |
+| --- | --- |
+| [mpv](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/mpv.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/mpv) |
+
+
+## 探索
 
 | 議題 |
 | --- |
@@ -101,7 +146,7 @@
 | [/var/lib/pacman/sync/](https://samwhelp.github.io/note-about-manjaro/read/explore/var-lib-pacman-sync.html) |
 
 
-### 專案
+## 專案
 
 | [專案](https://samwhelp.github.io/note-about-manjaro/read/project.html) |
 | --- |
@@ -115,7 +160,6 @@
 | [awesomewmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/awesomewmrc-profile.html) |
 | [leftwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/leftwmrc-profile.html) |
 | [spectrwmrc-profile](https://samwhelp.github.io/note-about-manjaro/read/project/spectrwmrc-profile.html) |
-
 
 
 ## 相關筆記
