@@ -292,6 +292,35 @@ profile_config_install () {
 
 
 ################################################################################
+### Head: editor
+##
+editor_config_install () {
+
+	echo "## Config: editor"
+	echo
+
+	if [ -a "$HOME/bin/vi" ]; then
+		echo "File Exists: $HOME/bin/vi"
+		file "$HOME/bin/vi"
+		echo
+		return	
+	fi
+
+	echo "mkdir -p $HOME/bin"
+	mkdir -p "$HOME/bin"
+
+	echo "ln -sf /usr/bin/nvim $HOME/bin/vi"
+	ln -sf /usr/bin/nvim "$HOME/bin/vi"
+
+	echo
+
+}
+##
+### Tail: editor
+################################################################################
+
+
+################################################################################
 ### Head: fcitx
 ##
 fcitx_config_install () {
@@ -412,6 +441,8 @@ main_config_install () {
 	sakura_config_install
 
 	profile_config_install
+
+	editor_config_install
 
 	fcitx_config_install
 

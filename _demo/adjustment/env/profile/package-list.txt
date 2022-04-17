@@ -1,1 +1,9 @@
+
+
+vim
+
+
 neovim
+python-neovim
+xclip
+xsel
