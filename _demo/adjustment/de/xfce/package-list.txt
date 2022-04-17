@@ -9,9 +9,18 @@ fcitx-qt5
 
 
 pcmanfm-qt
+lxqt-archiver
 
 
-sakura
+#sakura
 
 
+fzf
+ueberzug
 
+
+vim
+neovim
+python-neovim
+xclip
+xsel
