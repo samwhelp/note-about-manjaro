@@ -2,7 +2,7 @@
 # sakura
 
 
-## Package
+## Link
 
 * [https://software.manjaro.org/package/sakura](https://software.manjaro.org/package/sakura)
 

@@ -1,15 +1,14 @@
 
-# mpv
-
+# viewnior
 
 ## Link
 
-* [https://software.manjaro.org/package/mpv](https://software.manjaro.org/package/mpv)
+* [https://software.manjaro.org/package/viewnior](https://software.manjaro.org/package/viewnior)
 
 
 ## Config File Path
 
-* [~/.config/mpv/mpv.conf](config/mpv/mpv.conf)
+* [~/.config/viewnior/viewnior.conf](config/viewnior/viewnior.conf)
 
 
 ## Howto
