@@ -9,7 +9,7 @@ grand_parent: 微調
 
 # 修改預設 editor
 
-* [腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/profile)
+* [微調腳本](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/adjustment/env/profile)
 
 ## 說明
 
@@ -22,7 +22,7 @@ Manjaro Xfce 是放在「~/.profile」這裡，
 可以執行下面指令觀看
 
 ``` sh
-$ cat ~/.profile
+cat ~/.profile
 ```
 
 顯示
@@ -38,10 +38,10 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 ## 恢復指令
 
 若修改「~/.profile」後，想要改回來，
-只要複製「/etc/skel/.profile」，然後覆蓋「~/.profile」就可以了。
+只要複製「[/etc/skel/.profile](https://gitlab.manjaro.org/profiles-and-settings/manjaro-xfce-settings/-/blob/master/skel/.profile)」，然後覆蓋「~/.profile」就可以了。
 
 執行
 
 ``` sh
-$ install -m 644 /etc/skel/.profile "$HOME/.profile"
+install -Dm644 /etc/skel/.profile "$HOME/.profile"
 ```
