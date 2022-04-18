@@ -19,7 +19,7 @@ grand_parent: 微調
 
 ## 設定檔路徑
 
-* ~/.atom/config.cson
+* [~/.atom/config.cson](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/tool/atom/config/atom/config.cson)
 
 
 ## 額外安裝
