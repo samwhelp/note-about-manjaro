@@ -264,9 +264,12 @@ pantheon_set_keybindings_start_here () {
 
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
+	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
+	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
 
+
+	echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
 
 }
 
@@ -311,11 +314,11 @@ pantheon_set_keybindings_expose_windows () {
 
 
 
-	echo 'gsettings set org.pantheon.desktop.gala.keybindings expose-windows "'"['<Super>e']"'"'
+	echo 'gsettings set org.pantheon.desktop.gala.keybindings expose-windows "'"['<Alt>e']"'"'
 	gsettings set org.pantheon.desktop.gala.keybindings expose-windows "['<Alt>e']"
 
-	echo 'gsettings set org.pantheon.desktop.gala.keybindings expose-all-windows "'"['<Super>r']"'"'
-	gsettings set org.pantheon.desktop.gala.keybindings expose-all-windows "['<Alt>r']"
+	echo 'gsettings set org.pantheon.desktop.gala.keybindings expose-all-windows "'"['<Alt>r', '<Super>Tab']"'"'
+	gsettings set org.pantheon.desktop.gala.keybindings expose-all-windows "['<Alt>r', '<Super>Tab']"
 }
 
 pantheon_set_keybindings_show_desktop () {
@@ -326,7 +329,7 @@ pantheon_set_keybindings_show_desktop () {
 
 	# org.gnome.desktop.wm.keybindings show-desktop ['<Super>Down', '<Super>s']
 
-	gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Alt>j', '<Alt>Down', '<Alt>d']"
+	gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Alt>d', '<Super>grave', '<Alt>j', '<Alt>Down']"
 
 }
 
