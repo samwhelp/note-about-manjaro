@@ -3,7 +3,7 @@
 
 ## Link
 
-* [https://packages.ubuntu.com/jammy/thunar](https://packages.ubuntu.com/jammy/thunar)
+* [https://software.manjaro.org/package/thunar](https://software.manjaro.org/package/thunar)
 
 
 ## Config File Path
