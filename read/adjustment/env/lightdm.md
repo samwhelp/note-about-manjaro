@@ -27,6 +27,8 @@ grand_parent: 微調
 
 ## 修改說明
 
+對照「[原本的設定](https://gitlab.manjaro.org/profiles-and-settings/iso-profiles/-/blob/master/manjaro/xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf)」
+
 ### 更改背景圖
 
 ```
