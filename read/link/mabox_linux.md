@@ -23,3 +23,8 @@ parent: 連結
 
 * [Demo Grub Boot Mabox ISO](https://github.com/samwhelp/note-about-grub/tree/gh-pages/_demo/prototype/boot_iso/demo_41_custom/MaboxLinux/latest)
 
+
+## 相關筆記
+
+* [Mabox Linux 探索筆記](https://samwhelp.github.io/note-about-mabox/)
+* [openbox 探索筆記](https://samwhelp.github.io/note-about-openbox/)
