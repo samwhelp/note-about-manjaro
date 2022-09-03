@@ -168,6 +168,7 @@
 * [ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) / ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
 * [play-ubuntu-20.04-plan](https://github.com/samwhelp/play-ubuntu-20.04-plan)
 * [archcraft 探索筆記](https://samwhelp.github.io/note-about-archcraft/) / [archcraft-adjustment-package](https://github.com/samwhelp/archcraft-adjustment-package)
+* [Mabox Linux 探索筆記](https://samwhelp.github.io/note-about-mabox/)
 
 
 ## samwhelp
