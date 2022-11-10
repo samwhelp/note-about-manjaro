@@ -1,12 +1,12 @@
 ---
-title: BigLinux
+title: Big Linux
 nav_order: 9030
 has_children: false
 parent: 連結
 ---
 
 
-# BigLinux
+# Big Linux
 
 
 ## BigLinux
@@ -16,7 +16,7 @@ parent: 連結
 | [BigLinux](https://www.biglinux.com.br/) | [GitHub](https://github.com/biglinux) |
 
 
-# BigLinux Adjustment
+## BigLinux Adjustment
 
 | Link | GitHub |
 | --- | --- |
