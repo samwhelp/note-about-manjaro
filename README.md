@@ -1,7 +1,12 @@
 
+
 # 首頁
 
-* [note-about-manjaro](https://samwhelp.github.io/note-about-manjaro/) ([GitHub](https://github.com/samwhelp/note-about-manjaro))
+| Link | GitHub |
+| ---- | ------ |
+| [Manjaro Adjustment](https://samwhelp.github.io/manjaro-adjustment/) | [GitHub](https://github.com/samwhelp/manjaro-adjustment) |
+| [Manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/) | [GitHub](https://github.com/samwhelp/note-about-manjaro) |
+
 
 > 筆記根據版本「[Manjaro 21.0 / Xfce](https://samwhelp.github.io/note-about-manjaro/read/version/21/download.html)」撰寫。
 
