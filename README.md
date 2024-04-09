@@ -10,7 +10,7 @@
 
 ## 主題
 
-
+* [Manjaro Adjustment](#manjaro-adjustment)
 * [入門](#入門)
 * [概念](#概念)
 * [系統環境微調](#系統環境微調)
@@ -21,6 +21,18 @@
 * [探索](#探索)
 * [專案](#專案)
 * [相關筆記](#相關筆記)
+
+
+
+
+## Manjaro Adjustment
+
+| Link | GitHub |
+| ---- | ------ |
+| [Manjaro Xfce 探索筆記](https://samwhelp.github.io/note-about-manjaro-xfce/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-xfce) |
+| [Manjaro Kde Plasma 探索筆記](https://samwhelp.github.io/note-about-manjaro-kde-plasma/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-kde-plasma) |
+
+
 
 
 ## 入門
