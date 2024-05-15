@@ -8,9 +8,6 @@
 | [Manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/) | [GitHub](https://github.com/samwhelp/note-about-manjaro) |
 
 
-> 筆記根據版本「[Manjaro 21.0 / Xfce](https://samwhelp.github.io/note-about-manjaro/read/version/21/download.html)」撰寫。
-
-
 
 
 ## 主題
