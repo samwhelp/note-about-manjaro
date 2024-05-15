@@ -36,7 +36,7 @@
 | ---- | ------ |
 | [Manjaro Xfce 探索筆記](https://samwhelp.github.io/note-about-manjaro-xfce/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-xfce) |
 | [Manjaro Kde Plasma 探索筆記](https://samwhelp.github.io/note-about-manjaro-kde-plasma/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-kde-plasma) |
-
+| [Manjaro Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-manjaro-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-gnome-shell) |
 
 
 
