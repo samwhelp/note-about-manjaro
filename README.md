@@ -14,6 +14,8 @@
 
 * [Manjaro Respin](#manjaro-respin)
 * [微調腳本](#微調腳本)
+* [輸入法](#輸入法)
+* [佈景主題](#佈景主題)
 * [相關筆記](#相關筆記)
 
 
@@ -36,6 +38,24 @@
 | ------- |
 | [Manjaro Config](https://github.com/samwhelp/manjaro-adjustment/tree/main/prototype/main) |
 | [Tool Config](https://github.com/samwhelp/manjaro-adjustment/tree/main/prototype/main/tool-config/part) |
+
+
+
+
+## 輸入法
+
+| 中文輸入法 | 微調腳本 |
+| ---------- | -------- |
+| [新酷音輸入法](https://samwhelp.github.io/note-about-manjaro/read/subject/input-method/fcitx5/module/fcitx5-chewing.html) | [微調腳本](https://github.com/samwhelp/manjaro-adjustment/tree/main/prototype/main/im-config/fcitx5/fcitx5-chewing) |
+
+
+
+
+## 佈景主題
+
+| 佈景主題 |
+| -------- |
+| [設定採用「GURB 佈景主題」](https://samwhelp.github.io/note-about-manjaro/read/subject/grub.html) |
 
 
 
