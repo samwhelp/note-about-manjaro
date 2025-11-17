@@ -36,7 +36,7 @@
 
 ## ISO Download
 
-> [下載腳本](https://github.com/samwhelp/manjaro-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-manjaro-iso)
+> [下載腳本](https://github.com/samwhelp/manjaro-adjustment/tree/main/core/iso/boot-iso/boot-iso-via-grub/demo-boot-manjaro-iso)
 
 
 
